@@ -69,14 +69,14 @@
 
 // ---- Current team member card (1:1 square photo) -----------
 // Designed to sit inside a 3-column grid on a dark page.
-#let current-member(name: "", uni: "", major: "", photo: none) = {
+#let current-member(name: "", photo: none) = {
   layout(size => {
     let w = size.width
+    let s = w * 0.7
     stack(
       spacing: 8pt,
-      // Square photo area
-      block(
-        width: w, height: w,
+      align(center, block(
+        width: s, height: s,
         fill: brand.card, radius: 5pt, clip: true,
       )[
         #if photo != none {
@@ -86,14 +86,9 @@
             #text(fill: brand.dim.lighten(30%), size: 8pt, weight: "bold")[photo]
           ]
         }
-      ],
-      // Name + uni + major
+      ]),
       block(width: w, inset: (x: 2pt))[
-        #text(weight: "bold", fill: white, size: 10pt)[#name]
-        #v(2pt, weak: true)
-        #text(fill: brand.dim, size: 8pt)[#uni]
-        #v(1pt, weak: true)
-        #text(fill: brand.dim, size: 8pt)[#major]
+        #align(center)[#text(weight: "bold", fill: white, size: 10pt)[#name]]
       ],
     )
   })
@@ -107,7 +102,7 @@
     gutter: 14pt,
     // Portrait photo
     block(
-      width: 2.8cm, height: 3.4cm,
+      width: 2.5cm, height: 2.5cm,
       fill: brand.card, radius: 5pt, clip: true,
     )[
       #if photo != none {
@@ -125,7 +120,7 @@
       #text(fill: _body-on-dark, size: 9pt)[#intro]
     ],
   )
-  v(10pt)
+  v(6pt)
 }
 
 // ---- Two-column text block ---------------------------------

@@ -31,7 +31,7 @@
           align(left)[#org],
           align(right)[#title],
         )
-        v(-7pt)
+        v(-3pt)
         line(length: 100%, stroke: 0.5pt + brand.line)
       }
     },

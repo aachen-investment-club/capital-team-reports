@@ -48,36 +48,45 @@
 
   #v(6pt)
   #grid(
-    columns: (1fr, 1fr, 1fr),
-    gutter: 1cm,
-    current-member(
-      name: "Mathis Makarski",
-      uni:  "RWTH Aachen",
-      major: "M.Sc. Electrical Engineering",
-    ),
-    current-member(
-      name: "Isabelle Chang",
-      uni:  "RWTH Aachen",
-      major: "B.Sc. Industrial Engineering",
-    ),
-    current-member(
-      name: "Yuri Daminato",
-      uni:  "RWTH Aachen",
-      major: "B.Sc. Business Administration",
-    ),
+    columns: (1fr, 1fr, 1fr, 1fr),
+    gutter: 0.8cm,
+    current-member(name: "Mathis Makarski",  photo: "/assets/avatars/mathis_makarski.jpg"),
+    current-member(name: "Isabelle Chang",   photo: "/assets/avatars/isabelle_chang.png"),
+    current-member(name: "Yuri Daminato",    photo: "/assets/avatars/yuri_daminato.png"),
+    current-member(name: "Simon Gintars",    photo: "/assets/avatars/simon_gintars.png"),
+    current-member(name: "Justus Gosten",    photo: "/assets/avatars/justus_gosten.png"),
+    current-member(name: "Yujin Song",       photo: "/assets/avatars/yujin_song.png"),
+    current-member(name: "Nicolas Wellers",  photo: "/assets/avatars/nicolas_wellers.png"),
   )
-
-  #v(20pt)
 
   == New Members
-
-  #new-member(
-    name: "Sophie Brandt",
-    intro: "Sophie joined the Capital Team in April 2026. She is pursuing a M.Sc. in Finance at RWTH Aachen and brings prior experience from two internships in equity research. Her focus within the team is on European consumer discretionary equities.",
-  )
-  #new-member(
-    name: "Leon Fischer",
-    intro: "Leon joined in May 2026 and is currently completing a B.Sc. in Mathematics. He supports the quantitative research workstream and is developing the team's factor-attribution framework.",
+  #v(6pt)
+  #stack(spacing: 14pt,
+    new-member(
+      name: "Anna Müller",
+      intro: "Anna is a B.Sc. Computer Science student with a strong interest in quantitative finance and data analysis. She has experience with Python and R, and is excited to contribute to the team's research efforts.",
+      photo: "/assets/avatars/mathis_makarski.jpg",
+    ),
+        new-member(
+      name: "Anna Müller",
+      intro: "Anna is a B.Sc. Computer Science student with a strong interest in quantitative finance and data analysis. She has experience with Python and R, and is excited to contribute to the team's research efforts.",
+      photo: "/assets/avatars/mathis_makarski.jpg",
+    ),
+        new-member(
+      name: "Anna Müller",
+      intro: "Anna is a B.Sc. Computer Science student with a strong interest in quantitative finance and data analysis. She has experience with Python and R, and is excited to contribute to the team's research efforts.",
+      photo: "/assets/avatars/mathis_makarski.jpg",
+    ),
+        new-member(
+      name: "Anna Müller",
+      intro: "Anna is a B.Sc. Computer Science student with a strong interest in quantitative finance and data analysis. She has experience with Python and R, and is excited to contribute to the team's research efforts.",
+      photo: "/assets/avatars/mathis_makarski.jpg",
+    ),
+        new-member(
+      name: "Anna Müller",
+      intro: "Anna is a B.Sc. Computer Science student with a strong interest in quantitative finance and data analysis. She has experience with Python and R, and is excited to contribute to the team's research efforts.",
+      photo: "/assets/avatars/mathis_makarski.jpg",
+    ),
   )
 ]
 
