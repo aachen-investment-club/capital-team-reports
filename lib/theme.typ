@@ -1,16 +1,17 @@
 // ============================================================
 //  theme.typ  —  GLOBAL DESIGN TOKENS
-//  Change a value here and the whole report re-themes.
-//  This is your "set header colors globally" control panel.
 // ============================================================
 
 #let brand = (
-  primary: rgb("#16264a"), // deep navy  — cover, headings, table header
-  accent:  rgb("#c8a24a"), // gold       — rules, highlights, month label
-  ink:     rgb("#1f2430"), // body text
-  muted:   rgb("#6b7280"), // captions, secondary text, header/footer
-  light:   rgb("#eef1f6"), // table zebra rows, placeholder fills
-  line:    rgb("#d4d9e2"), // hairlines
+  primary:  rgb("#172140"),  // deep navy — dark page backgrounds, cover
+  accent:   rgb("#3d7cf5"),  // bright blue — rules, highlights, labels
+  card:     rgb("#1a3461"),  // card/panel bg on dark pages
+  ink:      rgb("#1f2430"),  // body text on light pages
+  muted:    rgb("#6b7280"),  // captions, secondary text (light pages)
+  dim:      rgb("#8fafd8"),  // secondary text on dark pages
+  light:    rgb("#eef1f6"),  // table zebra rows, placeholder fills
+  line:     rgb("#d4d9e2"),  // hairlines on light pages
+  darkline: rgb("#2d4870"),  // hairlines on dark pages
 )
 
 #let fonts = (
