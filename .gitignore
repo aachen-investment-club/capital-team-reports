@@ -1,0 +1,19 @@
+# Typst build artifacts
+reports/**/*.pdf
+
+# macOS
+.DS_Store
+
+# Editor
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Bundled project fonts are tracked (fonts/ directory)
+# Ignore loose font files elsewhere
+*.ttf
+*.otf
+*.woff
+*.woff2
+!fonts/**
