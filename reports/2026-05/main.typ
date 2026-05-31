@@ -331,9 +331,8 @@ accelerates.
 #memo-rule("Thesis")
 
 Goldman Sachs projects hyperscaler CapEx from 2025–2027 will reach
-\$1.15 trillion — more than double 2022–2024. This flows directly into chip
-designers (NVIDIA, Broadcom, AMD), foundries (TSMC), and equipment makers
-(ASML, Lam Research).
+\$1.15 trillion — more than double 2022–2024, flowing directly into chip
+designers, foundries, and equipment makers across the semiconductor value chain.
 
 *Edge:* The earnings revision cycle across SMH's holdings is still in motion — consensus has not fully priced the CapEx acceleration.
 
@@ -398,8 +397,6 @@ Data centre electricity demand could rise 160~% by 2030; hyperscalers are
 contracting nuclear as the only 24/7 carbon-free baseload source. Supply
 cannot keep up: 2025 mine production fell ~31M lbs short of primary demand and
 the long-term contract price of \$93/lb confirms genuine utility demand.
-URA's 57 holdings span the full value chain — miners to SMR developers —
-with pre-revenue names adding optionality alongside volatility.
 
 *Edge:* Market is pricing uranium equities on near-term uncertainty; utility
 contracting at \$93/lb signals a multi-year demand floor not yet in multiples.
@@ -463,11 +460,10 @@ sovereign reshoring programmes accelerate.
 #memo-rule("Thesis")
 
 Trainline has halved from its peak despite EBITDA +11~%, NTS +7~%, and £294m
-in buybacks since 2023. The de-rating is sentiment-driven: Solutions and
-International already account for >50~% of group EBITDA, grow at double-digit
-rates, and are entirely immune to GBR. At 222p the market prices in GBR
-capturing 40~%+ UK share, Solutions stagnating, and International never
-scaling — simultaneously.
+in buybacks since 2023. Solutions and International already account for >50~%
+of group EBITDA, grow at double-digit rates, and are entirely immune to GBR —
+yet at 222p the market prices in GBR capturing 40~%+ UK share, Solutions
+stagnating, and International never scaling, simultaneously.
 
 *Edge:* By FY2029 UK Consumer will be ~35~% of EBITDA; Trainline will be a European B2B rail platform for which UK Consumer is mature cashflow, not the thesis.
 
@@ -528,12 +524,10 @@ scaling — simultaneously.
 
 #memo-rule("Thesis")
 
-NATO's 2~% GDP floor is now a political floor, not a target; multiple member
-states are committing to 3~%+. ReArm Europe adds €800bn in dedicated
-procurement over the decade. European defence primes — Rheinmetall, BAE,
-Leonardo, Thales — are the direct beneficiaries, with order books at record
-highs and 3–5 year conversion visibility. The market applies a significant
-discount to European vs. US defence multiples despite comparable fundamentals.
+NATO's 2~% GDP floor is now a political floor; multiple states are committing
+to 3~%+, and ReArm Europe adds €800bn in dedicated procurement. European
+defence primes are the direct beneficiaries, with order books at record highs
+and 3–5 year conversion visibility.
 
 *Edge:* Order-to-revenue conversion lags mean 2027–2028 consensus estimates are still being revised upward — the upgrade cycle is early.
 
@@ -595,9 +589,8 @@ discount to European vs. US defence multiples despite comparable fundamentals.
 #memo-rule("Thesis")
 
 Data centre electricity demand is projected to rise 160~% by 2030 — every
-megawatt flows through a regulated utility. Rate base expansion from grid
-connection agreements is already driving earnings upgrades, and a ~3.5~% yield
-with 5–7~% dividend growth provides downside protection if AI spend moderates.
+megawatt flows through a regulated utility, and rate base expansion from grid
+connection agreements is already driving earnings upgrades.
 
 *Edge:* The market prices utilities as pure rate-sensitives; AI power demand adds a growth driver not yet in consensus models.
 
@@ -658,11 +651,10 @@ with 5–7~% dividend growth provides downside protection if AI spend moderates.
 
 #memo-rule("Thesis")
 
-Aixtron is the dominant supplier of MOCVD reactors for compound semiconductors
-— GaN and SiC power devices that are structurally necessary for AI data centre
-power efficiency, EV charging, and industrial electrification. After a de-rating
-driven by EV order softness, the stock prices in minimal recovery in its data
-centre and industrial segments, both of which are accelerating.
+Aixtron is the dominant supplier of MOCVD reactors for GaN and SiC power
+devices — structurally necessary for AI data centre power efficiency and EV
+charging. The stock is de-rated on EV softness while its data centre and
+industrial segments accelerate.
 
 *Edge:* Consensus is anchored on EV softness; data centre GaN adoption is accelerating as hyperscalers optimise power conversion — not yet in estimates.
 
