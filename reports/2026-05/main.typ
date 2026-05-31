@@ -21,23 +21,31 @@
 #dark-page(logo: image("../../assets/logo-white.png", width: 3.5cm))[
   = Executive Summary
 
-  We are pleased to present the portfolio report for the AIC Capital Team for
-  May 2026. The Capital Team operates under a democratic governance model in
-  which every trading decision must pass a majority vote, with the Portfolio
-  Manager retaining a final veto to ensure rigorous risk management.
+  Over the past few weeks, we have opened our starter positions, launched the
+  official portfolio website, and published our first portfolio report.
 
   #v(10pt)
 
-  Over the reporting period the portfolio delivered a net return of *+3.4 %*,
-  outperforming the 60/40 benchmark by *+1.2 pp*. The primary contributors were
-  the European defence basket and the semiconductors position, while a short-term
-  position in grid utilities weighed modestly on returns.
+  In the first investment round in April, we allocated 30~% of total capital to
+  starter positions, weighted using classical Markowitz optimisation. The second
+  investment round will include both new starter positions and the opportunity to
+  scale up existing ones. Scaling decisions will be driven entirely by our
+  evaluation of each position's performance and a review of its underlying
+  thesis. We are targeting equity holdings in excess of 50~% and do not plan to
+  exit any current positions at this time.
 
   #v(10pt)
 
-  The investment universe remains diversified across equities, bonds, ETFs, and
-  exchange-traded commodities, operated without leverage. The team continues to
-  apply a research-driven, thesis-based approach for each position.
+  With the official portfolio launch, we have expanded our team. We are pleased
+  to welcome five new members, who will be introduced later in this report.
+  Their expertise and energy will be valuable assets as we continue to grow the
+  portfolio. We also wish Josephine all the best in her future endeavours.
+
+  #v(10pt)
+
+  Portfolio performance will be evaluated against several benchmarks across
+  return and risk metrics, including the MSCI Europe, S&P 500, and a 60/40
+  portfolio, among others.
 ]
 
 // ── 3. TEAM (dark page) ─────────────────────────────────────
@@ -97,44 +105,67 @@
 #columns(2, gutter: 16pt)[
   == The Conflict in the Middle East
 
-  Despite statements of progress from U.S. officials, no commitments have been
-  confirmed — shots have been fired by both parties and Trump has threatened
-  full-scale war. The closure of the Strait of Hormuz has triggered a severe
-  supply shock: the IMF projects a 19~% spike in energy commodities, global
-  growth falling to 3.1~%, and headline inflation rising to 4.4~%. Central banks
-  are tightening; investors are fleeing to safer assets, strengthening the dollar
-  and weakening equities.#footnote[NYT, 29 May 2026 — iran-war-us-trump-deal; IMF Spring 2026 Economic Forecast]
+  As the month of May comes to an end, a certain end to the conflict is still
+  nowhere to be seen. Despite statements of progress from U.S. officials, there
+  has been no confirmation of any commitments from either side — shots have been
+  fired by both parties, and Trump has threatened full-scale war. The closure of
+  the Strait of Hormuz has triggered a severe negative supply shock, abruptly
+  halting the pre-conflict momentum that had global growth projected at 3.4~%.
+  According to the IMF's reference forecast, even a short-lived disruption of
+  this magnitude will cause a 19~% spike in energy commodities, dragging global
+  growth down to 3.1~% and driving headline inflation up to 4.4~%. Central banks
+  are now enforcing higher interest rates and tighter monetary policy, and
+  investors are beginning to flee to safer assets, strengthening the dollar but
+  weakening the stock market.#footnote[NYT, 29 May 2026 — iran-war-us-trump-deal; IMF Spring 2026 Economic Forecast]
 
   == Inflation and Interest Expectations
 
-  US CPI hit 3.8~% YoY in April — the highest since May 2023 — driven by a
-  3.8~% energy jump and Trump's tariff dynamic.#footnote[CNBC, 12 May 2026 — cpi-inflation-april-2026] Fed Chair Warsh cannot cut; the
-  consensus now prices hikes. The Eurozone reached 3.0~% (highest since Sep
-  2023), the UK 3.2~%, with energy running at 10.8~% annually. The ECB held
-  rates unchanged in April.#footnote[Eurostat Euro Area Inflation Rate; EC Spring 2026 Economic Forecast]
+  The US CPI reached a seasonally adjusted increase of 0.6~% in April 2026,
+  putting the one-year pace at 3.8~% — the highest since May 2023 and
+  significantly above the Federal Reserve's 2~% target.#footnote[CNBC, 12 May 2026 — cpi-inflation-april-2026] Fed Chair Kevin Warsh will not
+  be in a position to push rates lower. A significant inflationary driver has
+  been energy prices, which jumped 3.8~%. Trump's global tariff dynamic has
+  added further pressure. Chris Zaccarelli, CIO at Northlight Asset Management,
+  speculates that the Fed will be forced to hike rates — a view shared by the
+  general consensus. The US economy has proved resilient so far, but if
+  inflation persists at these levels, the risk of recession becomes harder to
+  dismiss.
+
+  For the Eurozone, the story is similar. The one-year pace hit 3.0~% in April
+  2026, the highest since September 2023; the UK reached 3.2~%. Energy inflation
+  ran at an annual rate of 10.8~% in April, up from 5.1~% in March.#footnote[Eurostat Euro Area Inflation Rate; EC Spring 2026 Economic Forecast] The ECB
+  remains determined and held rates unchanged in April.
 
   == Semiconductors and AI — A Cyber Rally?
 
-  The global capex cycle is keeping markets resilient. NVIDIA is no longer the
-  sole driver — data-centre revenue up 92~% YoY yet the stock is only ~20~%
-  YTD; Intel +200~%, Micron +150~% YoY as capex flows through the supply
-  chain.#footnote[KKR Flash Macro: Market Update May 2026; 24/7 Wall St. — The Semiconductor Rally Is Going Strong] More strikingly, cybersecurity has outpaced chips in May — an industry
-  many held as AI-redundant now leads growth.#footnote[24/7 Wall St. — Palo Alto Is Positioning for the Next Security Supercycle as AI Threats Go Vertical]
+  Despite inflationary pressures, the global capex cycle is helping keep markets
+  relatively resilient. More countries are investing domestically in a push
+  toward self-sufficiency. NVIDIA is no longer the sole driver: despite
+  shattering records with data-centre revenue up 92~% YoY, the stock is up only
+  ~20~% YTD. Intel is up 200~% YoY; Micron, 150~%.#footnote[KKR Flash Macro: Market Update May 2026; 24/7 Wall St. — The Semiconductor Rally Is Going Strong] Capex is flowing through
+  the entire supply chain. Even more impressively, cybersecurity has outpaced
+  chips in May — an industry many had written off as redundant in the age of AI
+  now stands at the forefront of growth.#footnote[24/7 Wall St. — Palo Alto Is Positioning for the Next Security Supercycle as AI Threats Go Vertical]
 
   == Developments in Russo-Ukrainian War
 
-  A first ceasefire ran 9–11 May; Putin has alluded to the war "coming to an
-  end."#footnote[Al Jazeera — Putin suggests Russia's war on Ukraine 'coming to an end'; Euronews — Four years on: the economic toll] In reality Trump's peace talks are troubled and Ukraine's confidence in
-  U.S. mediation is shallow. European defence spending surges regardless; a
-  peace deal would unlock a large reconstruction trade, though this is not
-  imminent.
+  The first ceasefire brokered between Ukraine and Russia ran from 9–11 May.
+  Putin has alluded to the war "coming to an end", and the situation appears to
+  be calming.#footnote[Al Jazeera — Putin suggests Russia's war on Ukraine 'coming to an end'; Euronews — Four years on: the economic toll] In reality, Trump's declared peace talks seem deeply troubled.
+  Ukraine's confidence in U.S. peace-making capacity is shallow — and rightly
+  so. European defence spending continues to surge regardless. If a peace deal
+  materialises, a massive Ukraine reconstruction trade will be unlocked, though
+  this does not appear imminent.
 
   == Dollar Weakness and the Gold Run
 
-  The DXY has fallen to ~97, a four-year low; Morgan Stanley sees "94 in Q2
-  2026" as tariff credibility damage, fiscal concerns, and 2025 overvaluation
-  compound.#footnote[Morgan Stanley — U.S. Dollar Depreciation Could Deepen Through First Half] Gold surges as the safe haven of choice — JP Morgan targets
-  \$5,000/oz by Q4 2026, with \$6,000 possible longer term.#footnote[World Gold Council — Gold Demand Trends Q1 2026; JP Morgan research]
+  The DXY has broken down to around 97, a four-year low. Most major banks are
+  forecasting further weakness through Q2 2026: Morgan Stanley projects it
+  "could fall to 94 in the second quarter of 2026."#footnote[Morgan Stanley — U.S. Dollar Depreciation Could Deepen Through First Half] Tariff credibility damage,
+  fiscal concerns, and the overvaluation of 2025 have all stacked up. Amidst
+  dollar weakness and global conflict, gold continues to surge as a safe haven.
+  JP Morgan projects prices "toward \$5,000/oz by Q4 2026, with \$6,000/oz a
+  possibility longer term."#footnote[World Gold Council — Gold Demand Trends Q1 2026; JP Morgan research]
 ]
 
 // ── INVESTMENT MEMOS ─────────────────────────────────────────
@@ -162,14 +193,18 @@
 
 #memo-rule("Thesis")
 
-Europe is committing to fiscal investment via ReArm Europe, the €90bn Ukraine
-loan, and NATO rearmament. European banks are the primary loan origination
-channel. The market prices the sector on stagflation (3.0~% CPI, 1.1~% GDP)
-and ignores the investment cycle entirely.
+Europe is committing to fiscal investment in energy infrastructure, defence, and
+industrial resilience — ReArm Europe, the €90bn Ukraine loan, and NATO
+rearmament. European banks are the primary structuring and loan origination
+channel. The market is pricing the sector on near-term stagflation (3.0~% CPI,
+1.1~% GDP growth) and ignoring the investment cycle entirely.
 
-#memo-callout(label: "Edge")[Consensus treats EU financials as a stagflation victim; capex flows directly through bank balance sheets — NII and fee upgrades not yet in estimates.]
+*Edge:* Consensus treats European financials as a stagflation victim; we see
+capex flowing directly through bank balance sheets, driving NII and fee income
+upgrades not yet in estimates.
 
-#memo-callout(label: "Driver")[Earnings re-rating on loan growth recovery as infrastructure disbursements accelerate through H2 2026.]
+*Driver:* Earnings re-rating on loan growth recovery as infrastructure and
+defence disbursements accelerate through H2 2026.
 
 #memo-rule("Key Numbers")
 
@@ -186,9 +221,13 @@ and ignores the investment cycle entirely.
 
 #memo-rule("Catalysts & Scenarios")
 
-*C1:* EU/ReArm spending announcements (Q2–Q4 2026) · *C2:* Bank Q2 earnings, NII upgrades (Jul/Aug) · *C3:* ECB holds or cuts
+*C1:* EU infrastructure/ReArm spending announcements — ongoing Q2–Q4 2026
 
-#v(4pt)
+*C2:* European bank Q2 earnings; NII guidance upgrades — Jul/Aug 2026
+
+*C3:* ECB signals hold or cut, removing the primary bear risk (longer-term)
+
+#v(6pt)
 
 #data-table(
   (1fr, auto, auto, 2fr),
@@ -198,7 +237,7 @@ and ignores the investment cycle entirely.
   "Bull", "+30%", "25%", "Full fiscal push; sector re-rates to historical P/E",
 )
 
-#v(4pt)
+#v(6pt)
 *Probability-weighted return: +15% · Max loss: −10%*
 
 #memo-rule("Risks & Monitors")
@@ -211,8 +250,8 @@ and ignores the investment cycle entirely.
   "Loan / credit deterioration","ECB Lending Survey, NPLs",     "Standards tighten sharply → reduce",
 )
 
-#v(4pt)
-*Next review:* ECB 05/06/2026 · Q2 earnings Jul 2026 · *Exit:* cut 50% at −10% · full exit at −15%
+#v(6pt)
+*Next review:* ECB 05/06/2026 · Q2 bank earnings Jul 2026 · *Exit rules:* cut 50% at −10% · full exit at −15%
 
 // ── 5. FINAL PAGE (dark) ────────────────────────────────────
 #dark-page(logo: image("../../assets/logo-white.png", width: 3.5cm))[
