@@ -108,32 +108,36 @@
   As the month of May comes to an end, a certain end to the conflict is still
   nowhere to be seen. Despite statements of progress from U.S. officials, there
   has been no confirmation of any commitments from either side — shots have been
-  fired by both parties, and Trump has threatened full-scale war. The closure of
-  the Strait of Hormuz has triggered a severe negative supply shock, abruptly
-  halting the pre-conflict momentum that had global growth projected at 3.4~%.
-  According to the IMF's reference forecast, even a short-lived disruption of
-  this magnitude will cause a 19~% spike in energy commodities, dragging global
-  growth down to 3.1~% and driving headline inflation up to 4.4~%. Central banks
-  are now enforcing higher interest rates and tighter monetary policy, and
-  investors are beginning to flee to safer assets, strengthening the dollar but
-  weakening the stock market.#footnote[NYT, 29 May 2026 — iran-war-us-trump-deal; IMF Spring 2026 Economic Forecast]
+  fired by both parties, and Trump has threatened full-scale war. As the
+  escalation continues, the closure of the Strait of Hormuz has triggered a
+  severe negative supply shock, abruptly halting the pre-conflict momentum that
+  had global growth projected at 3.4~%. According to the IMF's reference
+  forecast, even a short-lived temporary disruption of this magnitude will cause
+  a 19~% spike in energy commodities, dragging global growth down to 3.1~% and
+  driving headline inflation up to 4.4~%. The rise in oil prices is seen as a
+  disruptor in terms of economic growth, undoing the recent progress on
+  inflation. Central banks are now enforcing higher interest rates and tighter
+  monetary policy. Due to these policies, investors are beginning to flee to
+  safer assets, strengthening the dollar but weakening the stock market. The
+  IMF warns that a resolution needs to be found as soon as possible in ensuring
+  energy security and the reopening of the Strait of Hormuz.
 
   == Inflation and Interest Expectations
 
   The US CPI reached a seasonally adjusted increase of 0.6~% in April 2026,
   putting the one-year pace at 3.8~% — the highest since May 2023 and
-  significantly above the Federal Reserve's 2~% target.#footnote[CNBC, 12 May 2026 — cpi-inflation-april-2026] Fed Chair Kevin Warsh will not
-  be in a position to push rates lower. A significant inflationary driver has
-  been energy prices, which jumped 3.8~%. Trump's global tariff dynamic has
-  added further pressure. Chris Zaccarelli, CIO at Northlight Asset Management,
-  speculates that the Fed will be forced to hike rates — a view shared by the
-  general consensus. The US economy has proved resilient so far, but if
-  inflation persists at these levels, the risk of recession becomes harder to
-  dismiss.
+  significantly above the Federal Reserve's 2~% target. Fed Chair Kevin Warsh
+  will not be in a position to push rates lower. A significant inflationary
+  driver has been energy prices, which jumped 3.8~%. Trump's global tariff
+  dynamic has added further pressure. Chris Zaccarelli, CIO at Northlight Asset
+  Management, speculates that the Fed will be forced to hike rates — a view
+  shared by the general consensus. The US economy has proved resilient so far,
+  but if inflation persists at these levels, the risk of recession becomes
+  harder to dismiss.
 
   For the Eurozone, the story is similar. The one-year pace hit 3.0~% in April
   2026, the highest since September 2023; the UK reached 3.2~%. Energy inflation
-  ran at an annual rate of 10.8~% in April, up from 5.1~% in March.#footnote[Eurostat Euro Area Inflation Rate; EC Spring 2026 Economic Forecast] The ECB
+  ran at an annual rate of 10.8~% in April, up from 5.1~% in March. The ECB
   remains determined and held rates unchanged in April.
 
   == Semiconductors and AI — A Cyber Rally?
@@ -142,16 +146,16 @@
   relatively resilient. More countries are investing domestically in a push
   toward self-sufficiency. NVIDIA is no longer the sole driver: despite
   shattering records with data-centre revenue up 92~% YoY, the stock is up only
-  ~20~% YTD. Intel is up 200~% YoY; Micron, 150~%.#footnote[KKR Flash Macro: Market Update May 2026; 24/7 Wall St. — The Semiconductor Rally Is Going Strong] Capex is flowing through
+  ~20~% YTD. Intel is up 200~% YoY; Micron, 150~%. Capex is flowing through
   the entire supply chain. Even more impressively, cybersecurity has outpaced
   chips in May — an industry many had written off as redundant in the age of AI
-  now stands at the forefront of growth.#footnote[24/7 Wall St. — Palo Alto Is Positioning for the Next Security Supercycle as AI Threats Go Vertical]
+  now stands at the forefront of growth.
 
   == Developments in Russo-Ukrainian War
 
   The first ceasefire brokered between Ukraine and Russia ran from 9–11 May.
   Putin has alluded to the war "coming to an end", and the situation appears to
-  be calming.#footnote[Al Jazeera — Putin suggests Russia's war on Ukraine 'coming to an end'; Euronews — Four years on: the economic toll] In reality, Trump's declared peace talks seem deeply troubled.
+  be calming. In reality, Trump's declared peace talks seem deeply troubled.
   Ukraine's confidence in U.S. peace-making capacity is shallow — and rightly
   so. European defence spending continues to surge regardless. If a peace deal
   materialises, a massive Ukraine reconstruction trade will be unlocked, though
@@ -161,19 +165,16 @@
 
   The DXY has broken down to around 97, a four-year low. Most major banks are
   forecasting further weakness through Q2 2026: Morgan Stanley projects it
-  "could fall to 94 in the second quarter of 2026."#footnote[Morgan Stanley — U.S. Dollar Depreciation Could Deepen Through First Half] Tariff credibility damage,
+  "could fall to 94 in the second quarter of 2026." Tariff credibility damage,
   fiscal concerns, and the overvaluation of 2025 have all stacked up. Amidst
   dollar weakness and global conflict, gold continues to surge as a safe haven.
   JP Morgan projects prices "toward \$5,000/oz by Q4 2026, with \$6,000/oz a
-  possibility longer term."#footnote[World Gold Council — Gold Demand Trends Q1 2026; JP Morgan research]
+  possibility longer term."
 ]
-
-// ── INVESTMENT MEMOS ─────────────────────────────────────────
-
-= Investment Memos
 
 // ── ESIF ─────────────────────────────────────────────────────
 
+#pagebreak()
 #memo-header(
   ticker:  "ESIF",
   name:    "iShares MSCI Europe Financials ETF",
@@ -199,12 +200,9 @@ rearmament. European banks are the primary structuring and loan origination
 channel. The market is pricing the sector on near-term stagflation (3.0~% CPI,
 1.1~% GDP growth) and ignoring the investment cycle entirely.
 
-*Edge:* Consensus treats European financials as a stagflation victim; we see
-capex flowing directly through bank balance sheets, driving NII and fee income
-upgrades not yet in estimates.
+*Edge:* Consensus treats European financials as a stagflation victim; capex flows directly through bank balance sheets driving NII upgrades not yet in estimates.
 
-*Driver:* Earnings re-rating on loan growth recovery as infrastructure and
-defence disbursements accelerate through H2 2026.
+*Driver:* Earnings re-rating on loan growth recovery as infrastructure disbursements accelerate through H2 2026.
 
 #memo-rule("Catalysts & Scenarios")
 
@@ -224,9 +222,6 @@ defence disbursements accelerate through H2 2026.
   "Bull", "+30%", "25%", "Full fiscal push; sector re-rates to historical P/E",
 )
 
-#v(6pt)
-*Probability-weighted return: +15% · Max loss: −10%*
-
 #memo-rule("Risks & Monitors")
 
 #data-table(
@@ -242,6 +237,7 @@ defence disbursements accelerate through H2 2026.
 
 // ── SAN ──────────────────────────────────────────────────────
 
+#pagebreak()
 #memo-header(
   ticker:  "SAN",
   name:    "Banco Santander SA",
@@ -268,12 +264,9 @@ to structure and manage these loans; job creation and lending will in turn feed
 back to them cyclically. The market is discounting the fiscal tailwind and
 anchoring on ECB uncertainty.
 
-*Edge:* NextGenerationEU spend is sovereign-backed demand — insensitive to
-consumer confidence and directly inflating Santander's most profitable business
-lines.
+*Edge:* NextGenerationEU spend is sovereign-backed demand — insensitive to consumer confidence and directly inflating Santander's most profitable business lines.
 
-*Driver:* NII and fee income earnings upgrades as PERTE capital deployment
-accelerates.
+*Driver:* NII and fee income earnings upgrades as PERTE capital deployment accelerates.
 
 #memo-rule("Catalysts & Scenarios")
 
@@ -293,9 +286,6 @@ accelerates.
   "Bull", "+35%", "25%", "Full fiscal acceleration; buyback boosts EPS",
 )
 
-#v(6pt)
-*Probability-weighted return: +19% · Max loss: −10%*
-
 #memo-rule("Risks & Monitors")
 
 #data-table(
@@ -311,6 +301,7 @@ accelerates.
 
 // ── SMH ──────────────────────────────────────────────────────
 
+#pagebreak()
 #memo-header(
   ticker:  "SMH",
   name:    "VanEck Semiconductor ETF",
@@ -320,9 +311,9 @@ accelerates.
 #memo-kv((
   ("Asset Class",   "Sector ETF — Large Cap Semis"),
   ("Idea Category", "Growth / AI Infrastructure"),
-  ("Entry",         "\$252.40 — 27/05/2026"),
-  ("Target",        "\$315.50 — +25%"),
-  ("Stop Loss",     "\$215.00 — −15%"),
+  ("Entry",         "$252.40 — 27/05/2026"),
+  ("Target",        "$315.50 — +25%"),
+  ("Stop Loss",     "$215.00 — −15%"),
   ("R/R",           "1:2"),
   ("Horizon",       "18–24 months"),
   ("Conviction",    "Medium-High — Initiated"),
@@ -356,9 +347,6 @@ designers, foundries, and equipment makers across the semiconductor value chain.
   "Bull", "+45%", "25%", "CapEx acceleration; multiple expansion; new AI application wave",
 )
 
-#v(6pt)
-*Probability-weighted return: +21% · Max loss: −20%*
-
 #memo-rule("Risks & Monitors")
 
 #data-table(
@@ -374,6 +362,7 @@ designers, foundries, and equipment makers across the semiconductor value chain.
 
 // ── URA ──────────────────────────────────────────────────────
 
+#pagebreak()
 #memo-header(
   ticker:  "URA",
   name:    "Global X Uranium UCITS ETF USD-A",
@@ -383,9 +372,9 @@ designers, foundries, and equipment makers across the semiconductor value chain.
 #memo-kv((
   ("Asset Class",   "Thematic ETF — Uranium / Nuclear"),
   ("Idea Category", "Structural / Commodity"),
-  ("Entry",         "\$31.20 — 27/05/2026"),
-  ("Target",        "\$45.25 — +45%"),
-  ("Stop Loss",     "\$26.50 — −15%"),
+  ("Entry",         "$31.20 — 27/05/2026"),
+  ("Target",        "$45.25 — +45%"),
+  ("Stop Loss",     "$26.50 — −15%"),
   ("R/R",           "1:3"),
   ("Horizon",       "3–5 years"),
   ("Conviction",    "Low-Medium — Initiated"),
@@ -398,11 +387,9 @@ contracting nuclear as the only 24/7 carbon-free baseload source. Supply
 cannot keep up: 2025 mine production fell ~31M lbs short of primary demand and
 the long-term contract price of \$93/lb confirms genuine utility demand.
 
-*Edge:* Market is pricing uranium equities on near-term uncertainty; utility
-contracting at \$93/lb signals a multi-year demand floor not yet in multiples.
+*Edge:* Utility contracting at \$93/lb signals a multi-year demand floor that the market is not pricing into uranium equity multiples.
 
-*Driver:* Re-rating as supply deficit forces long-term utility contracts and
-sovereign reshoring programmes accelerate.
+*Driver:* Re-rating as the supply deficit forces long-term utility contracts and sovereign reshoring programmes accelerate.
 
 #memo-rule("Catalysts & Scenarios")
 
@@ -422,15 +409,12 @@ sovereign reshoring programmes accelerate.
   "Bull", "+80%", "25%", "SMR commercial deployment; utility buying spree; spot breakout",
 )
 
-#v(6pt)
-*Probability-weighted return: +34% · Max loss: −25%*
-
 #memo-rule("Risks & Monitors")
 
 #data-table(
   (1fr, 1fr, 1.8fr),
   ("Risk", "Monitor", "Trigger"),
-  "Uranium spot weakness",      "UxC spot price weekly",                         "Spot sustained below \$60/lb → reduce",
+  "Uranium spot weakness",      "UxC spot price weekly",                         "Spot sustained below $60/lb → reduce",
   "Reactor delays/cancellations","NRC filings, utility press releases",           "Major cancellation wave → cut 50%",
   "Pre-revenue constituent drag","Oklo, NANO Nuclear price vs NAV",               "Narrative-driven divergence from fundamentals → monitor",
 )
@@ -440,6 +424,7 @@ sovereign reshoring programmes accelerate.
 
 // ── TRN ──────────────────────────────────────────────────────
 
+#pagebreak()
 #memo-header(
   ticker:  "TRN.L",
   name:    "Trainline PLC",
@@ -487,9 +472,6 @@ stagnating, and International never scaling, simultaneously.
   "Bull", "+218%", "15%", "PAYG success; Wave-2 accelerates; Solutions >15% growth",
 )
 
-#v(6pt)
-*Probability-weighted return: +97% · Max loss: −20%*
-
 #memo-rule("Risks & Monitors")
 
 #data-table(
@@ -505,6 +487,7 @@ stagnating, and International never scaling, simultaneously.
 
 // ── WDEF ─────────────────────────────────────────────────────
 
+#pagebreak()
 #memo-header(
   ticker:  "WDEF",
   name:    "WisdomTree Europe Defence UCITS ETF",
@@ -551,9 +534,6 @@ and 3–5 year conversion visibility.
   "Bull", "+55%", "20%", "NATO 3%+ target; accelerated procurement; US peer multiple achieved",
 )
 
-#v(6pt)
-*Probability-weighted return: +27% · Max loss: −10%*
-
 #memo-rule("Risks & Monitors")
 
 #data-table(
@@ -569,6 +549,7 @@ and 3–5 year conversion visibility.
 
 // ── XLUS ─────────────────────────────────────────────────────
 
+#pagebreak()
 #memo-header(
   ticker:  "XLUS",
   name:    "Invesco S&P 500 Utilities Sector UCITS ETF",
@@ -578,9 +559,9 @@ and 3–5 year conversion visibility.
 #memo-kv((
   ("Asset Class",   "Sector ETF — US Utilities"),
   ("Idea Category", "Defensive Growth / Income"),
-  ("Entry",         "\$38.40 — 27/05/2026"),
-  ("Target",        "\$46.10 — +20%"),
-  ("Stop Loss",     "\$34.55 — −10%"),
+  ("Entry",         "$38.40 — 27/05/2026"),
+  ("Target",        "$46.10 — +20%"),
+  ("Stop Loss",     "$34.55 — −10%"),
   ("R/R",           "1:2"),
   ("Horizon",       "12–18 months"),
   ("Conviction",    "Medium — Initiated"),
@@ -614,9 +595,6 @@ connection agreements is already driving earnings upgrades.
   "Bull",  "+35%", "20%", "Rate cuts + AI power acceleration → growth re-rating",
 )
 
-#v(6pt)
-*Probability-weighted return: +15% · Max loss: −10%*
-
 #memo-rule("Risks & Monitors")
 
 #data-table(
@@ -632,6 +610,7 @@ connection agreements is already driving earnings upgrades.
 
 // ── AIXA ─────────────────────────────────────────────────────
 
+#pagebreak()
 #memo-header(
   ticker:  "AIXA.DE",
   name:    "Aixtron SE",
@@ -656,9 +635,9 @@ devices — structurally necessary for AI data centre power efficiency and EV
 charging. The stock is de-rated on EV softness while its data centre and
 industrial segments accelerate.
 
-*Edge:* Consensus is anchored on EV softness; data centre GaN adoption is accelerating as hyperscalers optimise power conversion — not yet in estimates.
+*Edge:* Consensus anchors on EV softness while data centre GaN adoption accelerates — not yet in estimates.
 
-*Driver:* Order intake inflection driven by data centre power design-wins and European industrial electrification investment.
+*Driver:* Order intake inflection from data centre design-wins and European industrial electrification.
 
 #memo-rule("Catalysts & Scenarios")
 
@@ -677,9 +656,6 @@ industrial segments accelerate.
   "Base", "+40%", "55%", "Data centre GaN accelerates; EV stabilises; multiple re-rates",
   "Bull", "+75%", "20%", "Data centre + EV recovery simultaneous; AI photonics optionality",
 )
-
-#v(6pt)
-*Probability-weighted return: +29% · Max loss: −25%*
 
 #memo-rule("Risks & Monitors")
 
@@ -721,3 +697,4 @@ industrial segments accelerate.
 
   *Published:* May 2026 · © 2026 Aachen Investment Club e.V.
 ]
+
