@@ -87,7 +87,7 @@
     ),
         new-member(
       name: "Roua Messaoudi",
-      intro: "XXX",
+      intro: "Roua joined AIC in May 2026 and is currently pursuing a B.Sc. in Global Business and Economics at FH Aachen. Her interests lie in macroeconomics, monetary policy, and equity markets, with a particular focus on the impact of interest rates on investment decisions.",
       photo: "/assets/avatars/roua_messaoudi.jpeg",
     ),
         new-member(
