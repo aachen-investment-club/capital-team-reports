@@ -52,7 +52,7 @@
     gutter: 0.8cm,
     current-member(name: "Mathis Makarski",  photo: "/assets/avatars/mathis_makarski.jpg"),
     current-member(name: "Isabelle Chang",   photo: "/assets/avatars/isabelle_chang.png"),
-    current-member(name: "Yuri Daminato",    photo: "/assets/avatars/yuri_daminato.png"),
+    current-member(name: "Yuri Daminato",    photo: "/assets/avatars/yuri_daminato.jpg"),
     current-member(name: "Simon Gintars",    photo: "/assets/avatars/simon_gintars.png"),
     current-member(name: "Justus Gosten",    photo: "/assets/avatars/justus_gosten.png"),
     current-member(name: "Yujin Song",       photo: "/assets/avatars/yujin_song.png"),
@@ -63,14 +63,14 @@
   #v(6pt)
   #stack(spacing: 14pt,
     new-member(
-      name: "Anna Müller",
-      intro: "Anna is a B.Sc. Computer Science student with a strong interest in quantitative finance and data analysis. She has experience with Python and R, and is excited to contribute to the team's research efforts.",
-      photo: "/assets/avatars/mathis_makarski.jpg",
+      name: "Gerasimos Voutsinas",
+      intro: "Filler text for Gerasimos. Gerasimos is a B.Sc. Mechanical Engineering student with a strong interest in quantitative finance and data analysis. He has experience with, and is excited to contribute to the team's research efforts.",
+      photo: "/assets/avatars/gerasimos_voutsinas.jpeg",
     ),
         new-member(
-      name: "Anna Müller",
-      intro: "Anna is a B.Sc. Computer Science student with a strong interest in quantitative finance and data analysis. She has experience with Python and R, and is excited to contribute to the team's research efforts.",
-      photo: "/assets/avatars/mathis_makarski.jpg",
+      name: "Kah-Ming Ly",
+      intro: "Kah-Ming is a B.Sc. Computer Science student with a strong interest in quantitative finance and data analysis. He has experience with Python and R, and is excited to contribute to the team's research efforts.",
+      photo: "/assets/avatars/kah-ming_ly.jpeg",
     ),
         new-member(
       name: "Anna Müller",

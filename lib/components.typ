@@ -116,7 +116,7 @@
     // Text
     block[
       #text(weight: "bold", fill: white, size: 11.5pt)[#name]
-      #v(5pt, weak: true)
+      #v(8pt, weak: true)
       #text(fill: _body-on-dark, size: 9pt)[#intro]
     ],
   )
