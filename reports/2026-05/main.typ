@@ -90,47 +90,80 @@
   )
 ]
 
-// ── 4. CONTENT PAGES (light background) ─────────────────────
+// ── 4. CONTENT PAGES (light) ───────────────────────────────
 
-= Investment Strategy
+= Market Environment
 
-#twocol[
-  The Capital Team manages a discretionary, long-only multi-asset portfolio
-  with the objective of generating total returns through active management.
-  The investable universe encompasses equities, bonds, ETFs, and
-  exchange-traded commodities, operated without leverage.
+#columns(2, gutter: 16pt)[
+  == The Conflict in the Middle East
 
-  A central consideration is the distinction between returns attributable to
-  systematic risk premia and returns derived from differentiated,
-  research-driven analysis. Factor exposures are monitored explicitly and each
-  position is evaluated on whether its thesis is specific, falsifiable, and not
-  already reflected in consensus estimates.
+  As the month of May comes to an end, a certain end to the conflict is still
+  nowhere to be seen. Despite statements of progress from U.S. officials, there
+  has been no confirmation of any commitments from either side — shots have been
+  fired by both parties, and Trump has threatened full-scale war. As escalation
+  continues, the closure of the Strait of Hormuz has triggered a severe negative
+  supply shock, abruptly halting the pre-conflict momentum that had global growth
+  projected at 3.4~%. According to the IMF's reference forecast, even a
+  short-lived disruption of this magnitude will cause a 19~% spike in energy
+  commodities, dragging global growth down to 3.1~% and driving headline
+  inflation up to 4.4~%. The rise in oil prices is seen as a disruptor in terms
+  of economic growth, undoing the recent progress on inflation. Central banks are
+  now enforcing higher interest rates and tighter monetary policy. Due to these
+  policies, investors are beginning to flee to safer assets, strengthening the
+  dollar but weakening the stock market. The IMF warns that a resolution must be
+  found as soon as possible to ensure energy security and the reopening of the
+  Strait of Hormuz.#footnote[NYT, 29 May 2026 — iran-war-us-trump-deal; IMF Spring 2026 Economic Forecast]
 
-  Position sizing follows a conviction-weighted model, where higher-conviction
-  ideas receive allocations up to 15 % of NAV, subject to individual security
-  concentration limits. Sector exposure is monitored relative to the MSCI World
-  benchmark and deviations of more than 10 pp require documented rationale.
+  == Inflation and Interest Expectations
 
-  Risk is managed through regular stress-testing against macro scenarios
-  (rates shock, recession, USD strength), with the Portfolio Manager empowered
-  to reduce any position unilaterally in response to market conditions.
+  The US CPI reached a seasonally adjusted increase of 0.6~% in April 2026,
+  putting the one-year pace at 3.8~% — the highest since May 2023 and
+  significantly above the Federal Reserve's 2~% target.#footnote[CNBC, 12 May 2026 — cpi-inflation-april-2026] Fed Chair Kevin Warsh will not
+  be in a position to push rates lower. A significant inflationary driver has
+  been energy prices, which jumped 3.8~%. Trump's global tariff dynamic has
+  added further pressure. Chris Zaccarelli, CIO at Northlight Asset Management,
+  speculates that the Fed will be forced to hike rates — a view shared by the
+  general consensus. The US economy has proved resilient so far, but if
+  inflation persists at these levels, the risk of recession becomes harder to
+  dismiss.
+
+  For the Eurozone, the story is similar. The one-year pace hit 3.0~% in April
+  2026, the highest since September 2023; the UK reached 3.2~%. Energy inflation
+  ran at an annual rate of 10.8~% in April, up from 5.1~% in March.#footnote[Eurostat Euro Area Inflation Rate; EC Spring 2026 Economic Forecast] The ECB
+  remains determined and held rates unchanged in April.
+
+  == Semiconductors and AI — A Cyber Rally?
+
+  Despite inflationary pressures, the global capex cycle is helping keep markets
+  relatively resilient. More countries are investing domestically in a push
+  toward self-sufficiency. At the forefront is the continued growth of
+  semiconductors and AI. NVIDIA is no longer the sole driver: despite shattering
+  records with data-centre revenue up 92~% YoY, the stock is up only ~20~% YTD.
+  Intel is up 200~% YoY; Micron, 150~%.#footnote[KKR Flash Macro: Market Update May 2026; 24/7 Wall St. — The Semiconductor Rally Is Going Strong] Capex is flowing through the entire
+  supply chain. Even more impressively, cybersecurity has outpaced chips in May
+  — an industry many had written off as redundant in the age of AI now stands at
+  the forefront of growth.#footnote[24/7 Wall St. — Palo Alto Is Positioning for the Next Security Supercycle as AI Threats Go Vertical]
+
+  == Developments in Russo-Ukrainian War
+
+  The first ceasefire brokered between Ukraine and Russia ran from 9–11 May.
+  Putin has alluded to the war "coming to an end", and the situation appears to
+  be calming.#footnote[Al Jazeera — Putin suggests Russia's war on Ukraine 'coming to an end'; Euronews — Four years on: the economic toll] In reality, Trump's declared peace talks seem deeply troubled.
+  Ukraine's confidence in U.S. peace-making capacity is shallow — and rightly
+  so. European defence spending continues to surge regardless. If a peace deal
+  materialises, a massive Ukraine reconstruction trade will be unlocked, though
+  this does not appear imminent.
+
+  == Dollar Weakness and the Gold Run
+
+  The DXY has broken down to around 97, a four-year low. Most major banks are
+  forecasting further weakness through Q2 2026: Morgan Stanley projects it
+  "could fall to 94 in the second quarter of 2026."#footnote[Morgan Stanley — U.S. Dollar Depreciation Could Deepen Through First Half] Tariff credibility damage,
+  fiscal concerns, and the overvaluation of 2025 have all stacked up. Amidst
+  dollar weakness and global conflict, gold continues to surge as a safe haven.
+  JP Morgan projects prices "toward \$5,000/oz by Q4 2026, with \$6,000/oz a
+  possibility longer term."#footnote[World Gold Council — Gold Demand Trends Q1 2026; JP Morgan research]
 ]
-
-= Portfolio Performance
-
-#data-table(
-  (2.2fr, 1fr, 1fr, 1fr),
-  ("Position", "Weight", "Return", "Contribution"),
-  "Semiconductors basket", "14 %", "+8.2 %", "+1.12 %",
-  "Trainline",             "9 %",  "+3.4 %", "+0.31 %",
-  "European defence",      "11 %", "+5.1 %", "+0.56 %",
-  "Grid utilities",        "8 %",  "−1.2 %", "−0.10 %",
-  "Cash & equivalents",    "12 %", "+0.4 %", "+0.05 %",
-)
-
-#v(10pt)
-
-#placeholder-figure(caption: [Cumulative return vs. 60/40 benchmark])
 
 // ── 5. FINAL PAGE (dark) ────────────────────────────────────
 #dark-page(logo: image("../../assets/logo-white.png", width: 3.5cm))[
