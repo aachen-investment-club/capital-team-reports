@@ -4,7 +4,7 @@
 
 #let brand = (
   primary:  rgb("#172140"),  // deep navy — dark page backgrounds, cover
-  accent:   rgb("#3d7cf5"),  // bright blue — rules, highlights, labels
+  accent:   rgb("#9ab5e6"),  // bright blue — rules, highlights, labels
   card:     rgb("#1a3461"),  // card/panel bg on dark pages
   ink:      rgb("#1f2430"),  // body text on light pages
   muted:    rgb("#6b7280"),  // captions, secondary text (light pages)
@@ -20,7 +20,7 @@
 )
 
 #let sizes = (
-  body:  10pt,
+  body:  9pt,
   small:  8pt,
   h1:    19pt,
   h2:    13pt,
