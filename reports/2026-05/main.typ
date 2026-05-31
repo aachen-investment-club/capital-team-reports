@@ -165,6 +165,100 @@
   possibility longer term."#footnote[World Gold Council — Gold Demand Trends Q1 2026; JP Morgan research]
 ]
 
+// ── INVESTMENT MEMOS ─────────────────────────────────────────
+
+= Investment Memos
+
+// ── ESIF ─────────────────────────────────────────────────────
+
+#memo-header(
+  ticker:  "ESIF",
+  name:    "iShares MSCI Europe Financials ETF",
+  tagline: "Multi-year EU infrastructure and rearmament investment cycle; loan growth and fee income re-rating closes the gap over 12–18 months.",
+)
+
+#memo-kv((
+  ("Asset Class",   "Sector ETF"),
+  ("Idea Category", "Growth"),
+  ("Entry",         "€14.72 — 27/05/2026"),
+  ("Target",        "€17.66 — +20%"),
+  ("Stop Loss",     "€13.25 — −10%"),
+  ("R/R",           "1:2"),
+  ("Horizon",       "12–18 months"),
+  ("Conviction",    "Medium — Initiated"),
+))
+
+#memo-rule("Thesis")
+
+Europe is committing to fiscal investment in energy infrastructure, defence, and
+industrial resilience — ReArm Europe, the €90bn Ukraine loan, and NATO
+rearmament. European banks are the primary structuring and loan origination
+channel for this spending. The market is pricing the sector on near-term
+stagflation (3.0~% CPI, 1.1~% GDP growth) and ignoring the investment cycle
+entirely.
+
+#v(6pt)
+
+#memo-callout(label: "Edge")[
+  Consensus treats European financials as a stagflation victim; we see capex
+  flowing directly through bank balance sheets, driving NII and fee income
+  upgrades that are not yet in estimates.
+]
+
+#memo-callout(label: "Driver")[
+  Earnings re-rating on loan growth recovery as infrastructure and defence
+  programme disbursements accelerate through H2 2026.
+]
+
+#memo-rule("Key Numbers")
+
+#memo-kv((
+  ("Fwd P/E",          "~8–9× vs. 11× hist."),
+  ("Price",            "€14.72"),
+  ("P/Book",           "~0.9×"),
+  ("52-Wk Range",      "€11.87–€15.24"),
+  ("Div. Yield",       "~5.5%"),
+  ("vs. 52-Wk High",   "−3.4%"),
+  ("Fwd Rev. Growth",  "+4–6% YoY"),
+  ("TER",              "0.18%"),
+))
+
+#memo-rule("Catalysts & Scenarios")
+
+*C1:* EU infrastructure/ReArm spending announcements — ongoing Q2–Q4 2026
+
+*C2:* European bank Q2 earnings; NII guidance upgrades — Jul/Aug 2026
+
+*C3:* ECB signals hold or cut, removing the primary bear risk (longer-term)
+
+#v(8pt)
+
+#data-table(
+  (1fr, auto, auto, 2fr),
+  ("Scenario", "Return", "Prob.", "Assumption"),
+  "Bear", "−10%", "25%", "ECB hikes; growth cracks long-term",
+  "Base", "+20%", "50%", "Stable ECB; loan growth 4–5%",
+  "Bull", "+30%", "25%", "Full fiscal push; sector re-rates to historical P/E",
+)
+
+#v(8pt)
+*Probability-weighted return: +15% · Max loss: −10%*
+
+#memo-rule("Risks & Monitors")
+
+#data-table(
+  (1fr, 1fr, 1.8fr),
+  ("Risk", "Monitor", "Trigger"),
+  "ECB resumes hiking",        "HICP prints, ECB statements",  "CPI >3.5% + hiking signal → cut 50% within 6 months",
+  "Stagflation deepens",       "PMI, GDP revisions",            "PMI <48 for two consecutive months → resize",
+  "Loan / credit deterioration","ECB Lending Survey, NPLs",     "Standards tighten sharply → reduce",
+)
+
+#v(8pt)
+*Next review:* ECB 05/06/2026 · Q2 bank earnings Jul 2026
+
+*Exit rules:* cut 50% at −10% · full exit at −15%
+
 // ── 5. FINAL PAGE (dark) ────────────────────────────────────
 #dark-page(logo: image("../../assets/logo-white.png", width: 3.5cm))[
   = Disclosures

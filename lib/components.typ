@@ -144,6 +144,76 @@
   )
 }
 
+// ---- Investment Memo components ----------------------------
+
+// Header bar: navy block with ticker accent + name + tagline
+#let memo-header(ticker: "", name: "", tagline: "") = {
+  block(width: 100%, fill: brand.primary, inset: (x: 14pt, y: 11pt), radius: 4pt)[
+    #grid(
+      columns: (auto, 1fr),
+      gutter: 14pt,
+      align(horizon)[
+        #text(size: 22pt, weight: "bold", fill: brand.accent)[#ticker]
+      ],
+      align(horizon)[
+        #text(size: 11pt, weight: "bold", fill: white)[#name]
+        #if tagline != "" {
+          linebreak()
+          text(size: 8pt, fill: brand.dim, style: "italic")[#tagline]
+        }
+      ],
+    )
+  ]
+  v(8pt)
+}
+
+// Key-value grid: pairs rendered as (label | value | label | value) rows
+// pairs: array of 2-element arrays, e.g. (("Entry", "€14.72"), ...)
+#let memo-kv(pairs) = {
+  let cells = ()
+  for p in pairs {
+    cells.push(table.cell(fill: brand.light, inset: (x: 9pt, y: 7pt))[
+      #text(size: 7.5pt, weight: "bold", fill: brand.muted)[#upper(p.at(0))]
+    ])
+    cells.push(table.cell(fill: white, inset: (x: 9pt, y: 7pt))[
+      #text(size: 9pt, weight: "bold", fill: brand.ink)[#p.at(1)]
+    ])
+  }
+  set text(size: 9pt)
+  table(
+    columns: (auto, 1fr, auto, 1fr),
+    stroke: 0.5pt + brand.line,
+    ..cells,
+  )
+  v(8pt)
+}
+
+// Section divider with accent rule
+#let memo-rule(title) = {
+  v(6pt)
+  grid(
+    columns: (auto, 1fr),
+    gutter: 8pt,
+    align(horizon)[#text(size: 8.5pt, weight: "bold", fill: brand.accent)[#upper(title)]],
+    align(horizon)[#line(length: 100%, stroke: 0.5pt + brand.accent)],
+  )
+  v(5pt)
+}
+
+// Left-bordered callout box for Edge / Driver / notes
+#let memo-callout(label: "", body) = {
+  block(
+    width: 100%,
+    inset: (left: 10pt, right: 10pt, top: 7pt, bottom: 7pt),
+    fill: brand.light,
+    radius: 3pt,
+    stroke: (left: 2pt + brand.accent),
+  )[
+    #text(size: 8pt, weight: "bold", fill: brand.accent)[#upper(label)#h(6pt)]#text(size: 9pt)[#body]
+  ]
+  v(5pt)
+}
+
 // ---- Placeholder figure ------------------------------------
 #let placeholder-figure(caption: [Figure], height: 6cm) = figure(
   block(
