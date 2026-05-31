@@ -72,28 +72,28 @@
   #stack(spacing: 14pt,
     new-member(
       name: "Gerasimos Voutsinas",
-      intro: "Filler text for Gerasimos. Gerasimos is a B.Sc. Mechanical Engineering student with a strong interest in quantitative finance and data analysis. He has experience with, and is excited to contribute to the team's research efforts.",
+      intro: "Gerasimos joined AIC in November 2025 and is currently in the sixth semester of B.Sc. Mechanical Engineering. With working student experience in energy markets and a personal interest in equity markets, his focus lies in robotics and AI monetization equities.",
       photo: "/assets/avatars/gerasimos_voutsinas.jpeg",
     ),
         new-member(
       name: "Kah-Ming Ly",
-      intro: "Kah-Ming is a B.Sc. Computer Science student with a strong interest in quantitative finance and data analysis. He has experience with Python and R, and is excited to contribute to the team's research efforts.",
+      intro: "Kah-Ming joined the AIC in November 2025 and currently pursues his B. Sc. in Business Administration & Engineering: Electrical Power Engineering. Having conducted research at the Department of Finance, RWTH Aachen, he is interested in researching about portfolio optimization and derivatives.",
       photo: "/assets/avatars/kah-ming_ly.jpeg",
     ),
         new-member(
-      name: "Anna Müller",
-      intro: "Anna is a B.Sc. Computer Science student with a strong interest in quantitative finance and data analysis. She has experience with Python and R, and is excited to contribute to the team's research efforts.",
-      photo: "/assets/avatars/mathis_makarski.jpg",
+      name: "Jamie Bason",
+      intro: "Jamie joined AIC in May 2026 as a first year B.Sc. Electrical Power Engineering and Business Administration student at the RWTH Aachen. Coming from Indonesia, Jamie’s financial interests lie in the commodity space, specifically energy and power. ",
+      photo: "/assets/avatars/jamie_bason.jpg",
     ),
         new-member(
-      name: "Anna Müller",
-      intro: "Anna is a B.Sc. Computer Science student with a strong interest in quantitative finance and data analysis. She has experience with Python and R, and is excited to contribute to the team's research efforts.",
-      photo: "/assets/avatars/mathis_makarski.jpg",
+      name: "Roua Messaoudi",
+      intro: "XXX",
+      photo: "/assets/avatars/roua_messaoudi.jpeg",
     ),
         new-member(
-      name: "Anna Müller",
-      intro: "Anna is a B.Sc. Computer Science student with a strong interest in quantitative finance and data analysis. She has experience with Python and R, and is excited to contribute to the team's research efforts.",
-      photo: "/assets/avatars/mathis_makarski.jpg",
+      name: "Mohammad Sharey",
+      intro: "XXX",
+      photo: "/assets/avatars/mohammad_sharey.jpg",
     ),
   )
 ]
