@@ -81,11 +81,6 @@
       photo: "/assets/avatars/kah-ming_ly.jpeg",
     ),
     new-member(
-      name: "Mohammad Sharey",
-      intro: "Mohammad Sharey started his journey at the AIC Capital Team in May 2026 and is currently working full time as an automation technology engineer. He completed his master studies in automation engineering from RWTH in 2024 and his domain lies in the equity market related to cyber security.",
-      photo: "/assets/avatars/mohammad_sharey.jpg",
-    ),
-    new-member(
       name: "Jamie Bason",
       intro: "Jamie joined AIC in May 2026 as a first year B.Sc. Electrical Power Engineering and Business Administration student at RWTH Aachen. Coming from Indonesia, his financial interests lie in the commodity space, specifically energy and power.",
       photo: "/assets/avatars/jamie_bason.jpg",
@@ -94,6 +89,11 @@
       name: "Roua Messaoudi",
       intro: "Roua joined AIC in May 2026 and is currently pursuing a B.Sc. in Global Business and Economics at FH Aachen. Her interests lie in macroeconomics, monetary policy, and equity markets, with a particular focus on the impact of interest rates on investment decisions.",
       photo: "/assets/avatars/roua_messaoudi.jpeg",
+    ),
+    new-member(
+      name: "Mohammad Sharey",
+      intro: "Mohammad Sharey started his journey at the AIC Capital Team in May 2026 and is currently working full time as an automation technology engineer. He completed his master studies in automation engineering from RWTH in 2024 and his domain lies in the equity market related to cyber security.",
+      photo: "/assets/avatars/mohammad_sharey.jpg",
     ),
   )
 ]
@@ -711,12 +711,31 @@ industrial segments accelerate.
 
   = Imprint
 
-  *Aachen Investment Club e.V.* — RWTH Aachen University, Aachen, Germany
+  #v(4pt)
+  #grid(
+    columns: (90pt, 1fr),
+    row-gutter: 5pt,
+    column-gutter: 14pt,
+    text(fill: rgb("#8fafd8"), weight: "bold", size: 8pt)[Publisher],
+    [Aachen Investment Club e.V. \ Pontwall 3 · 52062 Aachen · Deutschland],
 
-  *Responsible for content:* Mathis Makarski (Portfolio Manager)
+    [#v(4pt)], [],
 
-  *Contact:* capital\@aachen-investment-club.de
+    text(fill: rgb("#8fafd8"), weight: "bold", size: 8pt)[Register],
+    [Amtsgericht Aachen · VR 6216 · Hauptsitz Aachen],
 
-  *Published:* May 2026 · © 2026 Aachen Investment Club e.V.
+    [#v(4pt)], [],
+
+    text(fill: rgb("#8fafd8"), weight: "bold", size: 8pt)[Responsible],
+    [Mathis Makarski (Portfolio Manager)],
+
+    text(fill: rgb("#8fafd8"), weight: "bold", size: 8pt)[Contact],
+    [info\@aic.rwth-aachen.de],
+
+    [#v(4pt)], [],
+
+    text(fill: rgb("#8fafd8"), weight: "bold", size: 8pt)[Published],
+    [May 2026 · © 2026 Aachen Investment Club e.V.],
+  )
 ]
 
