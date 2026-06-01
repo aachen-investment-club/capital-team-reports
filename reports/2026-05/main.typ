@@ -7,7 +7,9 @@
 //    2. Executive Summary (dark)  — dark-page[]
 //    3. Team              (dark)  — dark-page[]
 //    4. Content pages     (light) — standard flow
-//    5. Final / Imprint   (dark)  — final-page()
+//    5. Portfolio Snapshot (light) — positions table + weighting pie charts
+//    6. Trade Log         (light) — trade log table
+//    7. Final / Imprint   (dark)  — dark-page[]
 // ============================================================
 
 #import "../../lib/report.typ": report
@@ -21,31 +23,47 @@
 #dark-page(logo: image("../../assets/logo-white.png", width: 3.5cm))[
   = Executive Summary
 
-  Over the past few weeks, we have opened our starter positions, launched the
-  official portfolio website, and published our first portfolio report.
-
+  Over the past month, we have opened our starter positions, launched the
+  official capital team website, and published our first portfolio report for April. This
+  report covers the period since inception in May and is the first to include
+  performance metrics.
+  
   #v(10pt)
-
-  In the first investment round in April, we allocated 30~% of total capital to
+  Over the reporting period, the portfolio returned -0.08~%, against benchmark
+  returns of 0.08~% (MSCI Europe), 1.15~% (60/40), and 2.92~% (S&P 500). With
+  only 30~% of capital currently deployed and the remainder held in cash, the
+  portfolio carries low volatility and is not expected to track these benchmarks
+  at this stage. The near-flat result is encouraging: our deployed positions have
+  effectively offset the substantial transaction costs incurred at launch, which
+  were sizeable relative to our current NAV. With only one month of data, we are
+  not yet reporting standalone risk metrics; these will follow as the track
+  record matures.
+  
+  #v(10pt)
+  In the first investment round in the beginning of May, we allocated 30~% of total capital to
   starter positions, weighted using classical Markowitz optimisation. The second
   investment round will include both new starter positions and the opportunity to
   scale up existing ones. Scaling decisions will be driven entirely by our
   evaluation of each position's performance and a review of its underlying
   thesis. We are targeting equity holdings in excess of 50~% and do not plan to
   exit any current positions at this time.
-
+  
   #v(10pt)
-
   With the official portfolio launch, we have expanded our team. We are pleased
   to welcome five new members, who will be introduced later in this report.
   Their expertise and energy will be valuable assets as we continue to grow the
   portfolio. We also wish Josephine all the best in her future endeavours.
-
+  
   #v(10pt)
+  The chart below shows daily portfolio returns against our benchmarks over the
+  reporting period. The remainder of this report consists of investment memos
+  detailing the thesis behind each of our starter positions.
 
-  Portfolio performance will be evaluated against several benchmarks across
-  return and risk metrics, including the MSCI Europe, S&P 500, and a 60/40
-  portfolio, among others.
+  #v(14pt)
+  #figure(
+    image("../../assets/2026-05/returns_daily.png", width: 100%),
+    caption: [Daily Portfolio Returns vs Benchmarks],
+  )
 ]
 
 // ── 3. TEAM (dark page) ─────────────────────────────────────
@@ -684,6 +702,87 @@ industrial segments accelerate.
 
 #v(6pt)
 *Next review:* Q2 2026 results · Data centre design-win announcements · *Exit rules:* cut 50% at −15% · full exit at −20%
+
+// ── PORTFOLIO SNAPSHOT (light) ──────────────────────────────
+#pagebreak()
+= Holdings as of 31/05/2026
+
+#v(4pt)
+#table(
+  columns: (auto, 1fr, auto, auto, auto),
+  stroke: (x, y) => (bottom: 0.5pt + rgb("#d4d9e2")),
+  inset: (x: 8pt, y: 6pt),
+  align: (x, y) => if x >= 3 { right + horizon } else { left + horizon },
+
+  table.cell(fill: rgb("#172140"))[#text(fill: white, weight: "bold", size: 9pt)[Symbol]],
+  table.cell(fill: rgb("#172140"), align: left + horizon)[#text(fill: white, weight: "bold", size: 9pt)[Name]],
+  table.cell(fill: rgb("#172140"), align: left + horizon)[#text(fill: white, weight: "bold", size: 9pt)[ISIN / WKN]],
+  table.cell(fill: rgb("#172140"), align: right + horizon)[#text(fill: white, weight: "bold", size: 9pt)[% NAV]],
+  table.cell(fill: rgb("#172140"), align: right + horizon)[#text(fill: white, weight: "bold", size: 9pt)[Since Inception]],
+
+  table.cell(colspan: 3, fill: rgb("#1a3461"), align: left + horizon)[#text(fill: rgb("#9ab5e6"), weight: "bold", size: 8pt)[AI & SEMIS]],
+  table.cell(fill: rgb("#1a3461"), align: right + horizon)[#text(fill: rgb("#9ab5e6"), weight: "bold", size: 8pt)[5.79%]],
+  table.cell(fill: rgb("#1a3461"), align: right + horizon)[#text(fill: rgb("#9ab5e6"), weight: "bold", size: 8pt)[+12.26%]],
+  text(size: 9pt)[AIXA],  text(size: 9pt)[Aixtron SE],               text(size: 9pt)[DE0006220020], text(size: 9pt)[2.95%], text(size: 9pt)[+13.02%],
+  text(size: 9pt)[SMH],   text(size: 9pt)[VanEck Semiconductor ETF], text(size: 9pt)[US92189F7915], text(size: 9pt)[2.83%], text(size: 9pt)[+11.46%],
+
+  table.cell(colspan: 3, fill: rgb("#1a3461"), align: left + horizon)[#text(fill: rgb("#9ab5e6"), weight: "bold", size: 8pt)[EU FINANCIALS]],
+  table.cell(fill: rgb("#1a3461"), align: right + horizon)[#text(fill: rgb("#9ab5e6"), weight: "bold", size: 8pt)[7.65%]],
+  table.cell(fill: rgb("#1a3461"), align: right + horizon)[#text(fill: rgb("#9ab5e6"), weight: "bold", size: 8pt)[−1.26%]],
+  text(size: 9pt)[ESIF],  text(size: 9pt)[iShares Europe Financials EUR A], text(size: 9pt)[IE00B4JNQZ49], text(size: 9pt)[3.83%], text(size: 9pt)[−1.09%],
+  text(size: 9pt)[SAN],   text(size: 9pt)[Banco Santander SA],              text(size: 9pt)[ES0113900J37], text(size: 9pt)[3.82%], text(size: 9pt)[−1.43%],
+
+  table.cell(colspan: 3, fill: rgb("#1a3461"), align: left + horizon)[#text(fill: rgb("#9ab5e6"), weight: "bold", size: 8pt)[EU SOVEREIGNTY]],
+  table.cell(fill: rgb("#1a3461"), align: right + horizon)[#text(fill: rgb("#9ab5e6"), weight: "bold", size: 8pt)[7.71%]],
+  table.cell(fill: rgb("#1a3461"), align: right + horizon)[#text(fill: rgb("#9ab5e6"), weight: "bold", size: 8pt)[+1.12%]],
+  text(size: 9pt)[WDEF],  text(size: 9pt)[WisdomTree Europe Defence UCITS ETF], text(size: 9pt)[IE000RHYOR04], text(size: 9pt)[7.71%], text(size: 9pt)[+1.12%],
+
+  table.cell(colspan: 3, fill: rgb("#1a3461"), align: left + horizon)[#text(fill: rgb("#9ab5e6"), weight: "bold", size: 8pt)[ENERGY DEMAND]],
+  table.cell(fill: rgb("#1a3461"), align: right + horizon)[#text(fill: rgb("#9ab5e6"), weight: "bold", size: 8pt)[3.97%]],
+  table.cell(fill: rgb("#1a3461"), align: right + horizon)[#text(fill: rgb("#9ab5e6"), weight: "bold", size: 8pt)[−9.92%]],
+  text(size: 9pt)[XLUS],  text(size: 9pt)[Invesco US Utilities S&P],      text(size: 9pt)[IE00BMC38736], text(size: 9pt)[2.25%], text(size: 9pt)[−4.41%],
+  text(size: 9pt)[URNU],  text(size: 9pt)[Global X Uranium UCITS USD-A],  text(size: 9pt)[IE00BKNT4282], text(size: 9pt)[1.71%], text(size: 9pt)[−17.16%],
+
+  table.cell(colspan: 3, fill: rgb("#1a3461"), align: left + horizon)[#text(fill: rgb("#9ab5e6"), weight: "bold", size: 8pt)[SINGLE POSITIONS]],
+  table.cell(fill: rgb("#1a3461"), align: right + horizon)[#text(fill: rgb("#9ab5e6"), weight: "bold", size: 8pt)[1.62%]],
+  table.cell(fill: rgb("#1a3461"), align: right + horizon)[#text(fill: rgb("#9ab5e6"), weight: "bold", size: 8pt)[−13.72%]],
+  text(size: 9pt)[TRNl],  text(size: 9pt)[Trainline PLC], text(size: 9pt)[GB00BKDTLL65], text(size: 9pt)[1.62%], text(size: 9pt)[−13.72%],
+
+  table.cell(colspan: 3, fill: rgb("#1a3461"), align: left + horizon)[#text(fill: rgb("#9ab5e6"), weight: "bold", size: 8pt)[CASH]],
+  table.cell(fill: rgb("#1a3461"), align: right + horizon)[#text(fill: rgb("#9ab5e6"), weight: "bold", size: 8pt)[73.26%]],
+  table.cell(fill: rgb("#1a3461"), align: right + horizon)[#text(fill: rgb("#9ab5e6"), weight: "bold", size: 8pt)[+0.02%]],
+  text(size: 9pt)[CASH_EUR], text(size: 9pt)[Euro Cash],          text(size: 9pt)[—], text(size: 9pt)[49.81%], text(size: 9pt)[—],
+  text(size: 9pt)[CASH_USD], text(size: 9pt)[US Dollar Cash],     text(size: 9pt)[—], text(size: 9pt)[15.96%], text(size: 9pt)[+0.53%],
+  text(size: 9pt)[CASH_GBP], text(size: 9pt)[British Pound Cash], text(size: 9pt)[—], text(size: 9pt)[7.50%],  text(size: 9pt)[−0.97%],
+)
+
+#v(12pt)
+#grid(
+  columns: (1fr, 1fr),
+  gutter: 0pt,
+  figure(image("../../assets/2026-05/weights_by_position.png", width: 100%), caption: [Single Positions]),
+  figure(image("../../assets/2026-05/weights_by_theme.png",    width: 100%), caption: [Themes]),
+)
+
+// ── TRADE LOG (light) ───────────────────────────────────────
+#pagebreak()
+= Executed Trades
+
+#v(4pt)
+#data-table(
+  (auto, auto, auto, auto, auto, auto),
+  ("Date", "Symbol", "Name", "Side", [Votes#footnote[In favour / against / abstain]], "Notice"),
+  "07 May 2026", "AIXA",    "Aixtron SE",                          "BUY",  "7 / 0 / 1", "Starter Position",
+  "07 May 2026", "ESIF",    "iShares Europe Financials EUR A",     "BUY",  "7 / 0 / 1", "Starter Position",
+  "07 May 2026", "EUR.USD", "EUR/USD",                             "SELL", "", "FX conversion",
+  "07 May 2026", "SMH",     "VanEck Semiconductor ETF",            "BUY",  "7 / 0 / 1", "Starter Position",
+  "07 May 2026", "WDEF",    "WisdomTree Europe Defence UCITS ETF", "BUY",  "7 / 0 / 1", "Starter Position",
+  "08 May 2026", "EUR.GBP", "EUR/GBP",                             "SELL", "", "FX Conversion",
+  "08 May 2026", "SAN",     "Banco Santander SA",                  "BUY",  "7 / 0 / 1", "Starter Position",
+  "08 May 2026", "TRNl",    "Trainline PLC",                       "BUY",  "7 / 0 / 1", "Starter Position",
+  "08 May 2026", "URNU",    "Global X Uranium UCITS USD-A",        "BUY",  "8 / 0 / 0", "Starter Position",
+  "08 May 2026", "XLUS",    "Invesco US Utilities S&P",            "BUY",  "6 / 0 / 2", "Starter Position",
+)
 
 // ── 5. FINAL PAGE (dark) ────────────────────────────────────
 #dark-page(logo: image("../../assets/logo-white.png", width: 3.5cm))[
