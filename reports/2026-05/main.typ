@@ -81,9 +81,9 @@
       photo: "/assets/avatars/kah-ming_ly.jpeg",
     ),
     new-member(
-      name: "Sharey",
-      intro: "Sharey started his journey at the AIC Capital Team in May 2026 and is currently working full time as an automation technology engineer. He completed his master studies in automation engineering from RWTH in 2024 and his domain lies in the equity market related to cyber security.",
-      photo: none,
+      name: "Mohammad Sharey",
+      intro: "Mohammad Sharey started his journey at the AIC Capital Team in May 2026 and is currently working full time as an automation technology engineer. He completed his master studies in automation engineering from RWTH in 2024 and his domain lies in the equity market related to cyber security.",
+      photo: "/assets/avatars/mohammad_sharey.jpg",
     ),
     new-member(
       name: "Jamie Bason",
