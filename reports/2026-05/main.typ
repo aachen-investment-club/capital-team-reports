@@ -72,28 +72,28 @@
   #stack(spacing: 14pt,
     new-member(
       name: "Gerasimos Voutsinas",
-      intro: "Filler text for Gerasimos. Gerasimos is a B.Sc. Mechanical Engineering student with a strong interest in quantitative finance and data analysis. He has experience with, and is excited to contribute to the team's research efforts.",
+      intro: "Gerasimos joined AIC in November 2025 and is currently in the sixth semester of B.Sc. Mechanical Engineering. With working student experience in energy markets and a personal interest in equity markets, his focus lies in robotics and AI monetization equities.",
       photo: "/assets/avatars/gerasimos_voutsinas.jpeg",
     ),
-        new-member(
+    new-member(
       name: "Kah-Ming Ly",
-      intro: "Kah-Ming is a B.Sc. Computer Science student with a strong interest in quantitative finance and data analysis. He has experience with Python and R, and is excited to contribute to the team's research efforts.",
+      intro: "Kah-Ming joined the AIC in November 2025 and currently pursues his B.Sc. in Business Administration & Engineering: Electrical Power Engineering. Having conducted research at the Department of Finance, RWTH Aachen, he is interested in portfolio optimization and derivatives.",
       photo: "/assets/avatars/kah-ming_ly.jpeg",
     ),
-        new-member(
-      name: "Anna Müller",
-      intro: "Anna is a B.Sc. Computer Science student with a strong interest in quantitative finance and data analysis. She has experience with Python and R, and is excited to contribute to the team's research efforts.",
-      photo: "/assets/avatars/mathis_makarski.jpg",
+    new-member(
+      name: "Sharey",
+      intro: "Sharey started his journey at the AIC Capital Team in May 2026 and is currently working full time as an automation technology engineer. He completed his master studies in automation engineering from RWTH in 2024 and his domain lies in the equity market related to cyber security.",
+      photo: none,
     ),
-        new-member(
-      name: "Anna Müller",
-      intro: "Anna is a B.Sc. Computer Science student with a strong interest in quantitative finance and data analysis. She has experience with Python and R, and is excited to contribute to the team's research efforts.",
-      photo: "/assets/avatars/mathis_makarski.jpg",
+    new-member(
+      name: "Jamie Bason",
+      intro: "Jamie joined AIC in May 2026 as a first year B.Sc. Electrical Power Engineering and Business Administration student at RWTH Aachen. Coming from Indonesia, his financial interests lie in the commodity space, specifically energy and power.",
+      photo: "/assets/avatars/jamie_bason.jpg",
     ),
-        new-member(
-      name: "Anna Müller",
-      intro: "Anna is a B.Sc. Computer Science student with a strong interest in quantitative finance and data analysis. She has experience with Python and R, and is excited to contribute to the team's research efforts.",
-      photo: "/assets/avatars/mathis_makarski.jpg",
+    new-member(
+      name: "Roua Messaoudi",
+      intro: "Roua joined AIC in May 2026 and is currently pursuing a B.Sc. in Global Business and Economics at FH Aachen. Her interests lie in macroeconomics, monetary policy, and equity markets, with a particular focus on the impact of interest rates on investment decisions.",
+      photo: "/assets/avatars/roua_messaoudi.jpeg",
     ),
   )
 ]
@@ -107,7 +107,7 @@
 
   As the month of May comes to an end, a certain end to the conflict is still
   nowhere to be seen. Despite statements of progress from U.S. officials, there
-  has been no confirmation of any commitments from either side — shots have been
+  has been no confirmation of any commitments from either side: shots have been
   fired by both parties, and Trump has threatened full-scale war. As the
   escalation continues, the closure of the Strait of Hormuz has triggered a
   severe negative supply shock, abruptly halting the pre-conflict momentum that
@@ -125,20 +125,24 @@
   == Inflation and Interest Expectations
 
   The US CPI reached a seasonally adjusted increase of 0.6~% in April 2026,
-  putting the one-year pace at 3.8~% — the highest since May 2023 and
+  putting the one-year pace at 3.8~%, the highest since May 2023, and
   significantly above the Federal Reserve's 2~% target. Fed Chair Kevin Warsh
   will not be in a position to push rates lower. A significant inflationary
   driver has been energy prices, which jumped 3.8~%. Trump's global tariff
   dynamic has added further pressure. Chris Zaccarelli, CIO at Northlight Asset
-  Management, speculates that the Fed will be forced to hike rates — a view
+  Management, speculates that the Fed will be forced to hike rates, a view
   shared by the general consensus. The US economy has proved resilient so far,
   but if inflation persists at these levels, the risk of recession becomes
-  harder to dismiss.
+  harder to dismiss. Consumer confidence surveys have already begun to soften,
+  suggesting that the lagged effects of higher borrowing costs are beginning
+  to reach household balance sheets.
 
   For the Eurozone, the story is similar. The one-year pace hit 3.0~% in April
   2026, the highest since September 2023; the UK reached 3.2~%. Energy inflation
   ran at an annual rate of 10.8~% in April, up from 5.1~% in March. The ECB
-  remains determined and held rates unchanged in April.
+  remains determined and held rates unchanged in April, prioritising credibility
+  over growth support in an environment where inflation expectations risk
+  becoming unanchored.
 
   == Semiconductors and AI — A Cyber Rally?
 
@@ -147,9 +151,11 @@
   toward self-sufficiency. NVIDIA is no longer the sole driver: despite
   shattering records with data-centre revenue up 92~% YoY, the stock is up only
   ~20~% YTD. Intel is up 200~% YoY; Micron, 150~%. Capex is flowing through
-  the entire supply chain. Even more impressively, cybersecurity has outpaced
-  chips in May — an industry many had written off as redundant in the age of AI
-  now stands at the forefront of growth.
+  the entire supply chain. The breadth of this cycle distinguishes it from
+  prior semiconductor booms, which were concentrated in one or two lead names.
+  Even more impressively, cybersecurity has outpaced chips in May: an industry
+  many had written off as redundant in the age of AI now stands at the forefront
+  of growth.
 
   == Developments in Russo-Ukrainian War
 
@@ -157,9 +163,11 @@
   Putin has alluded to the war "coming to an end", and the situation appears to
   be calming. In reality, Trump's declared peace talks seem deeply troubled.
   Ukraine's confidence in U.S. peace-making capacity is shallow — and rightly
-  so. European defence spending continues to surge regardless. If a peace deal
-  materialises, a massive Ukraine reconstruction trade will be unlocked, though
-  this does not appear imminent.
+  so. European defence spending continues to surge regardless, with Germany,
+  Poland, and the Nordics all committing to budgets well above the NATO 2~%
+  floor. If a peace deal materialises, a massive Ukraine reconstruction trade
+  will be unlocked — the World Bank estimates reconstruction costs at over
+  \$500bn — though this does not appear imminent.
 
   == Dollar Weakness and the Gold Run
 
@@ -168,7 +176,11 @@
   "could fall to 94 in the second quarter of 2026." Tariff credibility damage,
   fiscal concerns, and the overvaluation of 2025 have all stacked up. Amidst
   dollar weakness and global conflict, gold continues to surge as a safe haven.
-  JP Morgan projects prices "toward \$5,000/oz by Q4 2026, with \$6,000/oz a
+  Central bank gold buying (particularly from China, India, and Turkey)
+  has added a structural bid beneath the commodity. This sovereign demand is
+  widely seen as a deliberate diversification away from dollar-denominated
+  reserves, reinforcing the long-term de-dollarisation trend. JP Morgan
+  projects prices "toward \$5,000/oz by Q4 2026, with \$6,000/oz a
   possibility longer term."
 ]
 
@@ -552,47 +564,50 @@ and 3–5 year conversion visibility.
 #pagebreak()
 #memo-header(
   ticker:  "XLUS",
-  name:    "Invesco S&P 500 Utilities Sector UCITS ETF",
-  tagline: "AI data centre power demand adds a structural growth component to a defensive yield play; the market still prices utilities as pure rate-sensitives.",
+  name:    "Invesco S&P 500 Utilities Sector UCITS ETF (Acc)",
+  tagline: "Defensive rotation into US utilities: structural power-demand growth from AI and electrification, plus a falling-rate backdrop — held accumulating so the ~3% underlying yield compounds inside the fund.",
 )
 
 #memo-kv((
-  ("Asset Class",   "Sector ETF — US Utilities"),
-  ("Idea Category", "Defensive Growth / Income"),
-  ("Entry",         "$38.40 — 27/05/2026"),
-  ("Target",        "$46.10 — +20%"),
-  ("Stop Loss",     "$34.55 — −10%"),
-  ("R/R",           "1:2"),
-  ("Horizon",       "12–18 months"),
+  ("Asset Class",   "Sector ETF — Synthetic, Swap-Based"),
+  ("Idea Category", "Defensive Rotation"),
+  ("Entry",         "$645 — 20/05/2026"),
+  ("Target",        "$715 — +10%"),
+  ("Stop Loss",     "$595 — −8%"),
+  ("R/R",           "1:1.4"),
+  ("Horizon",       "6–12 months"),
   ("Conviction",    "Medium — Initiated"),
 ))
 
 #memo-rule("Thesis")
 
-Data centre electricity demand is projected to rise 160~% by 2030 — every
-megawatt flows through a regulated utility, and rate base expansion from grid
-connection agreements is already driving earnings upgrades.
+US utilities have re-rated from a bond-proxy into a structural growth story:
+AI and data-centre electricity demand are driving the first sustained load
+growth in decades, lifting rate-base expansion and pushing sector EPS growth
+to ~6–9~% for 2026. With the Fed having cut to 3.50–3.75~% and the long end
+range-bound, the discount-rate headwind that hurt utilities in 2022–24 has
+reversed. The Acc wrapper compounds the ~3~% underlying yield inside the fund.
 
-*Edge:* The market prices utilities as pure rate-sensitives; AI power demand adds a growth driver not yet in consensus models.
+*Edge:* Market treats the AI power trade as a one-off; rate-base growth is multi-year and regulator-backed.
 
-*Driver:* Data centre connection agreements and rate base expansion driving earnings upgrades as power demand visibility extends to 2030+.
+*Driver:* EPS compounding at ~6–9~% on an expanding rate base as falling rates remove the de-rating risk.
 
 #memo-rule("Catalysts & Scenarios")
 
-*C1:* Hyperscaler power purchase agreements — ongoing; confirm long-term load commitments
+*C1:* Fed rate path — FOMC June 16–17 2026; further cuts lower utility WACC and re-rate long-duration cash flows
 
-*C2:* Fed signals rate cuts — removes primary sector headwind
+*C2:* AI/data-centre capex guidance upgrades — raised utility capex plans and ISO/RTO load forecasts confirming structural demand
 
-*C3:* Utility Q2 earnings — Jul/Aug 2026; data centre connection pipeline disclosed
+*C3:* Utility Q2 earnings — Jul/Aug 2026; rate-base and connection pipeline guidance
 
 #v(6pt)
 
 #data-table(
   (1fr, auto, auto, 2fr),
   ("Scenario", "Return", "Prob.", "Assumption"),
-  "Bear",  "−10%", "25%", "Fed hikes further; AI CapEx slows; grid connection delays",
-  "Base",  "+20%", "55%", "Stable rates; steady data centre load growth; dividend re-rating",
-  "Bull",  "+35%", "20%", "Rate cuts + AI power acceleration → growth re-rating",
+  "Bear", "−8.5%", "25%", "10yr backs up >4.7%; multiple de-rates; risk-on rotation out of defensives",
+  "Base", "+8.5%", "50%", "Rates stable; EPS grows ~7%; multiple holds ~18.5×",
+  "Bull", "+15.5%","25%", "Fed keeps cutting; load-growth re-rating pushes multiple toward prior premium",
 )
 
 #memo-rule("Risks & Monitors")
@@ -600,13 +615,13 @@ connection agreements is already driving earnings upgrades.
 #data-table(
   (1fr, 1fr, 1.8fr),
   ("Risk", "Monitor", "Trigger"),
-  "Rates rise further",         "Fed statements, CPI prints",                  "Hiking cycle resumes → reduce",
-  "AI CapEx pullback",          "Hyperscaler guidance, data centre build data", "Material CapEx cuts → reassess power demand thesis",
-  "Regulatory rate case losses","State PUC decisions, utility earnings calls",  "Adverse rate case outcomes → resize",
+  "Rates back up",            "US 10yr yield; sector earnings yield vs 10yr",      "10yr breaks >4.7% and XLUS closes below $595 → exit",
+  "Valuation stretched",      "Sector fwd P/E vs S&P 500 and own history",         "Relative P/E hits prior peak and momentum rolls → reduce",
+  "Thin liquidity / swap",    "Premium/discount to NAV; daily value traded",        "Premium >150bps or spread blows out → do not add",
 )
 
 #v(6pt)
-*Next review:* Fed Jun 2026 · Utility Q2 earnings Aug 2026 · *Exit rules:* cut 50% at −10% · full exit at −15%
+*Next review:* FOMC 17/06/2026 · Utility Q2 earnings Jul/Aug 2026 · *Exit rules:* stop at \$595 · full exit at −10%
 
 // ── AIXA ─────────────────────────────────────────────────────
 
@@ -674,18 +689,25 @@ industrial segments accelerate.
 #dark-page(logo: image("../../assets/logo-white.png", width: 3.5cm))[
   = Disclosures
 
-  This report has been prepared by members of the Aachen Investment Club
-  e.V. (AIC) for general informational and educational purposes only.
-  It does not constitute investment advice, a personal recommendation, or
-  an offer or solicitation to buy or sell any securities or financial
-  instruments. The views expressed reflect the opinions of the AIC Capital
-  Team at the time of writing and may change without notice.
+  This report has been prepared by students of the Aachen Investment Club
+  e.V. (AIC) at RWTH Aachen University for general informational and
+  educational purposes only. It does not constitute investment advice, a
+  personal recommendation, or an offer or solicitation to buy or sell any
+  securities or financial instruments.
+
+  The views and opinions expressed are those of the student portfolio manager
+  and analysts and do not necessarily reflect the official policy or position
+  of RWTH Aachen University or its faculty. They may change without notice.
+  Information contained herein is obtained from sources believed to be
+  reliable, but its accuracy cannot be guaranteed.
 
   Past performance is not indicative of future results. All investments
   involve risk, including the possible loss of principal. Readers should
   conduct their own due diligence and consult a qualified financial adviser
-  before making any investment decisions. The AIC is a student organisation
-  and is not regulated by BaFin or any other financial supervisory authority.
+  before making any investment decisions. Neither the AIC, its members, nor
+  the university shall be responsible for any investment losses incurred as
+  a result of using this information. The AIC is a student organisation and
+  is not regulated by BaFin or any other financial supervisory authority.
 
   = Imprint
 
