@@ -215,9 +215,9 @@
   ("Entry",         "€14.72 — 27/05/2026"),
   ("Target",        "€17.66 — +20%"),
   ("Stop Loss",     "€13.25 — −10%"),
-  ("R/R",           "1:2"),
+  ("Risk/Reward","1:2"),
   ("Horizon",       "12–18 months"),
-  ("Conviction",    "Medium — Initiated"),
+  ("Expected Value","Medium — Initiated"),
 ))
 
 #memo-rule("Thesis")
@@ -278,9 +278,9 @@ channel. The market is pricing the sector on near-term stagflation (3.0~% CPI,
   ("Entry",         "€10.86 — 27/05/2026"),
   ("Target",        "€13.58 — +25%"),
   ("Stop Loss",     "€9.77 — −10%, cut 50%"),
-  ("R/R",           "1:2.5"),
+  ("Risk/Reward","1:2.5"),
   ("Horizon",       "12–18 months"),
-  ("Conviction",    "Medium — Initiated"),
+  ("Expected Value","Medium — Initiated"),
 ))
 
 #memo-rule("Thesis")
@@ -342,9 +342,9 @@ anchoring on ECB uncertainty.
   ("Entry",         "$252.40 — 27/05/2026"),
   ("Target",        "$315.50 — +25%"),
   ("Stop Loss",     "$215.00 — −15%"),
-  ("R/R",           "1:2"),
+  ("Risk/Reward","1:2"),
   ("Horizon",       "18–24 months"),
-  ("Conviction",    "Medium-High — Initiated"),
+  ("Expected Value","Medium-High — Initiated"),
 ))
 
 #memo-rule("Thesis")
@@ -403,9 +403,9 @@ designers, foundries, and equipment makers across the semiconductor value chain.
   ("Entry",         "$31.20 — 27/05/2026"),
   ("Target",        "$45.25 — +45%"),
   ("Stop Loss",     "$26.50 — −15%"),
-  ("R/R",           "1:3"),
+  ("Risk/Reward","1:3"),
   ("Horizon",       "3–5 years"),
-  ("Conviction",    "Low-Medium — Initiated"),
+  ("Expected Value","Low-Medium — Initiated"),
 ))
 
 #memo-rule("Thesis")
@@ -465,9 +465,9 @@ the long-term contract price of \$93/lb confirms genuine utility demand.
   ("Entry",         "222p — 27/05/2026"),
   ("Target",        "457p Base / 706p Bull"),
   ("Stop Loss",     "178p — −20%"),
-  ("R/R",           "1:5"),
+  ("Risk/Reward","1:5"),
   ("Horizon",       "24+ months"),
-  ("Conviction",    "High — Initiated"),
+  ("Expected Value","High — Initiated"),
 ))
 
 #memo-rule("Thesis")
@@ -528,9 +528,9 @@ stagnating, and International never scaling, simultaneously.
   ("Entry",         "€34.50 — 27/05/2026"),
   ("Target",        "€45.10 — +31%"),
   ("Stop Loss",     "€31.05 — −10%"),
-  ("R/R",           "1:3"),
+  ("Risk/Reward","1:3"),
   ("Horizon",       "12–18 months"),
-  ("Conviction",    "Medium-High — Initiated"),
+  ("Expected Value","Medium-High — Initiated"),
 ))
 
 #memo-rule("Thesis")
@@ -590,9 +590,9 @@ and 3–5 year conversion visibility.
   ("Entry",         "$645 — 20/05/2026"),
   ("Target",        "$715 — +10%"),
   ("Stop Loss",     "$595 — −8%"),
-  ("R/R",           "1:1.4"),
+  ("Risk/Reward","1:1.4"),
   ("Horizon",       "6–12 months"),
-  ("Conviction",    "Medium — Initiated"),
+  ("Expected Value","Medium — Initiated"),
 ))
 
 #memo-rule("Thesis")
@@ -654,9 +654,9 @@ reversed. The Acc wrapper compounds the ~3~% underlying yield inside the fund.
   ("Entry",         "€13.20 — 27/05/2026"),
   ("Target",        "€18.50 — +40%"),
   ("Stop Loss",     "€11.20 — −15%"),
-  ("R/R",           "1:2.5"),
+  ("Risk/Reward","1:2.5"),
   ("Horizon",       "18–24 months"),
-  ("Conviction",    "Medium — Initiated"),
+  ("Expected Value","Medium — Initiated"),
 ))
 
 #memo-rule("Thesis")
