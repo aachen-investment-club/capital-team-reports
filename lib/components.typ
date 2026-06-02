@@ -37,7 +37,8 @@
       #text(fill: white, size: 30pt, weight: "bold", tracking: 2pt)[#title]
       #v(10pt, weak: true)
       #text(fill: white.transparentize(15%), size: 14pt, tracking: 0.5pt)[#month]
-      #v(10pt, weak: true)
+    ]
+    #place(bottom + left, dx: 2cm, dy: -2cm)[
       #text(fill: white.transparentize(40%), size: 10pt)[#org]
     ]
   ]
@@ -173,12 +174,14 @@
     ],
   )
 
+  let pcell(body) = table.cell(fill: white)[#text(size: font-size)[#body]]
+
   let pos-row(p) = (
-    text(size: font-size)[#p.symbol],
-    text(size: font-size)[#p.name],
-    text(size: font-size)[#p.isin],
-    text(size: font-size)[#p.nav],
-    text(size: font-size)[#p.ret],
+    pcell(p.symbol),
+    pcell(p.name),
+    pcell(p.isin),
+    pcell(p.nav),
+    pcell(p.ret),
   )
 
   let rows = ()

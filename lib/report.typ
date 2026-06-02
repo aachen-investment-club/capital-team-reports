@@ -22,7 +22,7 @@
     margin: (x: 2cm, top: 2.4cm, bottom: 2cm),
     background: {
       place(top + left, image("../assets/background.svg", width: 100%, height: 100%, fit: "cover"))
-      place(top + left, rect(width: 100%, height: 100%, fill: white.transparentize(30%)))
+      // place(top + left, rect(width: 100%, height: 100%, fill: white.transparentize(30%)))
     },
     header: context {
       if counter(page).get().first() > 1 {
