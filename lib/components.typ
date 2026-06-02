@@ -37,7 +37,8 @@
       #text(fill: white, size: 30pt, weight: "bold", tracking: 2pt)[#title]
       #v(10pt, weak: true)
       #text(fill: white.transparentize(15%), size: 14pt, tracking: 0.5pt)[#month]
-      #v(10pt, weak: true)
+    ]
+    #place(bottom + left, dx: 2cm, dy: -2cm)[
       #text(fill: white.transparentize(40%), size: 10pt)[#org]
     ]
   ]
@@ -128,7 +129,8 @@
 
 // ---- Branded data table ------------------------------------
 #let data-table(cols, head, ..cells) = {
-  set text(size: 9pt)
+  set text(size: 8pt)
+  set par(justify: false)
   table(
     columns: cols,
     stroke: (x, y) => (bottom: 0.5pt + brand.line),
@@ -141,6 +143,67 @@
     },
     table.header(..head.map(h => text(fill: white, weight: "bold")[#h])),
     ..cells.pos(),
+  )
+}
+
+// ---- Portfolio snapshot table --------------------------------
+// baskets: array of (name, nav, ret, positions)
+// positions: array of (symbol, name, isin, nav, ret)
+#let portfolio-table(
+  baskets,
+  font-size:    9pt,
+  header-fill:  brand.primary,
+  basket-fill:  brand.accent.lighten(70%),
+  header-text:  white,
+  basket-text:  brand.primary,
+  stroke-color: brand.line,
+) = {
+  let hcell(body, al: left + horizon) = table.cell(
+    fill: header-fill, align: al,
+  )[#text(fill: header-text, weight: "bold", size: font-size)[#body]]
+
+  let basket-row(b) = (
+    table.cell(colspan: 3, fill: basket-fill, align: left + horizon)[
+      #text(fill: basket-text, weight: "bold", size: font-size - 1pt)[#b.name]
+    ],
+    table.cell(fill: basket-fill, align: right + horizon)[
+      #text(fill: basket-text, weight: "bold", size: font-size - 1pt)[#b.nav]
+    ],
+    table.cell(fill: basket-fill, align: right + horizon)[
+      #text(fill: basket-text, weight: "bold", size: font-size - 1pt)[#b.ret]
+    ],
+  )
+
+  let pcell(body) = table.cell(fill: white)[#text(size: font-size)[#body]]
+
+  let pos-row(p) = (
+    pcell(p.symbol),
+    pcell(p.name),
+    pcell(p.isin),
+    pcell(p.nav),
+    pcell(p.ret),
+  )
+
+  let rows = ()
+  for b in baskets {
+    rows = rows + basket-row(b)
+    for p in b.positions {
+      rows = rows + pos-row(p)
+    }
+  }
+
+  set par(justify: false)
+  table(
+    columns: (auto, 1fr, auto, auto, auto),
+    stroke: (x, y) => (bottom: 0.5pt + stroke-color),
+    inset: (x: 8pt, y: 6pt),
+    align: (x, y) => if x >= 3 { right + horizon } else { left + horizon },
+    hcell([Symbol]),
+    hcell([Name]),
+    hcell([ISIN]),
+    hcell([% NAV],       al: right + horizon),
+    hcell([Cum. Return], al: right + horizon),
+    ..rows,
   )
 }
 

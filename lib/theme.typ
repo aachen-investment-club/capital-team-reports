@@ -23,5 +23,5 @@
   body:  9pt,
   small:  8pt,
   h1:    19pt,
-  h2:    13pt,
+  h2:    11pt,
 )
