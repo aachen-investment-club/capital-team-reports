@@ -55,15 +55,13 @@
   portfolio. We also wish Josephine all the best in her future endeavours.
   
   #v(10pt)
-  The chart below shows daily portfolio returns against our benchmarks over the
-  reporting period. The remainder of this report consists of investment memos
-  detailing the thesis behind each of our starter positions.
+  Performance is evaluated against several benchmarks, including the 60/40 balanced portfolio, MSCI Europe, and S&P 500. For a comparison of daily returns, see @returns-daily. The remainder of this report consists of investment memos detailing the thesis behind each of our starter positions, concluding with an overview of our current holdings and executed trades.
 
   #v(14pt)
   #figure(
     image("../../assets/2026-05/returns_daily.png", width: 100%),
     caption: [Daily Portfolio Returns vs Benchmarks],
-  )
+  ) <returns-daily>
 ]
 
 // ── 3. TEAM (dark page) ─────────────────────────────────────
@@ -245,7 +243,7 @@ channel. The market is pricing the sector on near-term stagflation (3.0~% CPI,
 #v(6pt)
 
 #data-table(
-  (1fr, auto, auto, 2fr),
+  (auto, auto, auto, 2fr),
   ("Scenario", "Return", "Prob.", "Assumption"),
   "Bear", "−10%", "25%", "ECB hikes; growth cracks long-term",
   "Base", "+20%", "50%", "Stable ECB; loan growth 4–5%",
@@ -255,7 +253,7 @@ channel. The market is pricing the sector on near-term stagflation (3.0~% CPI,
 #memo-rule("Risks & Monitors")
 
 #data-table(
-  (1fr, 1fr, 1.8fr),
+  (auto, auto, 1fr),
   ("Risk", "Monitor", "Trigger"),
   "ECB resumes hiking",        "HICP prints, ECB statements",  "CPI >3.5% + hiking signal → cut 50% within 6 months",
   "Stagflation deepens",       "PMI, GDP revisions",            "PMI <48 for two consecutive months → resize",
@@ -309,7 +307,7 @@ anchoring on ECB uncertainty.
 #v(6pt)
 
 #data-table(
-  (1fr, auto, auto, 2fr),
+  (auto, auto, auto, 1fr),
   ("Scenario", "Return", "Prob.", "Assumption"),
   "Bear", "−10%", "25%", "ECB hikes; EM FX deteriorates; spending stalls",
   "Base", "+25%", "50%", "Stable ECB; PERTE deployment on track; NII grows 5%+",
@@ -319,7 +317,7 @@ anchoring on ECB uncertainty.
 #memo-rule("Risks & Monitors")
 
 #data-table(
-  (1fr, 1fr, 1.8fr),
+  (auto, auto, 1fr),
   ("Risk", "Monitor", "Trigger"),
   "ECB resumes hiking",          "HICP prints, ECB statements",               "CPI >3.5% + hiking signal → cut 50%",
   "EM currency deterioration",   "BRL, MXN vs EUR (70% non-euro revenues)",   "EM FX basket −10% → cut 50%",
@@ -370,7 +368,7 @@ designers, foundries, and equipment makers across the semiconductor value chain.
 #v(6pt)
 
 #data-table(
-  (1fr, auto, auto, 2fr),
+  (auto, auto, auto, 2fr),
   ("Scenario", "Return", "Prob.", "Assumption"),
   "Bear", "−20%", "20%", "AI CapEx cycle reverses; inventory builds; multiples compress",
   "Base", "+25%", "55%", "Continued AI build-out; earnings revisions in line with CapEx",
@@ -380,7 +378,7 @@ designers, foundries, and equipment makers across the semiconductor value chain.
 #memo-rule("Risks & Monitors")
 
 #data-table(
-  (1fr, 1fr, 1.8fr),
+  (auto, auto, 1fr),
   ("Risk", "Monitor", "Trigger"),
   "AI CapEx cycle reversal",  "Hyperscaler CapEx guidance, earnings calls",       "Guidance cut >15% → reduce",
   "Taiwan / geopolitical",    "Cross-strait tensions, TSMC supply commentary",    "Escalation signals → cut 50%",
@@ -432,7 +430,7 @@ the long-term contract price of \$93/lb confirms genuine utility demand.
 #v(6pt)
 
 #data-table(
-  (1fr, auto, auto, 2fr),
+  (auto, auto, auto, 2fr),
   ("Scenario", "Return", "Prob.", "Assumption"),
   "Bear", "−25%", "25%", "Uranium spot drops; reactor delays; sentiment unwinds",
   "Base", "+45%", "50%", "Supply deficit persists; utility contracting accelerates",
@@ -442,7 +440,7 @@ the long-term contract price of \$93/lb confirms genuine utility demand.
 #memo-rule("Risks & Monitors")
 
 #data-table(
-  (1fr, 1fr, 1.8fr),
+  (auto, auto, 1fr),
   ("Risk", "Monitor", "Trigger"),
   "Uranium spot weakness",      "UxC spot price weekly",                         "Spot sustained below $60/lb → reduce",
   "Reactor delays/cancellations","NRC filings, utility press releases",           "Major cancellation wave → cut 50%",
@@ -495,7 +493,7 @@ stagnating, and International never scaling, simultaneously.
 #v(6pt)
 
 #data-table(
-  (1fr, auto, auto, 2fr),
+  (auto, auto, auto, 2fr),
   ("Scenario", "Return", "Prob.", "Assumption"),
   "Bear", "−20%",  "20%", "GBR privileged access; Solutions <8% growth; second commission cut",
   "Base", "+106%", "65%", "Code parity; GBR real but slow; Solutions +8–10%; Intl breakeven",
@@ -505,7 +503,7 @@ stagnating, and International never scaling, simultaneously.
 #memo-rule("Risks & Monitors")
 
 #data-table(
-  (1fr, 1fr, 1.8fr),
+  (auto, auto, 1fr),
   ("Risk", "Monitor", "Trigger"),
   "GBR privileged fare access",     "Code of Practice content; ORR enforcement",      "Exclusive access granted → re-evaluate",
   "Solutions/Intl B2B deceleration","Intl B2B NTS growth each half-year",              "Three halves below +15% without explanation → reduce",
@@ -557,7 +555,7 @@ and 3–5 year conversion visibility.
 #v(6pt)
 
 #data-table(
-  (1fr, auto, auto, 2fr),
+  (auto, auto, auto, 2fr),
   ("Scenario", "Return", "Prob.", "Assumption"),
   "Bear", "−10%", "20%", "Ukraine ceasefire reduces urgency; procurement delays",
   "Base", "+31%", "60%", "NATO commitments on track; steady contract flow; multiple re-rates",
@@ -567,7 +565,7 @@ and 3–5 year conversion visibility.
 #memo-rule("Risks & Monitors")
 
 #data-table(
-  (1fr, 1fr, 1.8fr),
+  (auto, auto, 1fr),
   ("Risk", "Monitor", "Trigger"),
   "Peace deal reduces urgency",    "Ceasefire negotiations, NATO statements",      "Sustained spending reversal signals → reduce",
   "Procurement execution delays",  "Prime delivery timelines, earnings commentary","Repeated guidance cuts → resize",
@@ -621,7 +619,7 @@ reversed. The Acc wrapper compounds the ~3~% underlying yield inside the fund.
 #v(6pt)
 
 #data-table(
-  (1fr, auto, auto, 2fr),
+  (auto, auto, auto, 2fr),
   ("Scenario", "Return", "Prob.", "Assumption"),
   "Bear", "−8.5%", "25%", "10yr backs up >4.7%; multiple de-rates; risk-on rotation out of defensives",
   "Base", "+8.5%", "50%", "Rates stable; EPS grows ~7%; multiple holds ~18.5×",
@@ -631,7 +629,7 @@ reversed. The Acc wrapper compounds the ~3~% underlying yield inside the fund.
 #memo-rule("Risks & Monitors")
 
 #data-table(
-  (1fr, 1fr, 1.8fr),
+  (auto, auto, 1fr),
   ("Risk", "Monitor", "Trigger"),
   "Rates back up",            "US 10yr yield; sector earnings yield vs 10yr",      "10yr breaks >4.7% and XLUS closes below $595 → exit",
   "Valuation stretched",      "Sector fwd P/E vs S&P 500 and own history",         "Relative P/E hits prior peak and momentum rolls → reduce",
@@ -683,7 +681,7 @@ industrial segments accelerate.
 #v(6pt)
 
 #data-table(
-  (1fr, auto, auto, 2fr),
+  (auto, auto, auto, 2fr),
   ("Scenario", "Return", "Prob.", "Assumption"),
   "Bear", "−25%", "25%", "EV recovery delayed; data centre GaN adoption slower than expected",
   "Base", "+40%", "55%", "Data centre GaN accelerates; EV stabilises; multiple re-rates",
@@ -693,7 +691,7 @@ industrial segments accelerate.
 #memo-rule("Risks & Monitors")
 
 #data-table(
-  (1fr, 1fr, 1.8fr),
+  (auto, auto, 1fr),
   ("Risk", "Monitor", "Trigger"),
   "EV demand disappoints further", "OEM CapEx commentary, order intake data",     "Further EV order cuts with no DC offset → reduce",
   "Customer concentration risk",   "TSMC, Samsung order and delivery commentary", "Major customer delays two consecutive quarters → resize",
@@ -708,60 +706,56 @@ industrial segments accelerate.
 = Holdings as of 31/05/2026
 
 #v(4pt)
-#table(
-  columns: (auto, 1fr, auto, auto, auto),
-  stroke: (x, y) => (bottom: 0.5pt + rgb("#d4d9e2")),
-  inset: (x: 8pt, y: 6pt),
-  align: (x, y) => if x >= 3 { right + horizon } else { left + horizon },
-
-  table.cell(fill: rgb("#172140"))[#text(fill: white, weight: "bold", size: 9pt)[Symbol]],
-  table.cell(fill: rgb("#172140"), align: left + horizon)[#text(fill: white, weight: "bold", size: 9pt)[Name]],
-  table.cell(fill: rgb("#172140"), align: left + horizon)[#text(fill: white, weight: "bold", size: 9pt)[ISIN / WKN]],
-  table.cell(fill: rgb("#172140"), align: right + horizon)[#text(fill: white, weight: "bold", size: 9pt)[% NAV]],
-  table.cell(fill: rgb("#172140"), align: right + horizon)[#text(fill: white, weight: "bold", size: 9pt)[Since Inception]],
-
-  table.cell(colspan: 3, fill: rgb("#1a3461"), align: left + horizon)[#text(fill: rgb("#9ab5e6"), weight: "bold", size: 8pt)[AI & SEMIS]],
-  table.cell(fill: rgb("#1a3461"), align: right + horizon)[#text(fill: rgb("#9ab5e6"), weight: "bold", size: 8pt)[5.79%]],
-  table.cell(fill: rgb("#1a3461"), align: right + horizon)[#text(fill: rgb("#9ab5e6"), weight: "bold", size: 8pt)[+12.26%]],
-  text(size: 9pt)[AIXA],  text(size: 9pt)[Aixtron SE],               text(size: 9pt)[DE0006220020], text(size: 9pt)[2.95%], text(size: 9pt)[+13.02%],
-  text(size: 9pt)[SMH],   text(size: 9pt)[VanEck Semiconductor ETF], text(size: 9pt)[US92189F7915], text(size: 9pt)[2.83%], text(size: 9pt)[+11.46%],
-
-  table.cell(colspan: 3, fill: rgb("#1a3461"), align: left + horizon)[#text(fill: rgb("#9ab5e6"), weight: "bold", size: 8pt)[EU FINANCIALS]],
-  table.cell(fill: rgb("#1a3461"), align: right + horizon)[#text(fill: rgb("#9ab5e6"), weight: "bold", size: 8pt)[7.65%]],
-  table.cell(fill: rgb("#1a3461"), align: right + horizon)[#text(fill: rgb("#9ab5e6"), weight: "bold", size: 8pt)[−1.26%]],
-  text(size: 9pt)[ESIF],  text(size: 9pt)[iShares Europe Financials EUR A], text(size: 9pt)[IE00B4JNQZ49], text(size: 9pt)[3.83%], text(size: 9pt)[−1.09%],
-  text(size: 9pt)[SAN],   text(size: 9pt)[Banco Santander SA],              text(size: 9pt)[ES0113900J37], text(size: 9pt)[3.82%], text(size: 9pt)[−1.43%],
-
-  table.cell(colspan: 3, fill: rgb("#1a3461"), align: left + horizon)[#text(fill: rgb("#9ab5e6"), weight: "bold", size: 8pt)[EU SOVEREIGNTY]],
-  table.cell(fill: rgb("#1a3461"), align: right + horizon)[#text(fill: rgb("#9ab5e6"), weight: "bold", size: 8pt)[7.71%]],
-  table.cell(fill: rgb("#1a3461"), align: right + horizon)[#text(fill: rgb("#9ab5e6"), weight: "bold", size: 8pt)[+1.12%]],
-  text(size: 9pt)[WDEF],  text(size: 9pt)[WisdomTree Europe Defence UCITS ETF], text(size: 9pt)[IE000RHYOR04], text(size: 9pt)[7.71%], text(size: 9pt)[+1.12%],
-
-  table.cell(colspan: 3, fill: rgb("#1a3461"), align: left + horizon)[#text(fill: rgb("#9ab5e6"), weight: "bold", size: 8pt)[ENERGY DEMAND]],
-  table.cell(fill: rgb("#1a3461"), align: right + horizon)[#text(fill: rgb("#9ab5e6"), weight: "bold", size: 8pt)[3.97%]],
-  table.cell(fill: rgb("#1a3461"), align: right + horizon)[#text(fill: rgb("#9ab5e6"), weight: "bold", size: 8pt)[−9.92%]],
-  text(size: 9pt)[XLUS],  text(size: 9pt)[Invesco US Utilities S&P],      text(size: 9pt)[IE00BMC38736], text(size: 9pt)[2.25%], text(size: 9pt)[−4.41%],
-  text(size: 9pt)[URNU],  text(size: 9pt)[Global X Uranium UCITS USD-A],  text(size: 9pt)[IE00BKNT4282], text(size: 9pt)[1.71%], text(size: 9pt)[−17.16%],
-
-  table.cell(colspan: 3, fill: rgb("#1a3461"), align: left + horizon)[#text(fill: rgb("#9ab5e6"), weight: "bold", size: 8pt)[SINGLE POSITIONS]],
-  table.cell(fill: rgb("#1a3461"), align: right + horizon)[#text(fill: rgb("#9ab5e6"), weight: "bold", size: 8pt)[1.62%]],
-  table.cell(fill: rgb("#1a3461"), align: right + horizon)[#text(fill: rgb("#9ab5e6"), weight: "bold", size: 8pt)[−13.72%]],
-  text(size: 9pt)[TRNl],  text(size: 9pt)[Trainline PLC], text(size: 9pt)[GB00BKDTLL65], text(size: 9pt)[1.62%], text(size: 9pt)[−13.72%],
-
-  table.cell(colspan: 3, fill: rgb("#1a3461"), align: left + horizon)[#text(fill: rgb("#9ab5e6"), weight: "bold", size: 8pt)[CASH]],
-  table.cell(fill: rgb("#1a3461"), align: right + horizon)[#text(fill: rgb("#9ab5e6"), weight: "bold", size: 8pt)[73.26%]],
-  table.cell(fill: rgb("#1a3461"), align: right + horizon)[#text(fill: rgb("#9ab5e6"), weight: "bold", size: 8pt)[+0.02%]],
-  text(size: 9pt)[CASH_EUR], text(size: 9pt)[Euro Cash],          text(size: 9pt)[—], text(size: 9pt)[49.81%], text(size: 9pt)[—],
-  text(size: 9pt)[CASH_USD], text(size: 9pt)[US Dollar Cash],     text(size: 9pt)[—], text(size: 9pt)[15.96%], text(size: 9pt)[+0.53%],
-  text(size: 9pt)[CASH_GBP], text(size: 9pt)[British Pound Cash], text(size: 9pt)[—], text(size: 9pt)[7.50%],  text(size: 9pt)[−0.97%],
-)
+#portfolio-table((
+  (
+    name: "AI & SEMIS", nav: "5.79%", ret: "+12.26%",
+    positions: (
+      (symbol: "AIXA", name: "Aixtron SE",               isin: "DE000A0WMPJ6", nav: "2.95%", ret: "+13.02%"),
+      (symbol: "SMH",  name: "VanEck Semiconductor ETF", isin: "IE00BMC38736", nav: "2.83%", ret: "+11.46%"),
+    ),
+  ),
+  (
+    name: "EU FINANCIALS", nav: "7.65%", ret: "−1.26%",
+    positions: (
+      (symbol: "ESIF", name: "iShares Europe Financials EUR A", isin: "IE00BMW42306", nav: "3.83%", ret: "−1.09%"),
+      (symbol: "SAN",  name: "Banco Santander SA",              isin: "ES0113900J37", nav: "3.82%", ret: "−1.43%"),
+    ),
+  ),
+  (
+    name: "EU SOVEREIGNTY", nav: "7.71%", ret: "+1.12%",
+    positions: (
+      (symbol: "WDEF", name: "WisdomTree Europe Defence UCITS ETF", isin: "IE0002Y8CX98", nav: "7.71%", ret: "+1.12%"),
+    ),
+  ),
+  (
+    name: "ENERGY DEMAND", nav: "3.97%", ret: "−9.92%",
+    positions: (
+      (symbol: "XLUS", name: "Invesco US Utilities S&P",     isin: "IE00B3VPKB53", nav: "2.25%", ret: "−4.41%"),
+      (symbol: "URNU", name: "Global X Uranium UCITS USD-A", isin: "IE000NDWFGA5", nav: "1.71%", ret: "−17.16%"),
+    ),
+  ),
+  (
+    name: "SINGLE POSITIONS", nav: "1.62%", ret: "−13.72%",
+    positions: (
+      (symbol: "TRNl", name: "Trainline PLC", isin: "GB00BKDTK925", nav: "1.62%", ret: "−13.72%"),
+    ),
+  ),
+  (
+    name: "CASH", nav: "73.26%", ret: "+0.02%",
+    positions: (
+      (symbol: "CASH_EUR", name: "Euro Cash",          isin: "", nav: "49.81%", ret: ""),
+      (symbol: "CASH_USD", name: "US Dollar Cash",     isin: "", nav: "15.96%", ret: "+0.53%"),
+      (symbol: "CASH_GBP", name: "British Pound Cash", isin: "", nav: "7.50%",  ret: "−0.97%"),
+    ),
+  ),
+))
 
 #v(12pt)
 #grid(
   columns: (1fr, 1fr),
   gutter: 0pt,
-  figure(image("../../assets/2026-05/weights_by_position.png", width: 100%), caption: [Single Positions]),
-  figure(image("../../assets/2026-05/weights_by_theme.png",    width: 100%), caption: [Themes]),
+  figure(image("../../assets/2026-05/weights_by_position.png", width: 100%), caption: [Positions Weighting]),
+  figure(image("../../assets/2026-05/weights_by_theme.png",    width: 100%), caption: [Themes Weighting]),
 )
 
 // ── TRADE LOG (light) ───────────────────────────────────────
@@ -774,7 +768,7 @@ industrial segments accelerate.
   ("Date", "Symbol", "Name", "Side", [Votes#footnote[In favour / against / abstain]], "Notice"),
   "07 May 2026", "AIXA",    "Aixtron SE",                          "BUY",  "7 / 0 / 1", "Starter Position",
   "07 May 2026", "ESIF",    "iShares Europe Financials EUR A",     "BUY",  "7 / 0 / 1", "Starter Position",
-  "07 May 2026", "EUR.USD", "EUR/USD",                             "SELL", "", "FX conversion",
+  "07 May 2026", "EUR.USD", "EUR/USD",                             "SELL", "", "FX Conversion",
   "07 May 2026", "SMH",     "VanEck Semiconductor ETF",            "BUY",  "7 / 0 / 1", "Starter Position",
   "07 May 2026", "WDEF",    "WisdomTree Europe Defence UCITS ETF", "BUY",  "7 / 0 / 1", "Starter Position",
   "08 May 2026", "EUR.GBP", "EUR/GBP",                             "SELL", "", "FX Conversion",
@@ -829,7 +823,7 @@ industrial segments accelerate.
     [Mathis Makarski (Portfolio Manager)],
 
     text(fill: rgb("#8fafd8"), weight: "bold", size: 8pt)[Contact],
-    [info\@aic.rwth-aachen.de],
+    [mathis.makarski\@aic.rwth-aachen.de],
 
     [#v(4pt)], [],
 

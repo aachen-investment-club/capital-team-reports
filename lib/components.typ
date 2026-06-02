@@ -128,7 +128,8 @@
 
 // ---- Branded data table ------------------------------------
 #let data-table(cols, head, ..cells) = {
-  set text(size: 9pt)
+  set text(size: 8pt)
+  set par(justify: false)
   table(
     columns: cols,
     stroke: (x, y) => (bottom: 0.5pt + brand.line),
@@ -141,6 +142,65 @@
     },
     table.header(..head.map(h => text(fill: white, weight: "bold")[#h])),
     ..cells.pos(),
+  )
+}
+
+// ---- Portfolio snapshot table --------------------------------
+// baskets: array of (name, nav, ret, positions)
+// positions: array of (symbol, name, isin, nav, ret)
+#let portfolio-table(
+  baskets,
+  font-size:    9pt,
+  header-fill:  brand.primary,
+  basket-fill:  brand.accent.lighten(70%),
+  header-text:  white,
+  basket-text:  brand.primary,
+  stroke-color: brand.line,
+) = {
+  let hcell(body, al: left + horizon) = table.cell(
+    fill: header-fill, align: al,
+  )[#text(fill: header-text, weight: "bold", size: font-size)[#body]]
+
+  let basket-row(b) = (
+    table.cell(colspan: 3, fill: basket-fill, align: left + horizon)[
+      #text(fill: basket-text, weight: "bold", size: font-size - 1pt)[#b.name]
+    ],
+    table.cell(fill: basket-fill, align: right + horizon)[
+      #text(fill: basket-text, weight: "bold", size: font-size - 1pt)[#b.nav]
+    ],
+    table.cell(fill: basket-fill, align: right + horizon)[
+      #text(fill: basket-text, weight: "bold", size: font-size - 1pt)[#b.ret]
+    ],
+  )
+
+  let pos-row(p) = (
+    text(size: font-size)[#p.symbol],
+    text(size: font-size)[#p.name],
+    text(size: font-size)[#p.isin],
+    text(size: font-size)[#p.nav],
+    text(size: font-size)[#p.ret],
+  )
+
+  let rows = ()
+  for b in baskets {
+    rows = rows + basket-row(b)
+    for p in b.positions {
+      rows = rows + pos-row(p)
+    }
+  }
+
+  set par(justify: false)
+  table(
+    columns: (auto, 1fr, auto, auto, auto),
+    stroke: (x, y) => (bottom: 0.5pt + stroke-color),
+    inset: (x: 8pt, y: 6pt),
+    align: (x, y) => if x >= 3 { right + horizon } else { left + horizon },
+    hcell([Symbol]),
+    hcell([Name]),
+    hcell([ISIN]),
+    hcell([% NAV],       al: right + horizon),
+    hcell([Cum. Return], al: right + horizon),
+    ..rows,
   )
 }
 
