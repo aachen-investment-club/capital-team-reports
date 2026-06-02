@@ -245,7 +245,7 @@ channel. The market is pricing the sector on near-term stagflation (3.0~% CPI,
 )
 
 #v(6pt)
-*Next review:* ECB 05/06/2026 · Q2 bank earnings Jul 2026 · *Exit rules:* cut 50% at −10% · full exit at −15%
+*Next review:* ECB 05/06/2026 · Q2 bank earnings Jul 2026 · *Exit rules:* full exit at −10%
 
 // ── SAN ──────────────────────────────────────────────────────
 
@@ -309,7 +309,7 @@ anchoring on ECB uncertainty.
 )
 
 #v(6pt)
-*Next review:* ECB 05/06/2026 · H1 2026 earnings Jul 2026 · *Exit rules:* cut 50% at −10% · full exit at −15%
+*Next review:* ECB 05/06/2026 · H1 2026 earnings Jul 2026 · *Exit rules:* full exit at −10%
 
 // ── SMH ──────────────────────────────────────────────────────
 
@@ -370,7 +370,7 @@ designers, foundries, and equipment makers across the semiconductor value chain.
 )
 
 #v(6pt)
-*Next review:* Hyperscaler earnings Jul/Aug 2026 · *Exit rules:* cut 50% at −12% · full exit at −18%
+*Next review:* Hyperscaler earnings Jul/Aug 2026 · *Exit rules:* full exit at −15%
 
 // ── URA ──────────────────────────────────────────────────────
 
@@ -386,8 +386,8 @@ designers, foundries, and equipment makers across the semiconductor value chain.
   ("Idea Category", "Structural / Commodity"),
   ("Entry",         "$35.00 · 08/05/2026"),
   ("Target",        "$50.75 · +45%"),
-  ("Stop Loss",     "$29.75 · −15%"),
-  ("R/R",           "1:3"),
+  ("Stop Loss",     "$28.00 · −20%"),
+  ("R/R",           "1:2.25"),
   ("Horizon",       "3–5 years"),
   ("EV",            "+36%"),
 ))
@@ -557,7 +557,7 @@ and 3–5 year conversion visibility.
 )
 
 #v(6pt)
-*Next review:* NATO Summit Jun 2026 · European defence earnings Aug 2026 · *Exit rules:* cut 50% at −10% · full exit at −15%
+*Next review:* NATO Summit Jun 2026 · European defence earnings Aug 2026 · *Exit rules:* full exit at −10%
 
 // ── XLUS ─────────────────────────────────────────────────────
 
@@ -621,7 +621,7 @@ reversed. The Acc wrapper compounds the ~3~% underlying yield inside the fund.
 )
 
 #v(6pt)
-*Next review:* FOMC 17/06/2026 · Utility Q2 earnings Jul/Aug 2026 · *Exit rules:* stop at \$605 · full exit at −10%
+*Next review:* FOMC 17/06/2026 · Utility Q2 earnings Jul/Aug 2026 · *Exit rules:* full exit at \$605 (−8%)
 
 // ── AIXA ─────────────────────────────────────────────────────
 
@@ -683,7 +683,7 @@ industrial segments accelerate.
 )
 
 #v(6pt)
-*Next review:* Q2 2026 results · Data centre design-win announcements · *Exit rules:* cut 50% at −15% · full exit at −20%
+*Next review:* Q2 2026 results · Data centre design-win announcements · *Exit rules:* full exit at −15%
 
 // ── 5. FINAL PAGE (dark) ────────────────────────────────────
 #dark-page(logo: image("../../assets/logo-white.png", width: 3.5cm))[
