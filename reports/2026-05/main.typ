@@ -195,19 +195,19 @@
 
 #memo-kv((
   ("Asset Class",   "Sector ETF"),
-  ("Idea Category", "Growth"),
-  ("Entry",         "€14.72 — 27/05/2026"),
-  ("Target",        "€17.66 — +20%"),
-  ("Stop Loss",     "€13.25 — −10%"),
+  ("Idea Category", "Sector Re-rating"),
+  ("Entry",         "€15.01 · 07/05/2026"),
+  ("Target",        "€18.01 · +20%"),
+  ("Stop Loss",     "€13.51 · −10%"),
   ("R/R",           "1:2"),
   ("Horizon",       "12–18 months"),
-  ("Conviction",    "Medium — Initiated"),
+  ("EV",            "+15%"),
 ))
 
 #memo-rule("Thesis")
 
 Europe is committing to fiscal investment in energy infrastructure, defence, and
-industrial resilience — ReArm Europe, the €90bn Ukraine loan, and NATO
+industrial resilience, through ReArm Europe, the €90bn Ukraine loan, and NATO
 rearmament. European banks are the primary structuring and loan origination
 channel. The market is pricing the sector on near-term stagflation (3.0~% CPI,
 1.1~% GDP growth) and ignoring the investment cycle entirely.
@@ -218,9 +218,9 @@ channel. The market is pricing the sector on near-term stagflation (3.0~% CPI,
 
 #memo-rule("Catalysts & Scenarios")
 
-*C1:* EU infrastructure/ReArm spending announcements — ongoing Q2–Q4 2026
+*C1:* EU infrastructure/ReArm spending announcements, ongoing Q2–Q4 2026
 
-*C2:* European bank Q2 earnings; NII guidance upgrades — Jul/Aug 2026
+*C2:* European bank Q2 earnings; NII guidance upgrades, Jul/Aug 2026
 
 *C3:* ECB signals hold or cut, removing the primary bear risk (longer-term)
 
@@ -257,14 +257,14 @@ channel. The market is pricing the sector on near-term stagflation (3.0~% CPI,
 )
 
 #memo-kv((
-  ("Asset Class",   "Single Stock — Large Cap Bank"),
-  ("Idea Category", "Macro Thematic / Fiscal Cycle"),
-  ("Entry",         "€10.86 — 27/05/2026"),
-  ("Target",        "€13.58 — +25%"),
-  ("Stop Loss",     "€9.77 — −10%, cut 50%"),
+  ("Asset Class",   "Single Stock: Large Cap Bank"),
+  ("Idea Category", "Growth"),
+  ("Entry",         "€10.55 · 08/05/2026"),
+  ("Target",        "€13.19 · +25%"),
+  ("Stop Loss",     "€9.50 · −10%"),
   ("R/R",           "1:2.5"),
   ("Horizon",       "12–18 months"),
-  ("Conviction",    "Medium — Initiated"),
+  ("EV",            "+19%"),
 ))
 
 #memo-rule("Thesis")
@@ -276,7 +276,7 @@ to structure and manage these loans; job creation and lending will in turn feed
 back to them cyclically. The market is discounting the fiscal tailwind and
 anchoring on ECB uncertainty.
 
-*Edge:* NextGenerationEU spend is sovereign-backed demand — insensitive to consumer confidence and directly inflating Santander's most profitable business lines.
+*Edge:* NextGenerationEU spend is sovereign-backed demand, insensitive to consumer confidence and directly inflating Santander's most profitable business lines.
 
 *Driver:* NII and fee income earnings upgrades as PERTE capital deployment accelerates.
 
@@ -284,7 +284,7 @@ anchoring on ECB uncertainty.
 
 *C1:* PERTE programme capital deployment announcements
 
-*C2:* H1 2026 earnings; NII and fee income guidance upgrades — July 2026
+*C2:* H1 2026 earnings; NII and fee income guidance upgrades, July 2026
 
 *C3:* ECB signals hold or cut, removing the primary rate risk overhang
 
@@ -321,29 +321,29 @@ anchoring on ECB uncertainty.
 )
 
 #memo-kv((
-  ("Asset Class",   "Sector ETF — Large Cap Semis"),
+  ("Asset Class",   "Sector ETF: Large Cap Semis"),
   ("Idea Category", "Growth / AI Infrastructure"),
-  ("Entry",         "$252.40 — 27/05/2026"),
-  ("Target",        "$315.50 — +25%"),
-  ("Stop Loss",     "$215.00 — −15%"),
-  ("R/R",           "1:2"),
+  ("Entry",         "$83.80 · 07/05/2026"),
+  ("Target",        "$104.75 · +25%"),
+  ("Stop Loss",     "$71.25 · −15%"),
+  ("R/R",           "1:1.7"),
   ("Horizon",       "18–24 months"),
-  ("Conviction",    "Medium-High — Initiated"),
+  ("EV",            "+21%"),
 ))
 
 #memo-rule("Thesis")
 
 Goldman Sachs projects hyperscaler CapEx from 2025–2027 will reach
-\$1.15 trillion — more than double 2022–2024, flowing directly into chip
+\$1.15 trillion, more than double 2022–2024, flowing directly into chip
 designers, foundries, and equipment makers across the semiconductor value chain.
 
-*Edge:* The earnings revision cycle across SMH's holdings is still in motion — consensus has not fully priced the CapEx acceleration.
+*Edge:* The earnings revision cycle across SMH's holdings is still in motion; consensus has not fully priced the CapEx acceleration.
 
 *Driver:* Sustained hyperscaler spend driving beats and guidance upgrades across the value chain through H2 2026 and into 2027.
 
 #memo-rule("Catalysts & Scenarios")
 
-*C1:* Hyperscaler Q2 CapEx guidance upgrades — earnings season Jul/Aug 2026
+*C1:* Hyperscaler Q2 CapEx guidance upgrades, earnings season Jul/Aug 2026
 
 *C2:* NVIDIA, Micron, TSMC earnings beats and forward guidance revisions
 
@@ -382,14 +382,14 @@ designers, foundries, and equipment makers across the semiconductor value chain.
 )
 
 #memo-kv((
-  ("Asset Class",   "Thematic ETF — Uranium / Nuclear"),
+  ("Asset Class",   "Thematic ETF: Uranium and Nuclear"),
   ("Idea Category", "Structural / Commodity"),
-  ("Entry",         "$31.20 — 27/05/2026"),
-  ("Target",        "$45.25 — +45%"),
-  ("Stop Loss",     "$26.50 — −15%"),
+  ("Entry",         "$35.00 · 08/05/2026"),
+  ("Target",        "$50.75 · +45%"),
+  ("Stop Loss",     "$29.75 · −15%"),
   ("R/R",           "1:3"),
   ("Horizon",       "3–5 years"),
-  ("Conviction",    "Low-Medium — Initiated"),
+  ("EV",            "+36%"),
 ))
 
 #memo-rule("Thesis")
@@ -405,7 +405,7 @@ the long-term contract price of \$93/lb confirms genuine utility demand.
 
 #memo-rule("Catalysts & Scenarios")
 
-*C1:* Utility long-term contracting wave — supply deficit forces multi-year commitments
+*C1:* Utility long-term contracting wave; supply deficit forces multi-year commitments
 
 *C2:* New reactor approvals and SMR construction starts in US and Europe
 
@@ -444,14 +444,14 @@ the long-term contract price of \$93/lb confirms genuine utility demand.
 )
 
 #memo-kv((
-  ("Asset Class",   "Equity — Mid Cap"),
-  ("Idea Category", "Contrarian Re-rating"),
-  ("Entry",         "222p — 27/05/2026"),
+  ("Asset Class",   "Equity: Mid Cap"),
+  ("Idea Category", "Valuation"),
+  ("Entry",         "235p · 08/05/2026"),
   ("Target",        "457p Base / 706p Bull"),
-  ("Stop Loss",     "178p — −20%"),
-  ("R/R",           "1:5"),
+  ("Stop Loss",     "188p · −20%"),
+  ("R/R",           "1:4.7"),
   ("Horizon",       "24+ months"),
-  ("Conviction",    "High — Initiated"),
+  ("EV",            "+88%"),
 ))
 
 #memo-rule("Thesis")
@@ -468,20 +468,20 @@ stagnating, and International never scaling, simultaneously.
 
 #memo-rule("Catalysts & Scenarios")
 
-*C1:* GBR Code of Practice — H2 2026/H1 2027; removes binary UK overhang
+*C1:* GBR Code of Practice, H2 2026/H1 2027; removes binary UK overhang
 
-*C2:* Digital PAYG trial outcome — summer 2026; confirms Trainline as GBR infrastructure partner
+*C2:* Digital PAYG trial outcome, summer 2026; confirms Trainline as GBR infrastructure partner
 
-*C3:* International Consumer EBITDA breakeven — H1 FY2027 (Aug 2026); proves platform thesis
+*C3:* International Consumer EBITDA breakeven, H1 FY2027 (Aug 2026); proves platform thesis
 
 #v(6pt)
 
 #data-table(
   (1fr, auto, auto, 2fr),
   ("Scenario", "Return", "Prob.", "Assumption"),
-  "Bear", "−20%",  "20%", "GBR privileged access; Solutions <8% growth; second commission cut",
-  "Base", "+106%", "65%", "Code parity; GBR real but slow; Solutions +8–10%; Intl breakeven",
-  "Bull", "+218%", "15%", "PAYG success; Wave-2 accelerates; Solutions >15% growth",
+  "Bear", "−20%", "20%", "GBR privileged access; Solutions <8% growth; second commission cut",
+  "Base", "+95%", "65%", "Code parity; GBR real but slow; Solutions +8–10%; Intl breakeven",
+  "Bull", "+200%","15%", "PAYG success; Wave-2 accelerates; Solutions >15% growth",
 )
 
 #memo-rule("Risks & Monitors")
@@ -507,14 +507,14 @@ stagnating, and International never scaling, simultaneously.
 )
 
 #memo-kv((
-  ("Asset Class",   "Thematic ETF — European Defence"),
-  ("Idea Category", "Macro Thematic / Fiscal Cycle"),
-  ("Entry",         "€34.50 — 27/05/2026"),
-  ("Target",        "€45.10 — +31%"),
-  ("Stop Loss",     "€31.05 — −10%"),
+  ("Asset Class",   "Thematic ETF: European Defence"),
+  ("Idea Category", "Growth"),
+  ("Entry",         "€31.38 · 07/05/2026"),
+  ("Target",        "€41.10 · +31%"),
+  ("Stop Loss",     "€28.25 · −10%"),
   ("R/R",           "1:3"),
   ("Horizon",       "12–18 months"),
-  ("Conviction",    "Medium-High — Initiated"),
+  ("EV",            "+28%"),
 ))
 
 #memo-rule("Thesis")
@@ -524,17 +524,17 @@ to 3~%+, and ReArm Europe adds €800bn in dedicated procurement. European
 defence primes are the direct beneficiaries, with order books at record highs
 and 3–5 year conversion visibility.
 
-*Edge:* Order-to-revenue conversion lags mean 2027–2028 consensus estimates are still being revised upward — the upgrade cycle is early.
+*Edge:* Order-to-revenue conversion lags mean 2027–2028 consensus estimates are still being revised upward; the upgrade cycle is early.
 
 *Driver:* Re-rating toward US defence peer multiples as procurement commitments convert to contracts and earnings visibility extends.
 
 #memo-rule("Catalysts & Scenarios")
 
-*C1:* NATO Summit spending pledges — June 2026; member state commitments upgraded
+*C1:* NATO Summit spending pledges, June 2026; member state commitments upgraded
 
-*C2:* ReArm Europe contract announcements — Q3/Q4 2026; order intake acceleration
+*C2:* ReArm Europe contract announcements, Q3/Q4 2026; order intake acceleration
 
-*C3:* European defence H1 earnings — Jul/Aug 2026; guidance upgrades across primes
+*C3:* European defence H1 earnings, Jul/Aug 2026; guidance upgrades across primes
 
 #v(6pt)
 
@@ -565,18 +565,18 @@ and 3–5 year conversion visibility.
 #memo-header(
   ticker:  "XLUS",
   name:    "Invesco S&P 500 Utilities Sector UCITS ETF (Acc)",
-  tagline: "Defensive rotation into US utilities: structural power-demand growth from AI and electrification, plus a falling-rate backdrop — held accumulating so the ~3% underlying yield compounds inside the fund.",
+  tagline: "Defensive rotation into US utilities: structural power-demand growth from AI and electrification, plus a falling-rate backdrop; held accumulating so the ~3% underlying yield compounds inside the fund.",
 )
 
 #memo-kv((
-  ("Asset Class",   "Sector ETF — Synthetic, Swap-Based"),
+  ("Asset Class",   "Sector ETF: Synthetic, Swap-Based"),
   ("Idea Category", "Defensive Rotation"),
-  ("Entry",         "$645 — 20/05/2026"),
-  ("Target",        "$715 — +10%"),
-  ("Stop Loss",     "$595 — −8%"),
-  ("R/R",           "1:1.4"),
+  ("Entry",         "$657.50 · 08/05/2026"),
+  ("Target",        "$723 · +10%"),
+  ("Stop Loss",     "$605 · −8%"),
+  ("R/R",           "1:1.25"),
   ("Horizon",       "6–12 months"),
-  ("Conviction",    "Medium — Initiated"),
+  ("EV",            "+6%"),
 ))
 
 #memo-rule("Thesis")
@@ -594,11 +594,11 @@ reversed. The Acc wrapper compounds the ~3~% underlying yield inside the fund.
 
 #memo-rule("Catalysts & Scenarios")
 
-*C1:* Fed rate path — FOMC June 16–17 2026; further cuts lower utility WACC and re-rate long-duration cash flows
+*C1:* Fed rate path, FOMC June 16–17 2026; further cuts lower utility WACC and re-rate long-duration cash flows
 
-*C2:* AI/data-centre capex guidance upgrades — raised utility capex plans and ISO/RTO load forecasts confirming structural demand
+*C2:* AI/data-centre capex guidance upgrades; raised utility capex plans and ISO/RTO load forecasts confirming structural demand
 
-*C3:* Utility Q2 earnings — Jul/Aug 2026; rate-base and connection pipeline guidance
+*C3:* Utility Q2 earnings, Jul/Aug 2026; rate-base and connection pipeline guidance
 
 #v(6pt)
 
@@ -621,7 +621,7 @@ reversed. The Acc wrapper compounds the ~3~% underlying yield inside the fund.
 )
 
 #v(6pt)
-*Next review:* FOMC 17/06/2026 · Utility Q2 earnings Jul/Aug 2026 · *Exit rules:* stop at \$595 · full exit at −10%
+*Next review:* FOMC 17/06/2026 · Utility Q2 earnings Jul/Aug 2026 · *Exit rules:* stop at \$605 · full exit at −10%
 
 // ── AIXA ─────────────────────────────────────────────────────
 
@@ -633,34 +633,34 @@ reversed. The Acc wrapper compounds the ~3~% underlying yield inside the fund.
 )
 
 #memo-kv((
-  ("Asset Class",   "Equity — Small/Mid Cap Tech"),
-  ("Idea Category", "Contrarian Re-rating / AI Infrastructure"),
-  ("Entry",         "€13.20 — 27/05/2026"),
-  ("Target",        "€18.50 — +40%"),
-  ("Stop Loss",     "€11.20 — −15%"),
-  ("R/R",           "1:2.5"),
+  ("Asset Class",   "Equity: Small/Mid Cap Tech"),
+  ("Idea Category", "Growth"),
+  ("Entry",         "€49.16 · 07/05/2026"),
+  ("Target",        "€68.82 · +40%"),
+  ("Stop Loss",     "€41.79 · −15%"),
+  ("R/R",           "1:2.7"),
   ("Horizon",       "18–24 months"),
-  ("Conviction",    "Medium — Initiated"),
+  ("EV",            "+31%"),
 ))
 
 #memo-rule("Thesis")
 
 Aixtron is the dominant supplier of MOCVD reactors for GaN and SiC power
-devices — structurally necessary for AI data centre power efficiency and EV
+devices, which are structurally necessary for AI data centre power efficiency and EV
 charging. The stock is de-rated on EV softness while its data centre and
 industrial segments accelerate.
 
-*Edge:* Consensus anchors on EV softness while data centre GaN adoption accelerates — not yet in estimates.
+*Edge:* Consensus anchors on EV softness while data centre GaN adoption accelerates, not yet in estimates.
 
 *Driver:* Order intake inflection from data centre design-wins and European industrial electrification.
 
 #memo-rule("Catalysts & Scenarios")
 
-*C1:* Q2/Q3 2026 order intake recovery — primary confirmation of data centre demand
+*C1:* Q2/Q3 2026 order intake recovery, primary confirmation of data centre demand
 
 *C2:* Data centre GaN design-win announcements from major hyperscalers
 
-*C3:* EV order stabilisation — removes the primary bear narrative
+*C3:* EV order stabilisation, which removes the primary bear narrative
 
 #v(6pt)
 
