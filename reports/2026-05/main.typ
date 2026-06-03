@@ -162,7 +162,7 @@
   over growth support in an environment where inflation expectations risk
   becoming unanchored.
 
-  == Semiconductors and AI — A Cyber Rally?
+  == Semiconductors and AI: A Cyber Rally?
 
   Despite inflationary pressures, the global capex cycle is helping keep markets
   relatively resilient. More countries are investing domestically in a push
@@ -180,12 +180,12 @@
   The first ceasefire brokered between Ukraine and Russia ran from 9–11 May.
   Putin has alluded to the war "coming to an end", and the situation appears to
   be calming. In reality, Trump's declared peace talks seem deeply troubled.
-  Ukraine's confidence in U.S. peace-making capacity is shallow — and rightly
+  Ukraine's confidence in U.S. peace-making capacity is shallow, and rightly
   so. European defence spending continues to surge regardless, with Germany,
   Poland, and the Nordics all committing to budgets well above the NATO 2~%
   floor. If a peace deal materialises, a massive Ukraine reconstruction trade
-  will be unlocked — the World Bank estimates reconstruction costs at over
-  \$500bn — though this does not appear imminent.
+  will be unlocked (the World Bank estimates reconstruction costs at over
+  \$500bn), though this does not appear imminent.
 
   == Dollar Weakness and the Gold Run
 
@@ -588,7 +588,7 @@ and 3–5 year conversion visibility.
 
 #memo-kv((
   ("Asset Class",   "Sector ETF: Synthetic, Swap-Based"),
-  ("Idea Category", "Defensive Rotation"),
+  ("Idea Category", "Growth"),
   ("Entry",         "$657.50 · 08/05/2026"),
   ("Target",        "$723 · +10%"),
   ("Stop Loss",     "$605 · −8%"),
