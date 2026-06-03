@@ -213,7 +213,7 @@
 
 #memo-kv((
   ("Asset Class",   "Sector ETF"),
-  ("Idea Category", "Sector Re-rating"),
+  ("Idea Category", "Cyclical"),
   ("Entry",         "€15.01 · 07/05/2026"),
   ("Target",        "€18.01 · +20%"),
   ("Stop Loss",     "€13.51 · −10%"),
@@ -276,7 +276,7 @@ channel. The market is pricing the sector on near-term stagflation (3.0~% CPI,
 
 #memo-kv((
   ("Asset Class",   "Single Stock: Large Cap Bank"),
-  ("Idea Category", "Growth"),
+  ("Idea Category", "Average Grower"),
   ("Entry",         "€10.55 · 08/05/2026"),
   ("Target",        "€13.19 · +25%"),
   ("Stop Loss",     "€9.50 · −10%"),
@@ -340,7 +340,7 @@ anchoring on ECB uncertainty.
 
 #memo-kv((
   ("Asset Class",   "Sector ETF: Large Cap Semis"),
-  ("Idea Category", "Growth / AI Infrastructure"),
+  ("Idea Category", "Growth"),
   ("Entry",         "$83.80 · 07/05/2026"),
   ("Target",        "$104.75 · +25%"),
   ("Stop Loss",     "$71.25 · −15%"),
@@ -401,7 +401,7 @@ designers, foundries, and equipment makers across the semiconductor value chain.
 
 #memo-kv((
   ("Asset Class",   "Thematic ETF: Uranium and Nuclear"),
-  ("Idea Category", "Structural / Commodity"),
+  ("Idea Category", "Cyclical"),
   ("Entry",         "$35.00 · 08/05/2026"),
   ("Target",        "$50.75 · +45%"),
   ("Stop Loss",     "$28.00 · −20%"),
@@ -526,7 +526,7 @@ stagnating, and International never scaling, simultaneously.
 
 #memo-kv((
   ("Asset Class",   "Thematic ETF: European Defence"),
-  ("Idea Category", "Growth"),
+  ("Idea Category", "Cyclical"),
   ("Entry",         "€31.38 · 07/05/2026"),
   ("Target",        "€41.10 · +31%"),
   ("Stop Loss",     "€28.25 · −10%"),
@@ -588,7 +588,7 @@ and 3–5 year conversion visibility.
 
 #memo-kv((
   ("Asset Class",   "Sector ETF: Synthetic, Swap-Based"),
-  ("Idea Category", "Growth"),
+  ("Idea Category", "Cyclical"),
   ("Entry",         "$657.50 · 08/05/2026"),
   ("Target",        "$723 · +10%"),
   ("Stop Loss",     "$605 · −8%"),
@@ -652,7 +652,7 @@ reversed. The Acc wrapper compounds the ~3~% underlying yield inside the fund.
 
 #memo-kv((
   ("Asset Class",   "Equity: Small/Mid Cap Tech"),
-  ("Idea Category", "Growth"),
+  ("Idea Category", "Valuation"),
   ("Entry",         "€49.16 · 07/05/2026"),
   ("Target",        "€68.82 · +40%"),
   ("Stop Loss",     "€41.79 · −15%"),
