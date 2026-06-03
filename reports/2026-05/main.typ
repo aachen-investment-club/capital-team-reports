@@ -210,7 +210,7 @@
 
 #memo-kv((
   ("Asset Class",   "Sector ETF"),
-  ("Idea Category", "Sector Re-rating"),
+  ("Idea Category", "Cyclical"),
   ("Entry",         "€15.01 (07/05/2026)"),
   ("Target",        "€18.01 (+20%)"),
   ("Stop Loss",     "€13.51 (−10%)"),
@@ -260,7 +260,7 @@ channel. The market is pricing the sector on near-term stagflation (3.0~% CPI,
 )
 
 #v(6pt)
-*Next review:* ECB 05/06/2026 · Q2 bank earnings Jul 2026 · *Exit rules:* full exit at −10%
+*Next review:* ECB 05/06/2026 · Q2 bank earnings Jul 2026
 
 
 // ── SAN ──────────────────────────────────────────────────────
@@ -273,8 +273,8 @@ channel. The market is pricing the sector on near-term stagflation (3.0~% CPI,
 )
 
 #memo-kv((
-  ("Asset Class",   "Equity: Large Cap Financial"),
-  ("Idea Category", "Cyclical"),
+  ("Asset Class",   "Stock"),
+  ("Idea Category", "Average Grower"),
   ("Entry",         "€10.86 (08/05/2026)"),
   ("Target",        "€13.58 (+25%)"),
   ("Stop Loss",     "€9.77 (−10%)"),
@@ -325,7 +325,7 @@ anchoring on ECB uncertainty.
 )
 
 #v(6pt)
-*Next review:* ECB 05/06/2026 · H1 2026 earnings Jul 2026 · *Exit rules:* full exit at −10%
+*Next review:* ECB 05/06/2026 · H1 2026 earnings Jul 2026
 
 
 // ── WDEF ─────────────────────────────────────────────────────
@@ -338,10 +338,10 @@ anchoring on ECB uncertainty.
 )
 
 #memo-kv((
-  ("Asset Class",   "Thematic ETF"),
-  ("Idea Category", "Growth"),
+  ("Asset Class",   "Sector ETF"),
+  ("Idea Category", "Cyclical"),
   ("Entry",         "€31.38 (07/05/2026)"),
-  ("Target",        "€41.10 (+31%)"),
+  ("Target",        "€40.79 (+30%)"),
   ("Stop Loss",     "€28.25 (−10%)"),
   ("Risk/Return","1:3"),
   ("Horizon",       "12–18 months"),
@@ -387,7 +387,7 @@ and 3–5 year conversion visibility.
 )
 
 #v(6pt)
-*Next review:* NATO Summit Jun 2026 · European defence earnings Aug 2026 · *Exit rules:* full exit at −10%
+*Next review:* NATO Summit Jun 2026 · European defence earnings Aug 2026
 
 
 // ── SMH ──────────────────────────────────────────────────────
@@ -399,7 +399,7 @@ and 3–5 year conversion visibility.
   tagline: "Physical AI infrastructure requires semiconductors; hyperscaler CapEx is accelerating beyond prior forecasts and the earnings revision cycle in SMH's underlying holdings is still in motion.",
 )
 #memo-kv((
-  ("Asset Class",   "Sector ETF: Large Cap Semis"),
+  ("Asset Class",   "Sector ETF"),
   ("Idea Category", "Growth"),
   ("Entry",         "$83.80 (07/05/2026)"),
   ("Target",        "$104.75 (+25%)"),
@@ -448,7 +448,7 @@ designers, foundries, and equipment makers across the semiconductor value chain.
 )
 
 #v(6pt)
-*Next review:* Hyperscaler earnings Jul/Aug 2026 · *Exit rules:* full exit at −15%
+*Next review:* Hyperscaler earnings Jul/Aug 2026
 
 // ── AIXA ─────────────────────────────────────────────────────
 
@@ -460,7 +460,7 @@ designers, foundries, and equipment makers across the semiconductor value chain.
 )
 
 #memo-kv((
-  ("Asset Class",   "Equity: Mid Cap Tech"),
+  ("Asset Class",   "Stock"),
   ("Idea Category", "Growth"),
   ("Entry",         "€49.16 (07/05/2026)"),
   ("Target",        "€68.82 (+40%)"),
@@ -473,7 +473,7 @@ designers, foundries, and equipment makers across the semiconductor value chain.
 #memo-rule("Thesis")
 
 Aixtron is the dominant supplier of MOCVD reactors for GaN and SiC power
-devices, which arestructurally necessary for AI data centre power efficiency and EV
+devices, which are structurally necessary for AI data centre power efficiency and EV
 charging. The stock is de-rated on EV softness while its data centre and
 industrial segments accelerate.
 
@@ -510,8 +510,7 @@ industrial segments accelerate.
 )
 
 #v(6pt)
-*Next review:* Q2 2026 results · Data centre design-win announcements · *Exit rules:* full exit at −15%
-
+*Next review:* Q2 2026 results · Data centre design-win announcements
 
 // ── XLUS ─────────────────────────────────────────────────────
 
@@ -524,7 +523,7 @@ industrial segments accelerate.
 
 #memo-kv((
   ("Asset Class",   "Synthetic Sector ETF"),
-  ("Idea Category", "Defensive Rotation"),
+  ("Idea Category", "Cyclical"),
   ("Entry",         "$657.50 (08/05/2026)"),
   ("Target",        "$723 (+10%)"),
   ("Stop Loss",     "$605 (−8%)"),
@@ -575,21 +574,21 @@ reversed. The Acc wrapper compounds the ~3~% underlying yield inside the fund.
 )
 
 #v(6pt)
-*Next review:* FOMC 17/06/2026 · Utility Q2 earnings Jul/Aug 2026 · *Exit rules:* stop at \$605 · full exit at −10%
+*Next review:* FOMC 17/06/2026 · Utility Q2 earnings Jul/Aug 2026
 
 
 // ── URA ──────────────────────────────────────────────────────
 
 #pagebreak()
 #memo-header(
-  ticker:  "URA",
+  ticker:  "URNU",
   name:    "Global X Uranium UCITS ETF USD-A",
   tagline: "Structural uranium supply deficit meets AI-driven power demand; a multi-year buildout cycle and sovereign reshoring of the nuclear supply chain underpin a long-duration thematic trade.",
 )
 
 #memo-kv((
-  ("Asset Class",   "Thematic ETF"),
-  ("Idea Category", "Structural/Commodity"),
+  ("Asset Class",   "Sector ETF"),
+  ("Idea Category", "Cyclical/Commodity"),
   ("Entry",         "$35.00 (08/05/2026)"),
   ("Target",        "$50.75 (+45%)"),
   ("Stop Loss",     "$29.75 (−15%)"),
@@ -638,7 +637,7 @@ the long-term contract price of \$93/lb confirms genuine utility demand.
 )
 
 #v(6pt)
-*Next review:* Quarterly uranium market reports · US reactor licensing updates · *Exit rules:* full exit at −20%
+*Next review:* Quarterly uranium market reports · US reactor licensing updates
 
 
 // ── TRN ──────────────────────────────────────────────────────
@@ -651,13 +650,13 @@ the long-term contract price of \$93/lb confirms genuine utility demand.
 )
 
 #memo-kv((
-  ("Asset Class",   "Equity: Mid Cap"),
+  ("Asset Class",   "Stock"),
   ("Idea Category", "Valuation"),
   ("Entry",         "235p (08/05/2026)"),
   ("Target",        "457p (+95%)"),
   ("Stop Loss",     "188p (−20%)"),
   ("Risk/Return","1:4.75"),
-  ("Horizon",       "24+ months"),
+  ("Horizon",       "2 years"),
   ("Expected Value","+88%"),
 ))
 
@@ -703,7 +702,7 @@ stagnating, and International never scaling, simultaneously.
 )
 
 #v(6pt)
-*Next review:* H1 FY2027 results Aug 2026 · PAYG trial outcome summer 2026 · *Exit rules:* full exit at −20%
+*Next review:* H1 FY2027 results Aug 2026 · PAYG trial outcome summer 2026
 
 
 // ── PORTFOLIO SNAPSHOT (light) ──────────────────────────────
