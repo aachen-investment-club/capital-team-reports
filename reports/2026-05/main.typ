@@ -21,31 +21,49 @@
 #dark-page(logo: image("../../assets/logo-white.png", width: 3.5cm))[
   = Executive Summary
 
-  Over the past few weeks, we have opened our starter positions, launched the
-  official portfolio website, and published our first portfolio report.
+  Over the past month, we have opened our starter positions, launched the
+  official capital team website, and published our first portfolio report for
+  April. This report covers the period since inception in May and is the first
+  to include performance metrics.
 
   #v(10pt)
-
-  In the first investment round in April, we allocated 30~% of total capital to
-  starter positions, weighted using classical Markowitz optimisation. The second
-  investment round will include both new starter positions and the opportunity to
-  scale up existing ones. Scaling decisions will be driven entirely by our
-  evaluation of each position's performance and a review of its underlying
-  thesis. We are targeting equity holdings in excess of 50~% and do not plan to
-  exit any current positions at this time.
+  Over the reporting period, the portfolio returned −0.08~%, against benchmark
+  returns of 0.08~% (MSCI Europe), 1.15~% (60/40), and 2.92~% (S&P 500). With
+  only 30~% of capital currently deployed and the remainder held in cash, the
+  portfolio carries low volatility and is not expected to track these benchmarks
+  at this stage. The near-flat result is encouraging: our deployed positions have
+  effectively offset the substantial transaction costs incurred at launch, which
+  were sizeable relative to our current NAV. With only one month of data, we are
+  not yet reporting standalone risk metrics; these will follow as the track
+  record matures.
 
   #v(10pt)
+  In the first investment round at the beginning of May, we allocated 30~% of
+  total capital to starter positions, weighted using classical Markowitz
+  optimisation. The second investment round will include both new starter
+  positions and the opportunity to scale up existing ones. Scaling decisions
+  will be driven entirely by our evaluation of each position's performance and
+  a review of its underlying thesis. We are targeting equity holdings in excess
+  of 50~% and do not plan to exit any current positions at this time.
 
+  #v(10pt)
   With the official portfolio launch, we have expanded our team. We are pleased
   to welcome five new members, who will be introduced later in this report.
   Their expertise and energy will be valuable assets as we continue to grow the
   portfolio. We also wish Josephine all the best in her future endeavours.
 
   #v(10pt)
+  Performance is evaluated against several benchmarks, including the 60/40
+  balanced portfolio, MSCI Europe, and S&P 500. For a comparison of daily
+  returns, see @returns-daily. The remainder of this report consists of
+  investment memos detailing the thesis behind each of our starter positions,
+  concluding with an overview of our current holdings and executed trades.
 
-  Portfolio performance will be evaluated against several benchmarks across
-  return and risk metrics, including the MSCI Europe, S&P 500, and a 60/40
-  portfolio, among others.
+  #v(14pt)
+  #figure(
+    image("../../assets/2026-05/returns_daily.png", width: 100%),
+    caption: [Daily Portfolio Returns vs Benchmarks],
+  ) <returns-daily>
 ]
 
 // ── 3. TEAM (dark page) ─────────────────────────────────────
@@ -685,7 +703,83 @@ industrial segments accelerate.
 #v(6pt)
 *Next review:* Q2 2026 results · Data centre design-win announcements · *Exit rules:* full exit at −15%
 
-// ── 5. FINAL PAGE (dark) ────────────────────────────────────
+// ── 5. PORTFOLIO SNAPSHOT (light) ───────────────────────────
+#pagebreak()
+= Portfolio Snapshot
+
+#portfolio-table((
+  (
+    name: "AI INFRASTRUCTURE", nav: "5.34%", ret: "+0.88%",
+    positions: (
+      (symbol: "SMH",  name: "VanEck Semiconductor ETF",  isin: "IE00BMC38736", nav: "2.68%", ret: "+2.42%"),
+      (symbol: "AIXA", name: "Aixtron SE",                isin: "DE000A0WMPJ6", nav: "2.66%", ret: "−0.66%"),
+    ),
+  ),
+  (
+    name: "EU FINANCIALS", nav: "7.65%", ret: "−1.26%",
+    positions: (
+      (symbol: "ESIF", name: "iShares Europe Financials EUR A", isin: "IE00BMW42306", nav: "3.83%", ret: "−1.09%"),
+      (symbol: "SAN",  name: "Banco Santander SA",              isin: "ES0113900J37", nav: "3.82%", ret: "−1.43%"),
+    ),
+  ),
+  (
+    name: "EU SOVEREIGNTY", nav: "7.71%", ret: "+1.12%",
+    positions: (
+      (symbol: "WDEF", name: "WisdomTree Europe Defence UCITS ETF", isin: "IE0002Y8CX98", nav: "7.71%", ret: "+1.12%"),
+    ),
+  ),
+  (
+    name: "ENERGY DEMAND", nav: "3.97%", ret: "−9.92%",
+    positions: (
+      (symbol: "XLUS", name: "Invesco US Utilities S&P",     isin: "IE00B3VPKB53", nav: "2.25%", ret: "−4.41%"),
+      (symbol: "URNU", name: "Global X Uranium UCITS USD-A", isin: "IE000NDWFGA5", nav: "1.71%", ret: "−17.16%"),
+    ),
+  ),
+  (
+    name: "SINGLE POSITIONS", nav: "1.62%", ret: "−13.72%",
+    positions: (
+      (symbol: "TRNl", name: "Trainline PLC", isin: "GB00BKDTK925", nav: "1.62%", ret: "−13.72%"),
+    ),
+  ),
+  (
+    name: "CASH", nav: "73.26%", ret: "+0.02%",
+    positions: (
+      (symbol: "CASH_EUR", name: "Euro Cash",          isin: "", nav: "49.81%", ret: ""),
+      (symbol: "CASH_USD", name: "US Dollar Cash",     isin: "", nav: "15.96%", ret: "+0.53%"),
+      (symbol: "CASH_GBP", name: "British Pound Cash", isin: "", nav: "7.50%",  ret: "−0.97%"),
+    ),
+  ),
+))
+
+#v(12pt)
+#grid(
+  columns: (1fr, 1fr),
+  gutter: 0pt,
+  figure(image("../../assets/2026-05/weights_by_position.png", width: 100%), caption: [Positions Weighting]),
+  figure(image("../../assets/2026-05/weights_by_theme.png",    width: 100%), caption: [Themes Weighting]),
+)
+
+// ── 6. TRADE LOG (light) ────────────────────────────────────
+#pagebreak()
+= Executed Trades
+
+#v(4pt)
+#data-table(
+  (auto, auto, auto, auto, auto, auto),
+  ("Date", "Symbol", "Name", "Side", [Votes#footnote[In favour / against / abstain]], "Notice"),
+  "07 May 2026", "AIXA",    "Aixtron SE",                          "BUY",  "7 / 0 / 1", "Starter Position",
+  "07 May 2026", "ESIF",    "iShares Europe Financials EUR A",     "BUY",  "7 / 0 / 1", "Starter Position",
+  "07 May 2026", "EUR.USD", "EUR/USD",                             "SELL", "",           "FX Conversion",
+  "07 May 2026", "SMH",     "VanEck Semiconductor ETF",            "BUY",  "7 / 0 / 1", "Starter Position",
+  "07 May 2026", "WDEF",    "WisdomTree Europe Defence UCITS ETF", "BUY",  "7 / 0 / 1", "Starter Position",
+  "08 May 2026", "EUR.GBP", "EUR/GBP",                             "SELL", "",           "FX Conversion",
+  "08 May 2026", "SAN",     "Banco Santander SA",                  "BUY",  "7 / 0 / 1", "Starter Position",
+  "08 May 2026", "TRNl",    "Trainline PLC",                       "BUY",  "7 / 0 / 1", "Starter Position",
+  "08 May 2026", "URNU",    "Global X Uranium UCITS USD-A",        "BUY",  "8 / 0 / 0", "Starter Position",
+  "08 May 2026", "XLUS",    "Invesco US Utilities S&P",            "BUY",  "6 / 0 / 2", "Starter Position",
+)
+
+// ── 7. FINAL PAGE (dark) ────────────────────────────────────
 #dark-page(logo: image("../../assets/logo-white.png", width: 3.5cm))[
   = Disclosures
 
@@ -711,12 +805,31 @@ industrial segments accelerate.
 
   = Imprint
 
-  *Aachen Investment Club e.V.* — RWTH Aachen University, Aachen, Germany
+  #v(4pt)
+  #grid(
+    columns: (90pt, 1fr),
+    row-gutter: 5pt,
+    column-gutter: 14pt,
+    text(fill: rgb("#8fafd8"), weight: "bold", size: 8pt)[Publisher],
+    [Aachen Investment Club e.V. \ Pontwall 3 · 52062 Aachen · Deutschland],
 
-  *Responsible for content:* Mathis Makarski (Portfolio Manager)
+    [#v(4pt)], [],
 
-  *Contact:* capital\@aachen-investment-club.de
+    text(fill: rgb("#8fafd8"), weight: "bold", size: 8pt)[Register],
+    [Amtsgericht Aachen · VR 6216 · Hauptsitz Aachen],
 
-  *Published:* May 2026 · © 2026 Aachen Investment Club e.V.
+    [#v(4pt)], [],
+
+    text(fill: rgb("#8fafd8"), weight: "bold", size: 8pt)[Responsible],
+    [Mathis Makarski (Portfolio Manager)],
+
+    text(fill: rgb("#8fafd8"), weight: "bold", size: 8pt)[Contact],
+    [mathis.makarski\@aic.rwth-aachen.de],
+
+    [#v(4pt)], [],
+
+    text(fill: rgb("#8fafd8"), weight: "bold", size: 8pt)[Published],
+    [May 2026 · © 2026 Aachen Investment Club e.V.],
+  )
 ]
 
