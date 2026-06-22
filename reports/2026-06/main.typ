@@ -27,7 +27,10 @@
   to later.
 
   #v(10pt)
-  Stats...
+  The portfolio returned *+1.72%* month-to-date and *+1.63%* year-to-date, with a
+  one-day move of *−0.10%*. Annualised volatility stands at *7.8%*, producing a
+  Sharpe ratio of *1.15*. Correlation to the S&P 500 is *0.02*, reflecting the
+  portfolio's low dependence on broad equity market direction.
 
   #v(10pt)
   In the second investment round, we aimed to allocate 20~% of capital to scale
@@ -37,7 +40,8 @@
 
   #v(10pt)
   The team is looking to continue its growth, but for now we are wishing Yuri
-  all the best.
+  all the best. Justus has also been appointed Head of Research, helping to
+  structure our research methodology going forward.
 
   #v(10pt)
   Performance is evaluated against several benchmarks, including the
@@ -48,8 +52,8 @@
 
   #v(14pt)
   #figure(
-    image("../../assets/2026-05/returns_daily.png", width: 100%),
-    caption: [Daily Portfolio Returns vs Benchmarks],
+    image("../../assets/2026-06/returns.png", width: 100%),
+    caption: [Portfolio Returns vs Benchmarks],
   ) <returns-daily>
 ]
 
@@ -162,6 +166,31 @@
   projects prices "toward \$5,000/oz by Q4 2026, with \$6,000/oz a
   possibility longer term."
 ]
+
+// ── EXPOSURE REVIEW ──────────────────────────────────────────
+
+#pagebreak()
+= Factor Exposure Review
+
+#text(size: 8pt, fill: rgb("#6b7280"), style: "italic")[June 2026 average]
+
+#v(10pt)
+#figure(
+  image("../../assets/2026-06/market_factor_exposure.png", width: 100%),
+  caption: [Factor Exposures by Market],
+)
+
+#v(6pt)
+#figure(
+  image("../../assets/2026-06/individual_position_exposure.png", width: 100%),
+  caption: [Factor Exposures by Position],
+)
+
+#v(6pt)
+#figure(
+  image("../../assets/2026-06/portfolio_factor_tilts.png", width: 100%),
+  caption: [Portfolio Factor Tilts],
+)
 
 // ── PURR ─────────────────────────────────────────────────────
 
