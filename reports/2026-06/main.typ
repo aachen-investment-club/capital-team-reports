@@ -174,22 +174,22 @@
 
 #text(size: 8pt, fill: rgb("#6b7280"), style: "italic")[June 2026 average]
 
-#v(10pt)
+#v(6pt)
 #figure(
   image("../../assets/2026-06/market_factor_exposure.png", width: 100%),
   caption: [Factor Exposures by Market],
 )
 
-#v(6pt)
+#v(2pt)
 #figure(
   image("../../assets/2026-06/individual_position_exposure.png", width: 100%),
   caption: [Factor Exposures by Position],
 )
 
-#v(6pt)
+#v(2pt)
 #figure(
   image("../../assets/2026-06/portfolio_factor_tilts.png", width: 100%),
-  caption: [Portfolio Factor Tilts],
+  caption: [Portfolio Factor Tilt],
 )
 
 // ── PURR ─────────────────────────────────────────────────────

@@ -90,7 +90,7 @@ _heatmap(
     mkt_data, mkt_rows, mkt_cols,
     "By Market",
     OUT / "market_factor_exposure.png",
-    figsize=(FIXED_WIDTH, 6),
+    figsize=(FIXED_WIDTH, 4.5),
 )
 
 
@@ -109,7 +109,7 @@ _heatmap(
     pos_data, pos_rows, pos_cols,
     "By Position",
     OUT / "individual_position_exposure.png",
-    figsize=(FIXED_WIDTH, 3.2),
+    figsize=(FIXED_WIDTH, 2.4),
     cbar_label="Z-score",
 )
 
@@ -119,7 +119,7 @@ _heatmap(
 tilt_factors = ["Growth", "Momentum", "Volatility", "Value", "Liquidity"]
 tilt_values  = [2.25, 2.16, 2.13, -0.31, -1.28]
 
-fig, ax = plt.subplots(figsize=(8, 4), facecolor="none")
+fig, ax = plt.subplots(figsize=(8, 2.8), facecolor="none")
 
 colors = ["#16a34a" if v >= 0 else "#dc2626" for v in tilt_values]
 bars = ax.barh(tilt_factors, tilt_values, color=colors,
