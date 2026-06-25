@@ -27,9 +27,9 @@
   to later.
 
   #v(10pt)
-  The portfolio returned *+1.72%* month-to-date and *+1.63%* year-to-date, with a
-  one-day move of *−0.10%*. Annualised volatility stands at *7.8%*, producing a
-  Sharpe ratio of *1.15*. Correlation to the S&P 500 is *0.02*, reflecting the
+  The portfolio returned +1.72% month-to-date and +1.63% year-to-date, with a
+  one-day move of −0.10%. Annualised volatility stands at 7.8%, producing a
+  Sharpe ratio of 1.15. Correlation to the S&P 500 is 0.02, reflecting the
   portfolio's low dependence on broad equity market direction.
 
   #v(10pt)
@@ -86,85 +86,83 @@
 = Market Environment
 
 #columns(2, gutter: 16pt)[
-  == The Conflict in the Middle East
+  == Fed Holds Rates Steady
 
-  As the month of May comes to an end, a certain end to the conflict is still
-  nowhere to be seen. Despite statements of progress from U.S. officials, there
-  has been no confirmation of any commitments from either side: shots have been
-  fired by both parties, and Trump has threatened full-scale war. As the
-  escalation continues, the closure of the Strait of Hormuz has triggered a
-  severe negative supply shock, abruptly halting the pre-conflict momentum that
-  had global growth projected at 3.4~%. According to the IMF's reference
-  forecast, even a short-lived temporary disruption of this magnitude will cause
-  a 19~% spike in energy commodities, dragging global growth down to 3.1~% and
-  driving headline inflation up to 4.4~%. The rise in oil prices is seen as a
-  disruptor in terms of economic growth, undoing the recent progress on
-  inflation. Central banks are now enforcing higher interest rates and tighter
-  monetary policy. Due to these policies, investors are beginning to flee to
-  safer assets, strengthening the dollar but weakening the stock market. The
-  IMF warns that a resolution needs to be found as soon as possible in ensuring
-  energy security and the reopening of the Strait of Hormuz.
+  On June 17, 2026, the first FOMC meeting ends with no change in interest
+  rates, keeping the rate range between 3.5~% and 3.75~%. The Fed stated that
+  a rate hike is still possible, consistent with the hawkish tone of the
+  post-meeting statement, which laid out intentions to bring inflation back to
+  the 2~% target. Nine members expect at least one hike in 2026, eight expect
+  rates to remain steady, and one projects a cut. Kevin Warsh did not submit a
+  forecast, consistent with his longstanding opposition to forward guidance.
+  The median end-2026 rate projection rose to 3.8~%, up from 3.4~% in March,
+  reinforcing the case for a hike later this year. The FOMC also confirmed it
+  will maintain an ample-reserves regime to keep short-term rates anchored.
 
-  == Inflation and Interest Expectations
+  == ECB Raises Rates
 
-  The US CPI reached a seasonally adjusted increase of 0.6~% in April 2026,
-  putting the one-year pace at 3.8~%, the highest since May 2023, and
-  significantly above the Federal Reserve's 2~% target. Fed Chair Kevin Warsh
-  will not be in a position to push rates lower. A significant inflationary
-  driver has been energy prices, which jumped 3.8~%. Trump's global tariff
-  dynamic has added further pressure. Chris Zaccarelli, CIO at Northlight Asset
-  Management, speculates that the Fed will be forced to hike rates, a view
-  shared by the general consensus. The US economy has proved resilient so far,
-  but if inflation persists at these levels, the risk of recession becomes
-  harder to dismiss. Consumer confidence surveys have already begun to soften,
-  suggesting that the lagged effects of higher borrowing costs are beginning
-  to reach household balance sheets.
+  The ECB raised all three key rates by 25 basis points, the first hike in
+  nearly three years, bringing the deposit facility, main refinancing, and
+  marginal lending rates to 2.25~%, 2.40~%, and 2.65~% respectively. Rates
+  had last been raised in September 2023, when the deposit facility peaked at
+  4.0~%. The decision was driven by inflation pressure stemming from the
+  conflict in the Middle East. Headline inflation rose to 3.2~% in May from
+  3.0~% in April, with core inflation up to 2.5~% from 2.2~%. Food inflation
+  bucked the trend, easing from 2.4~% to 2.0~%. Energy inflation ticked up to
+  10.9~% and is expected to remain elevated until H1 2027, with a return to
+  the 2~% target not expected until the second half of that year.
 
-  For the Eurozone, the story is similar. The one-year pace hit 3.0~% in April
-  2026, the highest since September 2023; the UK reached 3.2~%. Energy inflation
-  ran at an annual rate of 10.8~% in April, up from 5.1~% in March. The ECB
-  remains determined and held rates unchanged in April, prioritising credibility
-  over growth support in an environment where inflation expectations risk
-  becoming unanchored.
+  == Iran War Resolution
 
-  == Semiconductors and AI: A Cyber Rally?
+  Some good news emerged as an initial deal was reached between the US and Iran,
+  with the main priority of reopening the Strait of Hormuz. This resulted in a
+  memorandum of understanding signed on 17 June at the Palace of Versailles
+  during the G7 summit, guaranteeing free passage for vessels for 60 days.
+  The US also committed to terminating all sanctions on Iran and unfreezing all
+  frozen Iranian assets. On 18 June, around 25 vessels passed through the
+  Strait, however complications arose with the creation of the newly formed
+  Persian Gulf Strait Authority, as Iran continued to assert authority over
+  passing ships. On 19 June, Trump announced a ceasefire between Israel and
+  Hezbollah in an attempt to stabilise the region, but that came to an abrupt
+  end as Israel continued to strike Lebanon. In direct retaliation, Iran
+  declared the Strait closed again. Peace talks in Switzerland are ongoing.
+  Only 12 ships crossed on 21 June. Markets appeared largely unmoved: Brent
+  was down just 0.9~% at \$80 a barrel, while Asian markets opened higher,
+  with the Nikkei up 1.8~%, KOSPI up 1.5~%, and TAIEX up 2.6~%.
 
-  Despite inflationary pressures, the global capex cycle is helping keep markets
-  relatively resilient. More countries are investing domestically in a push
-  toward self-sufficiency. NVIDIA is no longer the sole driver: despite
-  shattering records with data-centre revenue up 92~% YoY, the stock is up only
-  ~20~% YTD. Intel is up 200~% YoY; Micron, 150~%. Capex is flowing through
-  the entire supply chain. The breadth of this cycle distinguishes it from
-  prior semiconductor booms, which were concentrated in one or two lead names.
-  Even more impressively, cybersecurity has outpaced chips in May: an industry
-  many had written off as redundant in the age of AI now stands at the forefront
-  of growth.
+  == China Tightens Rare Earth Exports
 
-  == Developments in Russo-Ukrainian War
+  China identified 10 US firms linked to the American military and imposed a
+  ban on dual-use exports to these entities, prohibiting all global
+  organisations from supplying or transferring Chinese-origin dual-use goods
+  to the blacklisted groups. Among them is MP Materials, a Pentagon-backed
+  company that operates the only active rare earth mine in the United States,
+  a direct strike at Washington's efforts to build a domestic critical minerals
+  supply chain. The Chinese Finance Ministry also imposed a procurement embargo
+  on around 40 companies, barring Chinese government buyers from purchasing
+  from firms such as Raytheon and Lockheed Martin, in direct response to the
+  US adding Chinese firms to a Pentagon list of military-linked entities.
 
-  The first ceasefire brokered between Ukraine and Russia ran from 9�?"11 May.
-  Putin has alluded to the war "coming to an end", and the situation appears to
-  be calming. In reality, Trump's declared peace talks seem deeply troubled.
-  Ukraine's confidence in U.S. peace-making capacity is shallow, and rightly
-  so. European defence spending continues to surge regardless, with Germany,
-  Poland, and the Nordics all committing to budgets well above the NATO 2~%
-  floor. If a peace deal materialises, a massive Ukraine reconstruction trade
-  will be unlocked (the World Bank estimates reconstruction costs at over
-  \$500bn), though this does not appear imminent.
+  This matters because China produces approximately 60~% of global rare earth
+  output and processes around 90~% of all refining capacity, giving it
+  significant leverage over the components that underpin AI infrastructure.
+  A survey of IT and semiconductor firms found 56~% faced export licence
+  review times of over 180 days, with a third waiting more than 300 days,
+  pointing to growing friction in the supply chain.
 
-  == Dollar Weakness and the Gold Run
+  == New US Tariffs
 
-  The DXY has broken down to around 97, a four-year low. Most major banks are
-  forecasting further weakness through Q2 2026: Morgan Stanley projects it
-  "could fall to 94 in the second quarter of 2026." Tariff credibility damage,
-  fiscal concerns, and the overvaluation of 2025 have all stacked up. Amidst
-  dollar weakness and global conflict, gold continues to surge as a safe haven.
-  Central bank gold buying (particularly from China, India, and Turkey)
-  has added a structural bid beneath the commodity. This sovereign demand is
-  widely seen as a deliberate diversification away from dollar-denominated
-  reserves, reinforcing the long-term de-dollarisation trend. JP Morgan
-  projects prices "toward \$5,000/oz by Q4 2026, with \$6,000/oz a
-  possibility longer term."
+  In February, the US Supreme Court struck down Trump's IEEPA tariffs, bringing
+  the average effective tariff rate down to around 7~% by April. China remained
+  the highest-tariffed major trading partner at around 24~%. On 2 June, the
+  USTR proposed a new 12.5~% tariff on China under Section 301 of the Trade
+  Act of 1974, following forced labour investigations into 60 trading partners
+  launched in March. A 10~% tariff was applied to economies that have partially
+  banned forced-labour goods, and a further 12.5~% to other partners including
+  the EU, Brazil, and India. On 11 June, Trump announced a separate arrangement
+  with China, leaving a 30~% tariff in place. Analysts note that while the
+  Supreme Court ruling has slowed the pace of tariff action, it has not
+  deterred the administration from pursuing its broader trade agenda.
 ]
 
 // ── EXPOSURE REVIEW ──────────────────────────────────────────
