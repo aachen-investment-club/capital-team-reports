@@ -27,10 +27,11 @@
   to later.
 
   #v(10pt)
-  The portfolio returned +1.72% month-to-date and +1.63% year-to-date, with a
-  one-day move of −0.10%. Annualised volatility stands at 7.8%, producing a
-  Sharpe ratio of 1.15. Correlation to the S&P 500 is 0.02, reflecting the
-  portfolio's low dependence on broad equity market direction.
+  The portfolio returned −0.02% month-to-date and −0.11% year-to-date.
+  Annualised volatility stands at 8.3%. Correlation to the S&P 500 is 0.10,
+  reflecting the portfolio's low dependence on broad equity market direction.
+  Markets saw a broad sell-off this week, which accounted for the
+  loss in our performance.
 
   #v(10pt)
   In the second investment round, we aimed to allocate 20~% of capital to scale
@@ -45,15 +46,15 @@
 
   #v(10pt)
   Performance is evaluated against several benchmarks, including the
-  60/40 balanced portfolio, MSCI Europe, and S&P 500. For a comparison of
+  MSCI Europe and S&P 500. For a comparison of
   daily returns, see @returns-daily. The remainder of this report consists of
   investment memos detailing the thesis behind each of our starter positions,
   concluding with an overview of our current holdings and executed trades.
 
   #v(14pt)
   #figure(
-    image("../../assets/2026-06/returns.png", width: 100%),
-    caption: [Portfolio Returns vs Benchmarks],
+    image("../../assets/2026-06/returns_bar.png", width: 100%),
+    caption: [Daily Portfolio Returns vs Benchmarks],
   ) <returns-daily>
 ]
 
@@ -381,51 +382,51 @@ Processing fees for copper concentrate are approaching zero as smelter margins c
 
 #portfolio-table((
   (
-    name: "AI & SEMIS", nav: "13.79%", ret: "+13.92%",
+    name: "AI & SEMIS", nav: "13.06%", ret: "+6.66%",
     positions: (
-      (symbol: "SMH",  name: "VanEck Semiconductor ETF", isin: "IE00BMC38736", nav: "7.06%", ret: "+17.84%"),
-      (symbol: "AIXA", name: "Aixtron SE",               isin: "DE000A0WMPJ6", nav: "6.73%", ret: "+9.82%"),
+      (symbol: "SMH",  name: "VanEck Semiconductor ETF", isin: "IE00BMC38736", nav: "7.00%", ret: "+14.90%"),
+      (symbol: "AIXA", name: "Aixtron SE",               isin: "DE000A0WMPJ6", nav: "6.06%", ret: "-2.88%"),
     ),
   ),
   (
-    name: "COPPER", nav: "5.65%", ret: "-1.64%",
+    name: "COPPER", nav: "5.56%", ret: "-5.63%",
     positions: (
-      (symbol: "COPAl", name: "WT Copper", isin: "GB00B15KXQ89", nav: "5.65%", ret: "-1.64%"),
+      (symbol: "COPAl", name: "WT Copper", isin: "GB00B15KXQ89", nav: "5.56%", ret: "-5.63%"),
     ),
   ),
   (
-    name: "EU FINANCIALS", nav: "8.08%", ret: "+6.11%",
+    name: "EU FINANCIALS", nav: "8.29%", ret: "+7.02%",
     positions: (
-      (symbol: "SAN",  name: "Banco Santander SA",              isin: "ES0113900J37", nav: "4.13%", ret: "+8.44%"),
-      (symbol: "ESIF", name: "iShares Europe Financials EUR A", isin: "IE00BMW42306", nav: "3.95%", ret: "+3.68%"),
+      (symbol: "SAN",  name: "Banco Santander SA",              isin: "ES0113900J37", nav: "4.24%", ret: "+9.49%"),
+      (symbol: "ESIF", name: "iShares Europe Financials EUR A", isin: "IE00BMW42306", nav: "4.05%", ret: "+4.44%"),
     ),
   ),
   (
-    name: "EU SOVEREIGNTY", nav: "7.25%", ret: "-3.27%",
+    name: "EU SOVEREIGNTY", nav: "6.97%", ret: "-8.65%",
     positions: (
-      (symbol: "WDEF", name: "WisdomTree Europe Defence UCITS ETF", isin: "IE0002Y8CX98", nav: "7.25%", ret: "-3.27%"),
+      (symbol: "WDEF", name: "WisdomTree Europe Defence UCITS ETF", isin: "IE0002Y8CX98", nav: "6.97%", ret: "-8.65%"),
     ),
   ),
   (
-    name: "ENERGY DEMAND", nav: "3.85%", ret: "-11.80%",
+    name: "ENERGY DEMAND", nav: "3.90%", ret: "-11.84%",
     positions: (
-      (symbol: "XLUS", name: "Invesco US Utilities S&P",     isin: "IE00B3VPKB53", nav: "2.27%", ret: "-3.72%"),
-      (symbol: "URNU", name: "Global X Uranium UCITS USD-A", isin: "IE000NDWFGA5", nav: "1.58%", ret: "-23.37%"),
+      (symbol: "XLUS", name: "Invesco US Utilities S&P",     isin: "IE00B3VPKB53", nav: "2.39%", ret: "-1.02%"),
+      (symbol: "URNU", name: "Global X Uranium UCITS USD-A", isin: "IE000NDWFGA5", nav: "1.51%", ret: "-29.05%"),
     ),
   ),
   (
-    name: "SINGLE POSITIONS", nav: "3.96%", ret: "+2.99%",
+    name: "SINGLE POSITIONS", nav: "3.69%", ret: "-7.52%",
     positions: (
-      (symbol: "TRNl", name: "Trainline PLC",          isin: "GB00BKDTK925", nav: "1.58%", ret: "-14.34%"),
-      (symbol: "PURR", name: "Hyperliquid Strategies", isin: "US44916Y1064", nav: "2.38%", ret: "+14.49%"),
+      (symbol: "PURR", name: "Hyperliquid Strategies", isin: "US44916Y1064", nav: "2.11%", ret: "-1.05%"),
+      (symbol: "TRNI", name: "Trainline PLC",           isin: "GB00BKDTK925", nav: "1.58%", ret: "-16.15%"),
     ),
   ),
   (
-    name: "CASH", nav: "57.41%", ret: "+0.19%",
+    name: "CASH", nav: "58.52%", ret: "+0.39%",
     positions: (
-      (symbol: "CASH_EUR", name: "Euro Cash",          isin: "", nav: "41.91%", ret: "--"),
-      (symbol: "CASH_USD", name: "US Dollar Cash",     isin: "", nav: "8.13%",  ret: "+2.22%"),
-      (symbol: "CASH_GBP", name: "British Pound Cash", isin: "", nav: "7.37%",  ret: "-0.98%"),
+      (symbol: "CASH_EUR", name: "Euro Cash",          isin: "", nav: "42.64%", ret: "--"),
+      (symbol: "CASH_USD", name: "US Dollar Cash",     isin: "", nav: "8.34%",  ret: "+3.11%"),
+      (symbol: "CASH_GBP", name: "British Pound Cash", isin: "", nav: "7.54%",  ret: "-0.44%"),
     ),
   ),
 ))
