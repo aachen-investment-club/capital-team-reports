@@ -40,13 +40,13 @@
   that only 16.4~% of capital was deployed for investments.
 
   #v(10pt)
-  The team is looking to continue its growth, but for now we are wishing Yuri
-  all the best. Justus has also been appointed Head of Research, helping to
-  structure our research methodology going forward.
+  We would like to thank Yuri for his contributions and wish him well in his
+  future endeavours. Justus has also been appointed
+  Head of Research, helping to structure our research methodology going forward.
 
   #v(10pt)
-  Performance is evaluated against several benchmarks, including the
-  MSCI Europe and S&P 500. For a comparison of
+  Performance is evaluated against four benchmarks: MSCI Europe, MSCI World,
+  the S&P 500, and a 60/40 balanced portfolio. For a comparison of
   daily returns, see @returns-daily. The remainder of this report consists of
   investment memos detailing the thesis behind each of our starter positions,
   concluding with an overview of our current holdings and executed trades.
@@ -68,17 +68,17 @@
   #grid(
     columns: (1fr, 1fr, 1fr),
     gutter: 0.8cm,
-    current-member(name: "Mathis",    photo: "/assets/avatars/mathis_makarski.jpg"),
-    current-member(name: "Isabelle",  photo: "/assets/avatars/isabelle_chang.png"),
-    current-member(name: "Simon",     photo: "/assets/avatars/simon_gintars.png"),
-    current-member(name: "Justus",    photo: "/assets/avatars/justus_gosten.png"),
-    current-member(name: "Yujin",     photo: "/assets/avatars/yujin_song.png"),
-    current-member(name: "Nicolas",   photo: "/assets/avatars/nicolas_wellers.png"),
-    current-member(name: "Gerasimos", photo: "/assets/avatars/gerasimos_voutsinas.jpeg"),
-    current-member(name: "Kah-Ming",  photo: "/assets/avatars/kah-ming_ly.jpeg"),
-    current-member(name: "Mohammad",  photo: "/assets/avatars/mohammad_sharey.jpg"),
-    current-member(name: "Jamie",     photo: "/assets/avatars/jamie_bason.jpg"),
-    current-member(name: "Roua",      photo: "/assets/avatars/roua_messaoudi.jpeg"),
+    current-member(name: "Mathis",    photo: "/assets/avatars/mathis_makarski.jpg",    title: "Portfolio Manager"),
+    current-member(name: "Isabelle",  photo: "/assets/avatars/isabelle_chang.png",     title: "Analyst"),
+    current-member(name: "Simon",     photo: "/assets/avatars/simon_gintars.png",      title: "Analyst"),
+    current-member(name: "Justus",    photo: "/assets/avatars/justus_gosten.png",      title: "Head of Research"),
+    current-member(name: "Yujin",     photo: "/assets/avatars/yujin_song.png",         title: "Analyst"),
+    current-member(name: "Nicolas",   photo: "/assets/avatars/nicolas_wellers.png",    title: "Analyst"),
+    current-member(name: "Gerasimos", photo: "/assets/avatars/gerasimos_voutsinas.jpeg", title: "Analyst"),
+    current-member(name: "Kah-Ming",  photo: "/assets/avatars/kah-ming_ly.jpeg",       title: "Analyst"),
+    current-member(name: "Mohammad",  photo: "/assets/avatars/mohammad_sharey.jpg",    title: "Analyst"),
+    current-member(name: "Jamie",     photo: "/assets/avatars/jamie_bason.jpg",        title: "Analyst"),
+    current-member(name: "Roua",      photo: "/assets/avatars/roua_messaoudi.jpeg",    title: "Analyst"),
   )
 ]
 
@@ -99,6 +99,13 @@
   The median end-2026 rate projection rose to 3.8~%, up from 3.4~% in March,
   reinforcing the case for a hike later this year. The FOMC also confirmed it
   will maintain an ample-reserves regime to keep short-term rates anchored.
+  Supporting the hold, 5-year break-even inflation rates have been trending
+  lower, suggesting that long-run inflation expectations remain well-anchored
+  despite the near-term price pressures the Fed cited. Despite the Fed's
+  hawkish stance, markets are currently pricing in virtually zero probability
+  of a hike for the remainder of 2026, a sharp divergence from the
+  committee's own projections. This raises the question of whether markets
+  are overreacting to near-term disinflation signals.
 
   == ECB Raises Rates
 
@@ -173,23 +180,29 @@
 
 #text(size: 8pt, fill: rgb("#6b7280"), style: "italic")[June 2026 average]
 
+#v(8pt)
+Market-level style exposures are estimated using a Barra WLS regression across
+GICS sectors, as shown in @market-exposure. Results are reported as Z-scores,
+reflecting the significance of each style in determining returns. A strong
+positive z-score indicates a large positive impact on returns, while a strongly
+negative z-score indicates a large negative impact.
+
 #v(6pt)
 #figure(
   image("../../assets/2026-06/market_factor_exposure.png", width: 100%),
   caption: [Factor Exposures by Market],
-)
+) <market-exposure>
 
-#v(2pt)
-#figure(
-  image("../../assets/2026-06/individual_position_exposure.png", width: 100%),
-  caption: [Factor Exposures by Position],
-)
+#v(10pt)
+Portfolio factor tilts are derived from Barra factor breakdowns of individual
+positions, averaged across the portfolio. This reveals the aggregate exposure of
+our holdings to each factor style, as shown in @factor-tilts.
 
-#v(2pt)
+#v(6pt)
 #figure(
   image("../../assets/2026-06/portfolio_factor_tilts.png", width: 100%),
   caption: [Portfolio Factor Tilt],
-)
+) <factor-tilts>
 
 // ── PURR ─────────────────────────────────────────────────────
 
@@ -322,15 +335,15 @@ Processing fees for copper concentrate are approaching zero as smelter margins c
 #memo-kv((
   ("Asset Class",     "Sector ETF"),
   ("Scale Entry",     "$94.58 (10/06/2026)"),
-  ("Scaled Capital",  "€87.50"),
-  ("Stop Loss",       "$71.25 (−15%)"),
 ))
 
 #memo-rule("Catalysts")
 
-- NVIDIA Q1 2026 beat: data-centre revenue up 92% YoY, H2 outlook raised again
-- Microsoft and Google both lifted FY26 CapEx guidance in April earnings calls
-- TSMC raised its 2026 revenue forecast in May on sustained advanced node demand
+*C1:* NVIDIA Q1 2026 beat: data-centre revenue up 92% YoY, H2 outlook raised again
+
+*C2:* Microsoft and Google both lifted FY26 CapEx guidance in April earnings calls
+
+*C3:* TSMC raised its 2026 revenue forecast in May on sustained advanced node demand
 
 #memo-rule("Risks")
 
@@ -356,15 +369,15 @@ Processing fees for copper concentrate are approaching zero as smelter margins c
 #memo-kv((
   ("Asset Class",     "Stock"),
   ("Scale Entry",     "€54.96 (10/06/2026)"),
-  ("Scaled Capital",  "€87.50"),
-  ("Stop Loss",       "€41.79 (−15%)"),
 ))
 
 #memo-rule("Catalysts")
 
-- Q1 2026 results showed order intake recovering after four quarters of decline
-- BMW and Stellantis resumed SiC tool orders in May, signalling EV floor
-- Microsoft confirmed GaN-based PSU design-ins for next-gen data centre builds
+*C1:* Q1 2026 results showed order intake recovering after four quarters of decline
+
+*C2:* BMW and Stellantis resumed SiC tool orders in May, signalling EV floor
+
+*C3:* Microsoft confirmed GaN-based PSU design-ins for next-gen data centre builds
 
 #memo-rule("Risks")
 
@@ -389,7 +402,7 @@ Processing fees for copper concentrate are approaching zero as smelter margins c
     ),
   ),
   (
-    name: "COPPER", nav: "5.56%", ret: "-5.63%",
+    name: "COMMODITY", nav: "5.56%", ret: "-5.63%",
     positions: (
       (symbol: "COPAl", name: "WT Copper", isin: "GB00B15KXQ89", nav: "5.56%", ret: "-5.63%"),
     ),
@@ -451,7 +464,7 @@ Processing fees for copper concentrate are approaching zero as smelter margins c
   "10 Jun 2026", "COPAl",   "WT Copper",                           "BUY",  "9 / 0 / 0",  "Starter Position",
   "10 Jun 2026", "PURR",    "Hyperliquid Strategies",              "BUY",  "10 / 0 / 0", "Starter Position",
   "10 Jun 2026", "SMH",     "VanEck Semiconductor ETF",            "BUY",  "10 / 0 / 0", "Scaled Position",
-  "10 Jun 2026", "WDEF",    "WisdomTree Europe Defence UCITS ETF", "VETO", "2 / 1 / 5",  "Portfolio Manager Veto (Mathis)",
+  "10 Jun 2026", "WDEF",    "WisdomTree Europe Defence UCITS ETF", "VETO", "2 / 1 / 5",  "Portfolio Manager Veto",
 )
 
 // �"?�"? 7. FINAL PAGE (dark) �"?�"?�"?�"?�"?�"?�"?�"?�"?�"?�"?�"?�"?�"?�"?�"?�"?�"?�"?�"?�"?�"?�"?�"?�"?�"?�"?�"?�"?�"?�"?�"?�"?�"?�"?�"?
@@ -472,7 +485,7 @@ Processing fees for copper concentrate are approaching zero as smelter margins c
 
   Past performance is not indicative of future results. All investments
   involve risk, including the possible loss of principal. Readers should
-  conduct their own due diligence and consult a qualified financial adviser
+  conduct their own due diligence and consult a qualified financial advisor
   before making any investment decisions. Neither the AIC, its members, nor
   the university shall be responsible for any investment losses incurred as
   a result of using this information. The AIC is a student organisation and

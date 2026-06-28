@@ -70,7 +70,7 @@
 
 // ---- Current team member card (1:1 square photo) -----------
 // Designed to sit inside a 3-column grid on a dark page.
-#let current-member(name: "", photo: none) = {
+#let current-member(name: "", photo: none, title: "") = {
   layout(size => {
     let w = size.width
     let s = w * 0.7
@@ -90,6 +90,9 @@
       ]),
       block(width: w, inset: (x: 2pt))[
         #align(center)[#text(weight: "bold", fill: white, size: 10pt)[#name]]
+        #if title != "" [
+          #align(center)[#text(fill: brand.dim, size: 7.5pt)[#title]]
+        ]
       ],
     )
   })

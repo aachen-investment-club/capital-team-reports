@@ -15,8 +15,6 @@ PALE_BLUE  = "#9ab5e6"
 SILVER     = "#8fafd8"
 VERY_LIGHT = "#b8ccec"
 
-SMALL_THRESHOLD = 3.0  # slices below this get a key entry instead of an in-wedge label
-
 def donut(labels, sizes, colors, out_path, bold_threshold=5.5):
     fig, ax = plt.subplots(figsize=(9, 9), facecolor="none")
     ax.set_aspect("equal")
@@ -30,67 +28,25 @@ def donut(labels, sizes, colors, out_path, bold_threshold=5.5):
         counterclock=False,
     )
 
-    small_wedges = []  # (wedge, label, size, color) for key
-
     for wedge, label, size, color in zip(wedges, labels, sizes, colors):
-        angle = (wedge.theta2 + wedge.theta1) / 2
+        angle = (wedge.theta2 + wedge.theta1) / 2   # midpoint angle in degrees
         rad   = np.deg2rad(angle)
         x = 0.74 * np.cos(rad)
         y = 0.74 * np.sin(rad)
 
-        if size >= bold_threshold:
-            ax.text(x, y, f"{label}\n{size:.1f}%",
-                    ha="center", va="center",
-                    fontsize=11 if size >= 15 else 9.5,
-                    fontweight="bold", color="white")
-        elif size >= SMALL_THRESHOLD:
-            ax.text(x, y, f"{label}\n{size:.1f}%",
-                    ha="center", va="center",
-                    fontsize=7, fontweight="bold", color="white")
-        else:
-            small_wedges.append((wedge, label, size, color))
+        # Rotate text to follow the slice radially; flip if upside-down
+        rot = angle
+        if 90 < angle % 360 < 270:
+            rot += 180
 
-    # ── Small-slice key (bottom-right corner of figure) ───────────────────────
-    if small_wedges:
-        key_x = 0.97   # right edge in figure coords
-        key_y = 0.03   # bottom edge
-        row_h = 0.045
-        sw = 0.025     # swatch width in figure coords
-        sh = 0.030     # swatch height
+        fontsize = (11 if size >= 15 else 9.5) if size >= bold_threshold else 7.5
 
-        # Background box
-        n_rows = len(small_wedges)
-        box_h = row_h * n_rows + 0.02
-        box_w = 0.32
-        box = plt.Rectangle(
-            (key_x - box_w, key_y),
-            box_w, box_h,
-            transform=fig.transFigure,
-            facecolor="white", edgecolor="#d4d9e2",
-            linewidth=0.8, zorder=4, alpha=0.92,
-        )
-        fig.add_artist(box)
-
-        for i, (_, label, size, color) in enumerate(small_wedges):
-            row_y = key_y + box_h - row_h * (i + 1) + 0.005
-            # Swatch
-            swatch = plt.Rectangle(
-                (key_x - box_w + 0.010, row_y + (row_h - sh) / 2),
-                sw, sh,
-                transform=fig.transFigure,
-                facecolor=color, edgecolor="white",
-                linewidth=0.5, zorder=5,
-            )
-            fig.add_artist(swatch)
-            # Label
-            fig.text(
-                key_x - box_w + 0.010 + sw + 0.008,
-                row_y + row_h / 2,
-                f"{label}  {size:.1f}%",
-                ha="left", va="center",
-                fontsize=7.5, fontweight="bold",
-                color=NAVY, zorder=5,
-            )
+        ax.text(x, y, f"{label}\n{size:.1f}%",
+                ha="center", va="center",
+                fontsize=fontsize,
+                fontweight="bold", color="white",
+                rotation=rot,
+                rotation_mode="anchor")
 
     ax.set_xlim(-1.35, 1.35)
     ax.set_ylim(-1.35, 1.35)
@@ -125,7 +81,7 @@ donut(pos_labels, pos_sizes, pos_colors, OUT / "weights_by_position.png")
 
 
 # ── weights_by_theme ──────────────────────────────────────────────────────────
-thm_labels = ["EU Sovereignty","EU Financials","AI & Semis","Copper","Energy Demand","Single Positions","Cash"]
+thm_labels = ["EU Sovereignty","EU Financials","AI & Semis","Commodity","Energy Demand","Single Positions","Cash"]
 thm_sizes  = [           6.97,           8.29,      13.06,  5.56,           3.90,              3.69, 58.52]
 thm_colors = [
     DARK_BLUE,   # EU Sovereignty
