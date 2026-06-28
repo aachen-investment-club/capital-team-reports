@@ -89,23 +89,23 @@
 #columns(2, gutter: 16pt)[
   == Fed Holds Rates Steady
 
-  On June 17, 2026, the first FOMC meeting ends with no change in interest
+  On June 17, 2026, the first FOMC meeting ended with no change in interest
   rates, keeping the rate range between 3.5~% and 3.75~%. The Fed stated that
-  a rate hike is still possible, consistent with the hawkish tone of the
+  a rate hike remained possible, consistent with the hawkish tone of the
   post-meeting statement, which laid out intentions to bring inflation back to
-  the 2~% target. Nine members expect at least one hike in 2026, eight expect
-  rates to remain steady, and one projects a cut. Kevin Warsh did not submit a
-  forecast, consistent with his longstanding opposition to forward guidance.
-  The median end-2026 rate projection rose to 3.8~%, up from 3.4~% in March,
-  reinforcing the case for a hike later this year. The FOMC also confirmed it
-  will maintain an ample-reserves regime to keep short-term rates anchored.
-  Supporting the hold, 5-year break-even inflation rates have been trending
-  lower, suggesting that long-run inflation expectations remain well-anchored
-  despite the near-term price pressures the Fed cited. Despite the Fed's
-  hawkish stance, markets are currently pricing in virtually zero probability
-  of a hike for the remainder of 2026, a sharp divergence from the
-  committee's own projections. This raises the question of whether markets
-  are overreacting to near-term disinflation signals.
+  the 2~% target. Nine members expected at least one hike in 2026, eight
+  expected rates to remain steady, and one projected a cut. Kevin Warsh did
+  not submit a forecast, consistent with his longstanding opposition to
+  forward guidance. The median end-2026 rate projection rose to 3.8~%, up
+  from 3.4~% in March, reinforcing the case for a hike later in the year.
+  The FOMC also confirmed it would maintain an ample-reserves regime to keep
+  short-term rates anchored. Supporting the hold, 5-year break-even inflation
+  rates had been trending lower, suggesting that long-run inflation
+  expectations remained well-anchored despite the near-term price pressures
+  the Fed cited. Despite the Fed's hawkish stance, markets were pricing in
+  virtually zero probability of a hike for the remainder of 2026, a sharp
+  divergence from the committee's own projections. This raised the question
+  of whether markets were overreacting to near-term disinflation signals.
 
   == ECB Raises Rates
 
@@ -117,7 +117,7 @@
   conflict in the Middle East. Headline inflation rose to 3.2~% in May from
   3.0~% in April, with core inflation up to 2.5~% from 2.2~%. Food inflation
   bucked the trend, easing from 2.4~% to 2.0~%. Energy inflation ticked up to
-  10.9~% and is expected to remain elevated until H1 2027, with a return to
+  10.9~% and was expected to remain elevated until H1 2027, with a return to
   the 2~% target not expected until the second half of that year.
 
   == Iran War Resolution
@@ -133,7 +133,7 @@
   passing ships. On 19 June, Trump announced a ceasefire between Israel and
   Hezbollah in an attempt to stabilise the region, but that came to an abrupt
   end as Israel continued to strike Lebanon. In direct retaliation, Iran
-  declared the Strait closed again. Peace talks in Switzerland are ongoing.
+  declared the Strait closed again. Peace talks in Switzerland were ongoing.
   Only 12 ships crossed on 21 June. Markets appeared largely unmoved: Brent
   was down just 0.9~% at \$80 a barrel, while Asian markets opened higher,
   with the Nikkei up 1.8~%, KOSPI up 1.5~%, and TAIEX up 2.6~%.
@@ -143,17 +143,17 @@
   China identified 10 US firms linked to the American military and imposed a
   ban on dual-use exports to these entities, prohibiting all global
   organisations from supplying or transferring Chinese-origin dual-use goods
-  to the blacklisted groups. Among them is MP Materials, a Pentagon-backed
-  company that operates the only active rare earth mine in the United States,
+  to the blacklisted groups. Among them was MP Materials, a Pentagon-backed
+  company that operated the only active rare earth mine in the United States,
   a direct strike at Washington's efforts to build a domestic critical minerals
   supply chain. The Chinese Finance Ministry also imposed a procurement embargo
   on around 40 companies, barring Chinese government buyers from purchasing
   from firms such as Raytheon and Lockheed Martin, in direct response to the
   US adding Chinese firms to a Pentagon list of military-linked entities.
 
-  This matters because China produces approximately 60~% of global rare earth
-  output and processes around 90~% of all refining capacity, giving it
-  significant leverage over the components that underpin AI infrastructure.
+  This mattered because China produced approximately 60~% of global rare earth
+  output and processed around 90~% of all refining capacity, giving it
+  significant leverage over the components that underpinned AI infrastructure.
   A survey of IT and semiconductor firms found 56~% faced export licence
   review times of over 180 days, with a third waiting more than 300 days,
   pointing to growing friction in the supply chain.
@@ -168,8 +168,8 @@
   launched in March. A 10~% tariff was applied to economies that have partially
   banned forced-labour goods, and a further 12.5~% to other partners including
   the EU, Brazil, and India. On 11 June, Trump announced a separate arrangement
-  with China, leaving a 30~% tariff in place. Analysts note that while the
-  Supreme Court ruling has slowed the pace of tariff action, it has not
+  with China, leaving a 30~% tariff in place. Analysts noted that while the
+  Supreme Court ruling had slowed the pace of tariff action, it had not
   deterred the administration from pursuing its broader trade agenda.
 ]
 
