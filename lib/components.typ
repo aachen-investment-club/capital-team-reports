@@ -73,7 +73,7 @@
 #let current-member(name: "", photo: none, title: "") = {
   layout(size => {
     let w = size.width
-    let s = w * 0.7
+    let s = w * 0.55
     stack(
       spacing: 8pt,
       align(center, block(
