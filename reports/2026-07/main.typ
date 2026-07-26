@@ -41,8 +41,8 @@
 
   #v(10pt)
   There has been a change in leadership: Nicolas is taking over as Portfolio
-  Manager from Mathis, whom we thank for his leadership over the past two
-  rounds. The team continues to grow with the arrival of three new analysts:
+  Manager from Mathis, whom we thank for his leadership. The team continues
+  to grow with the arrival of three new analysts:
   Thomas, Niklas, and Hyomin; we value the motivation and expertise they
   bring. We would also like to thank Roua and Isabelle for their
   contributions to the team and wish them all the best.
@@ -87,18 +87,18 @@
   #stack(spacing: 14pt,
     new-member(
       name: "Thomas",
-      intro: "Bio to follow; placeholder photo shown until Thomas's picture is available.",
-      photo: "/assets/avatars/gerasimos_voutsinas.jpeg",
+      intro: "Originally from Chile, Thomas joined AIC in May 2026 and is pursuing his B.Sc. in Business Administration at RWTH Aachen. He led the equity research behind the BlackBerry pitch on the Stock Pitches team, and is now joining Capital to focus on active equity strategies in tech and AI infrastructure.",
+      photo: "/assets/avatars/thomas_hahn.JPG",
     ),
     new-member(
       name: "Niklas",
-      intro: "Bio to follow; placeholder photo shown until Niklas's picture is available.",
+      intro: "Niklas joined AIC in July 2026 and is currently pursuing his M.Sc. in Business Administration at the University of Cologne. He works as a working student at an asset management company while pursuing the CFA charter, having passed Level I of the CFA Program. His interests lie in coding, equity and commodity markets.",
       photo: "/assets/avatars/gerasimos_voutsinas.jpeg",
     ),
     new-member(
       name: "Hyomin",
-      intro: "Bio to follow; placeholder photo shown until Hyomin's picture is available.",
-      photo: "/assets/avatars/gerasimos_voutsinas.jpeg",
+      intro: "Hyomin joined AIC in July 2026 and is pursuing his B.Sc. in Industrial Engineering at RWTH Aachen, currently in his sixth semester. With a strong interest in investment banking and financial modeling, his focus lies in equity valuation and the intersection of robotics/automation with capital markets.",
+      photo: "/assets/avatars/hyomin_back.JPG",
     ),
   )
 ]
@@ -108,90 +108,93 @@
 = Market Environment
 
 #columns(2, gutter: 16pt)[
-  == Fed Holds Rates Steady
+  == Fed Holds Again, Eyes September
 
-  On June 17, 2026, the first FOMC meeting ended with no change in interest
-  rates, keeping the rate range between 3.5~% and 3.75~%. The Fed stated that
-  a rate hike remained possible, consistent with the hawkish tone of the
-  post-meeting statement, which laid out intentions to bring inflation back to
-  the 2~% target. Nine members expected at least one hike in 2026, eight
-  expected rates to remain steady, and one projected a cut. Kevin Warsh did
-  not submit a forecast, consistent with his longstanding opposition to
-  forward guidance. The median end-2026 rate projection rose to 3.8~%, up
-  from 3.4~% in March, reinforcing the case for a hike later in the year.
-  The FOMC also confirmed it would maintain an ample-reserves regime to keep
-  short-term rates anchored. Supporting the hold, 5-year break-even inflation
-  rates had been trending lower, suggesting that long-run inflation
-  expectations remained well-anchored despite the near-term price pressures
-  the Fed cited. Despite the Fed's hawkish stance, markets were pricing in
-  virtually zero probability of a hike for the remainder of 2026, a sharp
-  divergence from the committee's own projections. This raised the question
-  of whether markets were overreacting to near-term disinflation signals.
+  On July 29, 2026, the FOMC held its policy rate for a second consecutive
+  meeting, keeping the range at 3.50~% and 3.75~%. The committee reiterated
+  June's split dot plot (nine hikes, eight holds, one cut), and Fed Chair
+  Warsh again declined to submit a forecast. Markets now price an 80~%
+  probability of a hike at the September meeting, up sharply from near-zero
+  odds priced in as of June. The 10-year Treasury yield has climbed to
+  4.55~%, nearing the 4.7~% level that has historically triggered a broader
+  de-rating of rate-sensitive equities.
 
-  == ECB Raises Rates
+  == AI Capex Debate
 
-  The ECB raised all three key rates by 25 basis points, the first hike in
-  nearly three years, bringing the deposit facility, main refinancing, and
-  marginal lending rates to 2.25~%, 2.40~%, and 2.65~% respectively. Rates
-  had last been raised in September 2023, when the deposit facility peaked at
-  4.0~%. The decision was driven by inflation pressure stemming from the
-  conflict in the Middle East. Headline inflation rose to 3.2~% in May from
-  3.0~% in April, with core inflation up to 2.5~% from 2.2~%. Food inflation
-  bucked the trend, easing from 2.4~% to 2.0~%. Energy inflation ticked up to
-  10.9~% and was expected to remain elevated until H1 2027, with a return to
-  the 2~% target not expected until the second half of that year.
+  AI and semiconductor-adjacent names led a broad market correction in July,
+  as rising Treasury yields met growing scrutiny of hyperscaler capex. The
+  largest cloud providers again guided 2027 capex higher, with sell-side
+  estimates above \$500bn for 2026 alone, renewing doubts over whether returns
+  justify current valuations after two years of AI-driven multiple expansion.
+  Reports of data-centre lease cancellations added to concerns that some
+  announced capacity is running ahead of near-term demand. The Nasdaq fell
+  more than 10~% from its July high as investors rotated out of high-beta AI
+  names into defensives, a sell-off that also hit structurally sound names,
+  including several held in this portfolio.
 
-  == Iran War Resolution
+  == Strait of Hormuz Crisis Deepens
 
-  Some good news emerged as an initial deal was reached between the US and Iran,
-  with the main priority of reopening the Strait of Hormuz. This resulted in a
-  memorandum of understanding signed on 17 June at the Palace of Versailles
-  during the G7 summit, guaranteeing free passage for vessels for 60 days.
-  The US also committed to terminating all sanctions on Iran and unfreezing all
-  frozen Iranian assets. On 18 June, around 25 vessels passed through the
-  Strait, however complications arose with the creation of the newly formed
-  Persian Gulf Strait Authority, as Iran continued to assert authority over
-  passing ships. On 19 June, Trump announced a ceasefire between Israel and
-  Hezbollah in an attempt to stabilise the region, but that came to an abrupt
-  end as Israel continued to strike Lebanon. In direct retaliation, Iran
-  declared the Strait closed again. Peace talks in Switzerland were ongoing.
-  Only 12 ships crossed on 21 June. Markets appeared largely unmoved: Brent
-  was down just 0.9~% at \$80 a barrel, while Asian markets opened higher,
-  with the Nikkei up 1.8~%, KOSPI up 1.5~%, and TAIEX up 2.6~%.
+  The ceasefire framework agreed at the G7's Versailles summit in June
+  unravelled through July. Iran's newly formed Persian Gulf Strait Authority
+  kept asserting control over passing vessels despite the 60-day
+  free-passage guarantee. Traffic fell sharply after Israel's continued
+  strikes on Lebanon led Iran to close the Strait for a second time. Peace
+  talks in Switzerland stalled in early July after Iran withdrew over fresh
+  US sanctions re-designations. By mid-month, war-risk insurance premiums on
+  Hormuz-transiting tankers hit their highest level since 2019, and the US
+  Navy increased its carrier presence in the Gulf as Saudi Arabia and the
+  UAE pushed both sides to avoid a full closure.
 
-  == China Tightens Rare Earth Exports
+  == Oil Surges on Hormuz Disruption
 
-  China identified 10 US firms linked to the American military and imposed a
-  ban on dual-use exports to these entities, prohibiting all global
-  organisations from supplying or transferring Chinese-origin dual-use goods
-  to the blacklisted groups. Among them was MP Materials, a Pentagon-backed
-  company that operated the only active rare earth mine in the United States,
-  a direct strike at Washington's efforts to build a domestic critical minerals
-  supply chain. The Chinese Finance Ministry also imposed a procurement embargo
-  on around 40 companies, barring Chinese government buyers from purchasing
-  from firms such as Raytheon and Lockheed Martin, in direct response to the
-  US adding Chinese firms to a Pentagon list of military-linked entities.
+  Brent crude rose from around \$80 a barrel in June to the low \$90s by
+  mid-July as tanker traffic through Hormuz, which carries roughly a fifth of
+  global oil supply, fell to its lowest level in over a decade. OPEC+
+  signalled it would release spare capacity to cap prices, but most of that
+  capacity sits with Gulf producers whose own exports transit the same
+  chokepoint. The US released a further tranche from the Strategic Petroleum
+  Reserve, and diesel cracks widened as refiners bid up alternative crude
+  grades. This complicates the inflation picture ahead of the Fed's
+  September meeting.
 
-  This mattered because China produced approximately 60~% of global rare earth
-  output and processed around 90~% of all refining capacity, giving it
-  significant leverage over the components that underpinned AI infrastructure.
-  A survey of IT and semiconductor firms found 56~% faced export licence
-  review times of over 180 days, with a third waiting more than 300 days,
-  pointing to growing friction in the supply chain.
+  == China Widens Rare Earth Export Controls
 
-  == New US Tariffs
+  Beijing extended the licensing regime introduced in June, adding a further
+  15 US-linked entities to its dual-use export blacklist and tightening
+  documentation requirements for magnet- and battery-grade rare earth
+  shipments to all destinations, not only blacklisted firms. Licence
+  processing times, which already averaged over 180 days for more than half
+  of surveyed semiconductor and IT firms in June, lengthened further. The
+  controls now weigh on sectors well beyond AI infrastructure, including
+  automakers and wind-turbine manufacturers dependent on rare earth magnets.
 
-  In February, the US Supreme Court struck down Trump's IEEPA tariffs, bringing
-  the average effective tariff rate down to around 7~% by April. China remained
-  the highest-tariffed major trading partner at around 24~%. On 2 June, the
-  USTR proposed a new 12.5~% tariff on China under Section 301 of the Trade
-  Act of 1974, following forced labour investigations into 60 trading partners
-  launched in March. A 10~% tariff was applied to economies that have partially
-  banned forced-labour goods, and a further 12.5~% to other partners including
-  the EU, Brazil, and India. On 11 June, Trump announced a separate arrangement
-  with China, leaving a 30~% tariff in place. Analysts noted that while the
-  Supreme Court ruling had slowed the pace of tariff action, it had not
-  deterred the administration from pursuing its broader trade agenda.
+  Trump responded on social media, posting that the US would "never again"
+  be dependent on China for rare earths and pledging fresh federal backing
+  for domestic mining and processing capacity. The comments shifted market
+  attention to US rare earth names, including MP Materials, and revived talk
+  of invoking the Defense Production Act to fast-track permitting for new
+  domestic refining projects.
+
+  == US Tariffs Widen Beyond China
+
+  The 30~% tariff arrangement struck with China on 11 June came under renewed
+  strain after Beijing's July rare earth actions, with the USTR signalling it
+  may revisit the Section 301 tariff proposal shelved after that agreement.
+  Trump extended the tariff push to allies as well, imposing new duties on
+  the EU, Japan, South Korea, and Canada, citing persistent trade imbalances.
+  The broader effective US tariff rate, which had fallen to around 7~% after
+  the Supreme Court's IEEPA ruling, ticked back up as these tariffs, plus
+  additional forced-labour-related duties, took effect across more trading
+  partners.
+
+  == ECB Holds After June's Hike
+
+  Having raised its three key rates by 25 basis points in June, its first
+  hike in nearly three years, the ECB held policy steady in July, keeping the
+  deposit facility at 2.25~%. Energy inflation, already running at 10.9~%
+  before the latest oil move, is now the ECB's central concern heading into
+  H2, with a return to the 2~% target not expected until the second half of
+  2027.
 ]
 
 // ── EXPOSURE REVIEW ──────────────────────────────────────────
@@ -231,7 +234,7 @@ our holdings to each factor style, as shown in @factor-tilts.
 #memo-header(
   ticker:  "MELI",
   name:    "MercadoLibre, Inc.",
-  tagline: "Latin America's leading commerce-and-fintech platform; earnings depressed by a margin-investment cycle and front-loaded credit provisions.",
+  tagline: "Latin America's leading commerce and fintech platform.",
 )
 
 #memo-kv((
@@ -243,7 +246,7 @@ our holdings to each factor style, as shown in @factor-tilts.
 
 #memo-rule("Thesis")
 
-MercadoLibre leads Latin American e-commerce, logistics, and fintech, at only ~13–15% category penetration. Reported earnings understate the business: a deliberate margin-investment cycle and CECL accounting, which books the full lifetime loss on an 87%-growing loan book upfront, both suppress near-term profit. Valuing Commerce, Payments, and the credit book separately on normalized earnings (not consolidated FCF) implies ~\$2,010/share today, rising to a Base ~\$3,430 by 2028 and ~\$6,040 by 2032.
+MercadoLibre leads Latin American e-commerce, logistics, and fintech at ~13–15% category penetration. A deliberate margin-investment cycle and CECL accounting, which books the full lifetime loss on an 87%-growing loan book upfront, suppress reported profit below the business's real earnings power. Valuing Commerce, Payments, and the credit book separately on normalized earnings (not consolidated FCF) implies ~\$2,010/share today, rising to ~\$3,430 by 2028 and ~\$6,040 by 2032 in the Base case.
 
 *Edge:* Consensus values MELI on 12-month consolidated FCF, making the ~44x forward P/E look expensive; that fails since loan originations consume cash despite being high-return investments.
 
@@ -253,7 +256,7 @@ MercadoLibre leads Latin American e-commerce, logistics, and fintech, at only ~1
 
 *C1:* Q2'26 earnings (~3–4 Aug 2026): first read on whether NIMAL stabilizes off the 17.8% trough and operating margin inflects
 
-*C2:* Margin-trough inflection (H2'26–2027) as the capex cycle peaks and CECL provisioning normalizes with decelerating credit growth
+*C2:* Margin-trough inflection expected H2'26–2027 as credit growth decelerates
 
 *C3:* Ads acceleration: Video, Mercado Play, and Brand Ads expand into brand budgets, growing >60% YoY at ~100% margin
 
@@ -272,13 +275,69 @@ MercadoLibre leads Latin American e-commerce, logistics, and fintech, at only ~1
 #data-table(
   (1fr, 3fr),
   ("Scenario", "Assumption"),
-  "Bear", "Ads build stalls (~5.5% of GMV); Commerce margin ~13%; NIMAL ~15%; multiple de-rates",
+  "Bear", "Ads build stalls (~5.5% of GMV); Commerce margin ~13%; NIMAL ~15%",
   "Base", "Ads reach ~7% of GMV; Commerce margin normalizes ~17%; NIMAL ~21%",
-  "Bull", "Ads toward ~8% of GMV; Commerce margin ~19%; NIMAL ~23%; multiples hold",
+  "Bull", "Ads toward ~8% of GMV; Commerce margin ~19%; NIMAL ~23%",
 )
 
 #v(6pt)
 *Next review:* Q2'26 earnings ~3–4 Aug 2026 · NIMAL trend
+
+// ── SGBS ─────────────────────────────────────────────────────
+
+#pagebreak()
+#memo-header(
+  ticker:  "SGBS",
+  name:    "Gold Bullion Securities",
+  tagline: "Defensive allocation to tie down portfolio volatility.",
+)
+
+#memo-kv((
+  ("Asset Class",   "ETC"),
+  ("Idea Category", "Commodity"),
+  ("Entry",         "NEEDS FILLING"),
+  ("Stop Loss",     "NEEDS FILLING (−15%)"),
+))
+
+#memo-rule("Thesis")
+
+Gold hedges rate shocks, equity drawdowns, and dollar weakness, and controls portfolio volatility. Price fell ~28% from the January ATH (~\$5,600) to a June low of \$4,002, and is currently sitting around \$4,000 as GVZ falls and reverts to normal levels. Record central bank buying (~850t in 2026 vs. a 473t prior-decade average) is proving to be an underlying stabiliser in the price; demand is there.
+
+*Edge:* With markets pricing an 80% probability of a September hike, positioning remains defensive as buyers wait for confirmation of a bottom before re-entering. We believe that bottom has already formed.
+
+*Driver:* Gold is seeing less volatility, which means it is becoming more stable and less hype-driven. Central bank accumulation further supports a trend reversal.
+
+#memo-rule("Catalysts")
+
+*C1:* Fed path dictates how gold performs short term. Markets price 80% odds of a rate hike in September, and buyers are holding back in fear of a longer bear cycle
+
+*C2:* China added 15t in June (largest since Oct 2023, streak 20+ months, holdings 2,346t) after 9.95t in May. WGC survey: 89% of reserve managers expect holdings to keep rising, 45% plan to add
+
+*C3:* ECB June review: gold now 27% of global reserves vs. 22% for Treasuries, the first time it has overtaken Treasuries since 1996
+
+#memo-rule("Risks")
+
+#data-table(
+  (1fr, 1fr),
+  ("Risk", "Monitor"),
+  "Fed hike / rising real rates",         "10yr TIPS yield",
+  "Central bank buying slows",            "Monthly PBoC/WGC data vs. 850t pace",
+  "USD strength",                         "DXY",
+  "Volatility re-expands",                "GVZ",
+)
+
+#memo-rule("Scenarios")
+
+#data-table(
+  (1fr, 3fr),
+  ("Scenario", "Assumption"),
+  "Bear", "Fed hikes, buying slows",
+  "Base", "Fed holds, buying holds near the 850t pace",
+  "Bull", "Fed pivots to cuts or a risk-off shock hits, buying accelerates",
+)
+
+#v(6pt)
+*Next review:* Next FOMC decision · GVZ level · monthly central bank buying data
 
 // ── SCALED POSITIONS ─────────────────────────────────────────
 #pagebreak()
@@ -394,6 +453,7 @@ MercadoLibre leads Latin American e-commerce, logistics, and fintech, at only ~1
   ("Date", "Symbol", "Name", "Side", [Votes#footnote[In favour / against / abstain]], "Notice"),
   "15 Jul 2026", "MELI",    "MercadoLibre, Inc.",                                  "BUY", "9 / 0 / 0", "Starter Position",
   "19 Jul 2026", "XLUS",    "Invesco S&P 500 Utilities Sector UCITS ETF",    "BUY", "7 / 0 / 2", "Scaled Position",
+  "27 Jul 2026", "SGBS",    "Gold Bullion Securities",                             "BUY", "8 / 0 / 1", "Starter Position",
 )
 
 // �"?�"? 7. FINAL PAGE (dark) �"?�"?�"?�"?�"?�"?�"?�"?�"?�"?�"?�"?�"?�"?�"?�"?�"?�"?�"?�"?�"?�"?�"?�"?�"?�"?�"?�"?�"?�"?�"?�"?�"?�"?�"?�"?
