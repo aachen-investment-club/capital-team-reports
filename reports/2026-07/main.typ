@@ -29,11 +29,9 @@
   positions across the portfolio.
 
   #v(10pt)
-  The portfolio returned −0.02% month-to-date and −0.11% year-to-date.
-  Annualised volatility stands at 8.3%. Correlation to the S&P 500 is 0.10,
-  reflecting the portfolio's low dependence on broad equity market direction.
-  Markets saw a broad sell-off this week, which accounted for the
-  loss in our performance.
+  The portfolio returned −3.12% month-to-date and −3.46% year-to-date.
+  Annualised volatility stands at 9.1%. Correlation to the S&P 500 is 0.01,
+  reflecting continued low dependence on broad equity market direction.
 
   #v(10pt)
   This marks our third investment round as we continue to build out our
@@ -56,7 +54,7 @@
 
   #v(14pt)
   #figure(
-    image("../../assets/2026-06/returns_bar.png", width: 100%),
+    image("../../assets/2026-07/charts/returns_bar.png", width: 100%),
     caption: [Daily Portfolio Returns vs Benchmarks],
   ) <returns-daily>
 ]
@@ -72,7 +70,7 @@
     columns: (1fr, 1fr, 1fr),
     gutter: 0.8cm,
     current-member(name: "Nicolas",   photo: "/assets/avatars/nicolas_wellers.png",    title: "Portfolio Manager"),
-    current-member(name: "Mathis",    photo: "/assets/avatars/mathis_makarski.jpg",    title: "Analyst"),
+    current-member(name: "Mathis",    photo: "/assets/avatars/mathis_makarski.jpg",    title: "Advisor"),
     current-member(name: "Simon",     photo: "/assets/avatars/simon_gintars.png",      title: "Analyst"),
     current-member(name: "Justus",    photo: "/assets/avatars/justus_gosten.png",      title: "Head of Research"),
     current-member(name: "Yujin",     photo: "/assets/avatars/yujin_song.png",         title: "Analyst"),
@@ -93,7 +91,7 @@
     new-member(
       name: "Niklas",
       intro: "Niklas joined AIC in July 2026 and is currently pursuing his M.Sc. in Business Administration at the University of Cologne. He works as a working student at an asset management company while pursuing the CFA charter, having passed Level I of the CFA Program. His interests lie in coding, equity and commodity markets.",
-      photo: "/assets/avatars/gerasimos_voutsinas.jpeg",
+      photo: "/assets/avatars/niklas_luessgen.JPG",
     ),
     new-member(
       name: "Hyomin",
@@ -108,93 +106,98 @@
 = Market Environment
 
 #columns(2, gutter: 16pt)[
-  == Fed Holds Again, Eyes September
+  == Fed Holds
 
-  On July 29, 2026, the FOMC held its policy rate for a second consecutive
-  meeting, keeping the range at 3.50~% and 3.75~%. The committee reiterated
-  June's split dot plot (nine hikes, eight holds, one cut), and Fed Chair
-  Warsh again declined to submit a forecast. Markets now price an 80~%
-  probability of a hike at the September meeting, up sharply from near-zero
-  odds priced in as of June. The 10-year Treasury yield has climbed to
-  4.55~%, nearing the 4.7~% level that has historically triggered a broader
-  de-rating of rate-sensitive equities.
-
-  == AI Capex Debate
-
-  AI and semiconductor-adjacent names led a broad market correction in July,
-  as rising Treasury yields met growing scrutiny of hyperscaler capex. The
-  largest cloud providers again guided 2027 capex higher, with sell-side
-  estimates above \$500bn for 2026 alone, renewing doubts over whether returns
-  justify current valuations after two years of AI-driven multiple expansion.
-  Reports of data-centre lease cancellations added to concerns that some
-  announced capacity is running ahead of near-term demand. The Nasdaq fell
-  more than 10~% from its July high as investors rotated out of high-beta AI
-  names into defensives, a sell-off that also hit structurally sound names,
-  including several held in this portfolio.
-
-  == Strait of Hormuz Crisis Deepens
-
-  The ceasefire framework agreed at the G7's Versailles summit in June
-  unravelled through July. Iran's newly formed Persian Gulf Strait Authority
-  kept asserting control over passing vessels despite the 60-day
-  free-passage guarantee. Traffic fell sharply after Israel's continued
-  strikes on Lebanon led Iran to close the Strait for a second time. Peace
-  talks in Switzerland stalled in early July after Iran withdrew over fresh
-  US sanctions re-designations. By mid-month, war-risk insurance premiums on
-  Hormuz-transiting tankers hit their highest level since 2019, and the US
-  Navy increased its carrier presence in the Gulf as Saudi Arabia and the
-  UAE pushed both sides to avoid a full closure.
-
-  == Oil Surges on Hormuz Disruption
-
-  Brent crude rose from around \$80 a barrel in June to the low \$90s by
-  mid-July as tanker traffic through Hormuz, which carries roughly a fifth of
-  global oil supply, fell to its lowest level in over a decade. OPEC+
-  signalled it would release spare capacity to cap prices, but most of that
-  capacity sits with Gulf producers whose own exports transit the same
-  chokepoint. The US released a further tranche from the Strategic Petroleum
-  Reserve, and diesel cracks widened as refiners bid up alternative crude
-  grades. This complicates the inflation picture ahead of the Fed's
-  September meeting.
-
-  == China Widens Rare Earth Export Controls
-
-  Beijing extended the licensing regime introduced in June, adding a further
-  15 US-linked entities to its dual-use export blacklist and tightening
-  documentation requirements for magnet- and battery-grade rare earth
-  shipments to all destinations, not only blacklisted firms. Licence
-  processing times, which already averaged over 180 days for more than half
-  of surveyed semiconductor and IT firms in June, lengthened further. The
-  controls now weigh on sectors well beyond AI infrastructure, including
-  automakers and wind-turbine manufacturers dependent on rare earth magnets.
-
-  Trump responded on social media, posting that the US would "never again"
-  be dependent on China for rare earths and pledging fresh federal backing
-  for domestic mining and processing capacity. The comments shifted market
-  attention to US rare earth names, including MP Materials, and revived talk
-  of invoking the Defense Production Act to fast-track permitting for new
-  domestic refining projects.
-
-  == US Tariffs Widen Beyond China
-
-  The 30~% tariff arrangement struck with China on 11 June came under renewed
-  strain after Beijing's July rare earth actions, with the USTR signalling it
-  may revisit the Section 301 tariff proposal shelved after that agreement.
-  Trump extended the tariff push to allies as well, imposing new duties on
-  the EU, Japan, South Korea, and Canada, citing persistent trade imbalances.
-  The broader effective US tariff rate, which had fallen to around 7~% after
-  the Supreme Court's IEEPA ruling, ticked back up as these tariffs, plus
-  additional forced-labour-related duties, took effect across more trading
-  partners.
+  On July 29, 2026, the FOMC held its policy rate at 3.50~%–3.75~% for a
+  fifth consecutive meeting, voting 9–3. Three regional presidents (Cleveland's
+  Beth Hammack, Minneapolis's Neel Kashkari, and Dallas's Lorie Logan)
+  dissented, with inflation having run above the Fed's 2~% target for more
+  than five years. At June's meeting, Kevin Warsh's first as Fed
+  Chair, nine of eighteen committee members had projected at least one hike
+  before year-end, and Warsh declined to submit his own dot, breaking with
+  the Fed's usual forward-guidance practice. Warsh was confirmed to the role
+  in a 54–45 Senate vote in May, the most divisive confirmation in the
+  Fed's history. Markets currently price two 25-basis-point hikes for 2026.
+  The 10-year Treasury yield has climbed to 4.70~%.
 
   == ECB Holds After June's Hike
 
   Having raised its three key rates by 25 basis points in June, its first
-  hike in nearly three years, the ECB held policy steady in July, keeping the
-  deposit facility at 2.25~%. Energy inflation, already running at 10.9~%
-  before the latest oil move, is now the ECB's central concern heading into
-  H2, with a return to the 2~% target not expected until the second half of
-  2027.
+  hike in nearly three years and driven in part by the Iran war pushing
+  inflation higher, the ECB held policy steady in July, keeping the deposit
+  facility at 2.25~%. The move came despite a soft economy: eurozone GDP
+  shrank 0.2~% in the first quarter of 2026. Energy inflation remains the
+  ECB's central concern.
+
+  == AI Capex Debate
+
+  Semiconductor and AI-adjacent names sold off sharply in July on growing
+  concern that hyperscaler capex is outrunning near-term demand. Combined
+  2026 capex guidance from Amazon (\$200bn), Google (\$185bn), Meta
+  (\$125–145bn), and Microsoft (\$120bn) totals close to \$700bn, up roughly
+  77~% from 2025's \$410bn. Micron fell more than 10~% and AMD nearly 7~% over
+  the period, wiping out over \$1 trillion in semiconductor market value,
+  while Alphabet shed more than 7~% in a week after guiding 2026 capex to
+  \$195–205bn. Meta's disclosure that it holds surplus GPU capacity added to
+  concerns that the AI infrastructure build-out may be running ahead of
+  demand.
+
+  == Strait of Hormuz Conflict
+
+  Iran fired on three commercial vessels in the Strait of Hormuz on 6–7
+  July, prompting direct US airstrikes on Iranian military targets. The US
+  carried out repeated further rounds of strikes through mid-July, including
+  at least four consecutive nights of strikes reported by mid-month, aimed
+  at degrading Iran's ability to threaten shipping through the Strait. Around
+  a fifth of the world's oil and LNG normally transits Hormuz, so the
+  conflict keeps shipping risk in the Gulf elevated and remains unresolved.
+
+  == Oil Swings on Hormuz Escalation
+
+  Brent crude traded around \$72–77 a barrel in early-to-mid July before
+  spiking on the escalation, touching \$97 on 24 July and settling near \$90
+  by month-end. The move lands on an already-stretched market: OPEC+ had
+  approved a fourth output quota increase since the Strait's initial closure
+  by early June, but Saudi Arabia and the UAE, which hold virtually all of
+  the world's spare production capacity, both export through Hormuz
+  themselves. Earlier in the year, the US released 172 million barrels from
+  the Strategic Petroleum Reserve as part of a coordinated 400-million-barrel
+  release across 32 nations, leaving the US reserve at 308 million barrels,
+  its lowest level since 1983.
+
+  == Gold Pulls Back From January Highs
+
+  Gold traded at \$4,038/oz on 13 July, down roughly 28~% from its 29
+  January intraday high of \$5,595.47, and was near \$4,010/oz by 20 July.
+  The World Gold Council's valuation framework puts fair value near
+  \$4,100, within a 5~% band. Analyst year-end targets have converged lower:
+  Goldman Sachs cut its target to \$4,900 in June, while JPMorgan's Q4
+  target stands at \$4,500.
+
+  == China's Rare Earth Export Controls
+
+  Beijing added 10 US entities, including MP Materials and USA Rare Earth,
+  to its dual-use export blacklist effective 22 June, barring any global
+  entity from transferring Chinese-origin dual-use goods to them. The move
+  followed the US adding Chinese firms to a Pentagon list of military-linked
+  entities. MP Materials and USA Rare Earth have received \$550m and \$1.6bn
+  in federal backing respectively as Washington tries to build processing
+  capacity outside China, which still accounts for roughly 90~% of global
+  rare earth refining. China separately blacklisted four Japanese government
+  defence research institutes over the same period, extending the same
+  playbook to another US ally.
+
+  == US Tariffs
+
+  The 11 June deal with China left in place a 20~% "fentanyl" tariff and a
+  10~% "reciprocal" tariff, for a combined 30~%. Elsewhere, the EU faces an
+  all-in 15~% tariff under a deal effective 1 July, Japan faces 10~% plus a
+  25~% tariff on autos, South Korea faces a flat 10~%, and Canada and Mexico
+  face 0~% on USMCA-qualifying goods and 10~% otherwise. The USTR opened
+  Section 301 investigations into structural overcapacity across 16
+  economies, including the EU, Japan, Canada, and South Korea, back in
+  March. The average US tariff rate has risen to over 18~% in 2026, from
+  roughly 3~% before this administration's tariff actions.
 ]
 
 // ── EXPOSURE REVIEW ──────────────────────────────────────────
@@ -202,7 +205,7 @@
 #pagebreak()
 = Factor Exposure Review
 
-#text(size: 8pt, fill: rgb("#6b7280"), style: "italic")[June 2026 average]
+#text(size: 8pt, fill: rgb("#6b7280"), style: "italic")[July 2026 average]
 
 #v(8pt)
 Market-level style exposures are estimated using a Barra WLS regression across
@@ -213,7 +216,7 @@ negative z-score indicates a large negative impact.
 
 #v(6pt)
 #figure(
-  image("../../assets/2026-06/market_factor_exposure.png", width: 100%),
+  image("../../assets/2026-07/charts/market_factor_exposure.png", width: 100%),
   caption: [Factor Exposures by Market],
 ) <market-exposure>
 
@@ -224,7 +227,7 @@ our holdings to each factor style, as shown in @factor-tilts.
 
 #v(6pt)
 #figure(
-  image("../../assets/2026-06/portfolio_factor_tilts.png", width: 100%),
+  image("../../assets/2026-07/charts/portfolio_factor_tilts.png", width: 100%),
   caption: [Portfolio Factor Tilt],
 ) <factor-tilts>
 
@@ -240,8 +243,8 @@ our holdings to each factor style, as shown in @factor-tilts.
 #memo-kv((
   ("Asset Class",   "Stock"),
   ("Idea Category", "Valuation Play"),
-  ("Entry",         "NEEDS FILLING"),
-  ("Stop Loss",     "NEEDS FILLING (−20%)"),
+  ("Entry",         "$1,859.76 (16 Jul 2026)"),
+  ("Stop Loss",     "−20%"),
 ))
 
 #memo-rule("Thesis")
@@ -283,62 +286,6 @@ MercadoLibre leads Latin American e-commerce, logistics, and fintech at ~13–15
 #v(6pt)
 *Next review:* Q2'26 earnings ~3–4 Aug 2026 · NIMAL trend
 
-// ── SGBS ─────────────────────────────────────────────────────
-
-#pagebreak()
-#memo-header(
-  ticker:  "SGBS",
-  name:    "Gold Bullion Securities",
-  tagline: "Defensive allocation to tie down portfolio volatility.",
-)
-
-#memo-kv((
-  ("Asset Class",   "ETC"),
-  ("Idea Category", "Commodity"),
-  ("Entry",         "NEEDS FILLING"),
-  ("Stop Loss",     "NEEDS FILLING (−15%)"),
-))
-
-#memo-rule("Thesis")
-
-Gold hedges rate shocks, equity drawdowns, and dollar weakness, and controls portfolio volatility. Price fell ~28% from the January ATH (~\$5,600) to a June low of \$4,002, and is currently sitting around \$4,000 as GVZ falls and reverts to normal levels. Record central bank buying (~850t in 2026 vs. a 473t prior-decade average) is proving to be an underlying stabiliser in the price; demand is there.
-
-*Edge:* With markets pricing an 80% probability of a September hike, positioning remains defensive as buyers wait for confirmation of a bottom before re-entering. We believe that bottom has already formed.
-
-*Driver:* Gold is seeing less volatility, which means it is becoming more stable and less hype-driven. Central bank accumulation further supports a trend reversal.
-
-#memo-rule("Catalysts")
-
-*C1:* Fed path dictates how gold performs short term. Markets price 80% odds of a rate hike in September, and buyers are holding back in fear of a longer bear cycle
-
-*C2:* China added 15t in June (largest since Oct 2023, streak 20+ months, holdings 2,346t) after 9.95t in May. WGC survey: 89% of reserve managers expect holdings to keep rising, 45% plan to add
-
-*C3:* ECB June review: gold now 27% of global reserves vs. 22% for Treasuries, the first time it has overtaken Treasuries since 1996
-
-#memo-rule("Risks")
-
-#data-table(
-  (1fr, 1fr),
-  ("Risk", "Monitor"),
-  "Fed hike / rising real rates",         "10yr TIPS yield",
-  "Central bank buying slows",            "Monthly PBoC/WGC data vs. 850t pace",
-  "USD strength",                         "DXY",
-  "Volatility re-expands",                "GVZ",
-)
-
-#memo-rule("Scenarios")
-
-#data-table(
-  (1fr, 3fr),
-  ("Scenario", "Assumption"),
-  "Bear", "Fed hikes, buying slows",
-  "Base", "Fed holds, buying holds near the 850t pace",
-  "Bull", "Fed pivots to cuts or a risk-off shock hits, buying accelerates",
-)
-
-#v(6pt)
-*Next review:* Next FOMC decision · GVZ level · monthly central bank buying data
-
 // ── SCALED POSITIONS ─────────────────────────────────────────
 #pagebreak()
 = Scaled Positions
@@ -359,7 +306,7 @@ Gold hedges rate shocks, equity drawdowns, and dollar weakness, and controls por
 
 #memo-kv((
   ("Asset Class",  "Synthetic Sector ETF"),
-  ("Scale Entry",  "NEEDS FILLING"),
+  ("Scale Entry",  "$658.70 (20 Jul 2026)"),
 ))
 
 #memo-rule("Catalysts")
@@ -386,51 +333,52 @@ Gold hedges rate shocks, equity drawdowns, and dollar weakness, and controls por
 
 #portfolio-table((
   (
-    name: "AI & SEMIS", nav: "13.06%", ret: "+6.66%",
+    name: "AI & SEMIS", nav: "9.74%", ret: "-20.55%",
     positions: (
-      (symbol: "SMH",  name: "VanEck Semiconductor ETF", isin: "IE00BMC38736", nav: "7.00%", ret: "+14.90%"),
-      (symbol: "AIXA", name: "Aixtron SE",               isin: "DE000A0WMPJ6", nav: "6.06%", ret: "-2.88%"),
+      (symbol: "SMH",  name: "VanEck Semiconductor ETF", isin: "IE00BMC38736", nav: "5.80%", ret: "-8.12%"),
+      (symbol: "AIXA", name: "Aixtron SE",               isin: "DE000A0WMPJ6", nav: "3.95%", ret: "-38.81%"),
     ),
   ),
   (
-    name: "COMMODITY", nav: "5.56%", ret: "-5.63%",
+    name: "COMMODITY", nav: "5.88%", ret: "-2.80%",
     positions: (
-      (symbol: "COPAl", name: "WT Copper", isin: "GB00B15KXQ89", nav: "5.56%", ret: "-5.63%"),
+      (symbol: "COPAl", name: "WT Copper", isin: "GB00B15KXQ89", nav: "5.88%", ret: "-2.80%"),
     ),
   ),
   (
-    name: "EU FINANCIALS", nav: "8.29%", ret: "+7.02%",
+    name: "EU FINANCIALS", nav: "8.77%", ret: "+9.33%",
     positions: (
-      (symbol: "SAN",  name: "Banco Santander SA",              isin: "ES0113900J37", nav: "4.24%", ret: "+9.49%"),
-      (symbol: "ESIF", name: "iShares Europe Financials EUR A", isin: "IE00BMW42306", nav: "4.05%", ret: "+4.44%"),
+      (symbol: "SAN",  name: "Banco Santander SA",              isin: "ES0113900J37", nav: "4.40%", ret: "+9.82%"),
+      (symbol: "ESIF", name: "iShares Europe Financials EUR A", isin: "IE00BMW42306", nav: "4.36%", ret: "+8.84%"),
     ),
   ),
   (
-    name: "EU SOVEREIGNTY", nav: "6.97%", ret: "-8.65%",
+    name: "EU SOVEREIGNTY", nav: "7.96%", ret: "+0.87%",
     positions: (
-      (symbol: "WDEF", name: "WisdomTree Europe Defence UCITS ETF", isin: "IE0002Y8CX98", nav: "6.97%", ret: "-8.65%"),
+      (symbol: "WDEF", name: "WisdomTree Europe Defence UCITS ETF", isin: "IE0002Y8CX98", nav: "7.96%", ret: "+0.87%"),
     ),
   ),
   (
-    name: "ENERGY DEMAND", nav: "3.90%", ret: "-11.84%",
+    name: "ENERGY DEMAND", nav: "9.95%", ret: "-6.14%",
     positions: (
-      (symbol: "XLUS", name: "Invesco US Utilities S&P",     isin: "IE00B3VPKB53", nav: "2.39%", ret: "-1.02%"),
-      (symbol: "URNU", name: "Global X Uranium UCITS USD-A", isin: "IE000NDWFGA5", nav: "1.51%", ret: "-29.05%"),
+      (symbol: "XLUS", name: "Invesco US Utilities S&P",     isin: "IE00B3VPKB53", nav: "8.63%", ret: "-1.06%"),
+      (symbol: "URNU", name: "Global X Uranium UCITS USD-A", isin: "IE000NDWFGA5", nav: "1.32%", ret: "-39.29%"),
     ),
   ),
   (
-    name: "SINGLE POSITIONS", nav: "3.69%", ret: "-7.52%",
+    name: "SINGLE POSITIONS", nav: "9.65%", ret: "-5.78%",
     positions: (
-      (symbol: "PURR", name: "Hyperliquid Strategies", isin: "US44916Y1064", nav: "2.11%", ret: "-1.05%"),
-      (symbol: "TRNI", name: "Trainline PLC",           isin: "GB00BKDTK925", nav: "1.58%", ret: "-16.15%"),
+      (symbol: "MELI", name: "MercadoLibre, Inc.",      isin: "US58733R1023", nav: "6.19%", ret: "-0.39%"),
+      (symbol: "TRNI", name: "Trainline PLC",           isin: "GB00BKDTK925", nav: "1.85%", ret: "-5.87%"),
+      (symbol: "PURR", name: "Hyperliquid Strategies", isin: "US44916Y1064", nav: "1.61%", ret: "-26.35%"),
     ),
   ),
   (
-    name: "CASH", nav: "58.52%", ret: "+0.39%",
+    name: "CASH", nav: "48.05%", ret: "+0.01%",
     positions: (
-      (symbol: "CASH_EUR", name: "Euro Cash",          isin: "", nav: "42.64%", ret: "--"),
-      (symbol: "CASH_USD", name: "US Dollar Cash",     isin: "", nav: "8.34%",  ret: "+3.11%"),
-      (symbol: "CASH_GBP", name: "British Pound Cash", isin: "", nav: "7.54%",  ret: "-0.44%"),
+      (symbol: "CASH_EUR", name: "Euro Cash",          isin: "", nav: "40.21%", ret: "--"),
+      (symbol: "CASH_USD", name: "US Dollar Cash",     isin: "", nav: "0.00%",  ret: "+0.00%"),
+      (symbol: "CASH_GBP", name: "British Pound Cash", isin: "", nav: "7.84%",  ret: "+0.03%"),
     ),
   ),
 ))
@@ -439,8 +387,8 @@ Gold hedges rate shocks, equity drawdowns, and dollar weakness, and controls por
 #grid(
   columns: (1fr, 1fr),
   gutter: 0pt,
-  figure(image("../../assets/2026-06/weights_by_position.png", width: 100%), caption: [Positions Weighting]),
-  figure(image("../../assets/2026-06/weights_by_theme.png",    width: 100%), caption: [Themes Weighting]),
+  figure(image("../../assets/2026-07/charts/weights_by_position.png", width: 100%), caption: [Positions Weighting]),
+  figure(image("../../assets/2026-07/charts/weights_by_theme.png",    width: 100%), caption: [Themes Weighting]),
 )
 
 // �"?�"? 6. TRADE LOG (light) �"?�"?�"?�"?�"?�"?�"?�"?�"?�"?�"?�"?�"?�"?�"?�"?�"?�"?�"?�"?�"?�"?�"?�"?�"?�"?�"?�"?�"?�"?�"?�"?�"?�"?�"?�"?
@@ -453,7 +401,7 @@ Gold hedges rate shocks, equity drawdowns, and dollar weakness, and controls por
   ("Date", "Symbol", "Name", "Side", [Votes#footnote[In favour / against / abstain]], "Notice"),
   "15 Jul 2026", "MELI",    "MercadoLibre, Inc.",                                  "BUY", "9 / 0 / 0", "Starter Position",
   "19 Jul 2026", "XLUS",    "Invesco S&P 500 Utilities Sector UCITS ETF",    "BUY", "7 / 0 / 2", "Scaled Position",
-  "27 Jul 2026", "SGBS",    "Gold Bullion Securities",                             "BUY", "8 / 0 / 1", "Starter Position",
+  "27 Jul 2026", "SGBS",    "Gold Bullion Securities",                             "VETOED", "8 / 0 / 1", "PM Veto",
 )
 
 // �"?�"? 7. FINAL PAGE (dark) �"?�"?�"?�"?�"?�"?�"?�"?�"?�"?�"?�"?�"?�"?�"?�"?�"?�"?�"?�"?�"?�"?�"?�"?�"?�"?�"?�"?�"?�"?�"?�"?�"?�"?�"?�"?
