@@ -60,7 +60,7 @@ def donut(labels, sizes, colors, out_path, bold_threshold=5.5):
 
 # ── weights_by_position ────────────────────────────────────────────────────────
 pos_labels = ["SMH","SAN","ESIF","AIXA","TRNI","PURR","URNU","CASH_EUR","CASH_GBP","XLUS","WDEF","MELI","COPAl"]
-pos_sizes  = [ 5.80, 4.40,  4.36, 3.95,  1.85,  1.61,  1.32,     40.21,      7.84, 8.63, 7.96,  6.19,  5.88]
+pos_sizes  = [ 6.07, 4.49,  4.40, 4.25,  1.82,  1.65,  1.34,     39.80,      7.78, 8.35, 7.93,  6.14,  5.96]
 pos_colors = [
     MID_BLUE,    # SMH
     PALE_BLUE,   # SAN
@@ -82,7 +82,7 @@ donut(pos_labels, pos_sizes, pos_colors, OUT / "weights_by_position.png")
 
 # ── weights_by_theme ──────────────────────────────────────────────────────────
 thm_labels = ["EU Sovereignty","EU Financials","AI & Semis","Commodity","Energy Demand","Single Positions","Cash"]
-thm_sizes  = [           7.96,           8.77,       9.74,  5.88,           9.95,              9.65, 48.05]
+thm_sizes  = [           7.93,           8.89,      10.32,  5.96,           9.69,              9.61, 47.59]
 thm_colors = [
     DARK_BLUE,   # EU Sovereignty
     MID_BLUE,    # EU Financials

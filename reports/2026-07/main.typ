@@ -29,8 +29,8 @@
   positions across the portfolio.
 
   #v(10pt)
-  The portfolio returned −3.12% month-to-date and −3.46% year-to-date.
-  Annualised volatility stands at 9.1%. Correlation to the S&P 500 is 0.01,
+  The portfolio returned −2.13% month-to-date and −2.47% year-to-date.
+  Annualised volatility stands at 9.1%. Correlation to the S&P 500 is −0.01,
   reflecting continued low dependence on broad equity market direction.
 
   #v(10pt)
@@ -333,52 +333,52 @@ MercadoLibre leads Latin American e-commerce, logistics, and fintech at ~13–15
 
 #portfolio-table((
   (
-    name: "AI & SEMIS", nav: "9.74%", ret: "-20.55%",
+    name: "AI & SEMIS", nav: "10.32%", ret: "-15.38%",
     positions: (
-      (symbol: "SMH",  name: "VanEck Semiconductor ETF", isin: "IE00BMC38736", nav: "5.80%", ret: "-8.12%"),
-      (symbol: "AIXA", name: "Aixtron SE",               isin: "DE000A0WMPJ6", nav: "3.95%", ret: "-38.81%"),
+      (symbol: "SMH",  name: "VanEck Semiconductor ETF", isin: "IE00BMC38736", nav: "6.07%", ret: "-2.74%"),
+      (symbol: "AIXA", name: "Aixtron SE",               isin: "DE000A0WMPJ6", nav: "4.25%", ret: "-33.44%"),
     ),
   ),
   (
-    name: "COMMODITY", nav: "5.88%", ret: "-2.80%",
+    name: "COMMODITY", nav: "5.96%", ret: "+0.10%",
     positions: (
-      (symbol: "COPAl", name: "WT Copper", isin: "GB00B15KXQ89", nav: "5.88%", ret: "-2.80%"),
+      (symbol: "COPAl", name: "WT Copper", isin: "GB00B15KXQ89", nav: "5.96%", ret: "+0.10%"),
     ),
   ),
   (
-    name: "EU FINANCIALS", nav: "8.77%", ret: "+9.33%",
+    name: "EU FINANCIALS", nav: "8.89%", ret: "+12.06%",
     positions: (
-      (symbol: "SAN",  name: "Banco Santander SA",              isin: "ES0113900J37", nav: "4.40%", ret: "+9.82%"),
-      (symbol: "ESIF", name: "iShares Europe Financials EUR A", isin: "IE00BMW42306", nav: "4.36%", ret: "+8.84%"),
+      (symbol: "SAN",  name: "Banco Santander SA",              isin: "ES0113900J37", nav: "4.49%", ret: "+13.18%"),
+      (symbol: "ESIF", name: "iShares Europe Financials EUR A", isin: "IE00BMW42306", nav: "4.40%", ret: "+10.92%"),
     ),
   ),
   (
-    name: "EU SOVEREIGNTY", nav: "7.96%", ret: "+0.87%",
+    name: "EU SOVEREIGNTY", nav: "7.93%", ret: "+1.55%",
     positions: (
-      (symbol: "WDEF", name: "WisdomTree Europe Defence UCITS ETF", isin: "IE0002Y8CX98", nav: "7.96%", ret: "+0.87%"),
+      (symbol: "WDEF", name: "WisdomTree Europe Defence UCITS ETF", isin: "IE0002Y8CX98", nav: "7.93%", ret: "+1.55%"),
     ),
   ),
   (
-    name: "ENERGY DEMAND", nav: "9.95%", ret: "-6.14%",
+    name: "ENERGY DEMAND", nav: "9.69%", ret: "-7.52%",
     positions: (
-      (symbol: "XLUS", name: "Invesco US Utilities S&P",     isin: "IE00B3VPKB53", nav: "8.63%", ret: "-1.06%"),
-      (symbol: "URNU", name: "Global X Uranium UCITS USD-A", isin: "IE000NDWFGA5", nav: "1.32%", ret: "-39.29%"),
+      (symbol: "XLUS", name: "Invesco US Utilities S&P",     isin: "IE00B3VPKB53", nav: "8.35%", ret: "-2.72%"),
+      (symbol: "URNU", name: "Global X Uranium UCITS USD-A", isin: "IE000NDWFGA5", nav: "1.34%", ret: "-37.39%"),
     ),
   ),
   (
-    name: "SINGLE POSITIONS", nav: "9.65%", ret: "-5.78%",
+    name: "SINGLE POSITIONS", nav: "9.61%", ret: "-5.09%",
     positions: (
-      (symbol: "MELI", name: "MercadoLibre, Inc.",      isin: "US58733R1023", nav: "6.19%", ret: "-0.39%"),
-      (symbol: "TRNI", name: "Trainline PLC",           isin: "GB00BKDTK925", nav: "1.85%", ret: "-5.87%"),
-      (symbol: "PURR", name: "Hyperliquid Strategies", isin: "US44916Y1064", nav: "1.61%", ret: "-26.35%"),
+      (symbol: "MELI", name: "MercadoLibre, Inc.",      isin: "US58733R1023", nav: "6.14%", ret: "+0.39%"),
+      (symbol: "TRNI", name: "Trainline PLC",           isin: "GB00BKDTK925", nav: "1.82%", ret: "-6.97%"),
+      (symbol: "PURR", name: "Hyperliquid Strategies", isin: "US44916Y1064", nav: "1.65%", ret: "-23.39%"),
     ),
   ),
   (
-    name: "CASH", nav: "48.05%", ret: "+0.01%",
+    name: "CASH", nav: "47.59%", ret: "+0.06%",
     positions: (
-      (symbol: "CASH_EUR", name: "Euro Cash",          isin: "", nav: "40.21%", ret: "--"),
+      (symbol: "CASH_EUR", name: "Euro Cash",          isin: "", nav: "39.80%", ret: "--"),
       (symbol: "CASH_USD", name: "US Dollar Cash",     isin: "", nav: "0.00%",  ret: "+0.00%"),
-      (symbol: "CASH_GBP", name: "British Pound Cash", isin: "", nav: "7.84%",  ret: "+0.03%"),
+      (symbol: "CASH_GBP", name: "British Pound Cash", isin: "", nav: "7.78%",  ret: "+0.35%"),
     ),
   ),
 ))
