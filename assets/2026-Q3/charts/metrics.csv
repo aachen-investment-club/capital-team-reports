@@ -1,0 +1,16 @@
+metric,value
+Annualized Return,-0.11196315789473679
+Annualized Volatility,0.11060978962408441
+Sharpe Ratio,-1.0122355197966826
+Sortino Ratio,-5.795943694225558
+Calmar Ratio,-1.9768812024738178
+Max Drawdown,-0.05663626006187372
+Max Drawdown Duration (days),53.0
+Max Drawdown Duration (months),2.5238095238095237
+"VaR (Monthly, 5%)",-0.02054940294558415
+"CVaR (Monthly, 5%)",-0.021291177674068074
+Skewness,1.3072059506446718
+Kurtosis,
+R-Squared (Benchmark),0.6742950192950186
+Upside Capture %,-37.91218508012582
+Downside Capture %,299.1770025905271

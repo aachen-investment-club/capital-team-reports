@@ -152,6 +152,8 @@
 // ---- Portfolio snapshot table --------------------------------
 // baskets: array of (name, nav, ret, positions)
 // positions: array of (symbol, name, isin, nav, ret)
+// dual: when true, baskets/positions carry ret-q + ret-cum instead of a
+// single ret, and two return columns are rendered (headers via ret-headers).
 #let portfolio-table(
   baskets,
   font-size:    9pt,
@@ -160,10 +162,29 @@
   header-text:  white,
   basket-text:  brand.primary,
   stroke-color: brand.line,
+  dual:         false,
+  ret-headers:  ([Q3 Return], [Cum. Return]),
 ) = {
   let hcell(body, al: left + horizon) = table.cell(
     fill: header-fill, align: al,
   )[#text(fill: header-text, weight: "bold", size: font-size)[#body]]
+
+  let ret-cells(fill, textfill, src) = if dual {
+    (
+      table.cell(fill: fill, align: right + horizon)[
+        #text(fill: textfill, weight: "bold", size: font-size - 1pt)[#src.ret-q]
+      ],
+      table.cell(fill: fill, align: right + horizon)[
+        #text(fill: textfill, weight: "bold", size: font-size - 1pt)[#src.ret-cum]
+      ],
+    )
+  } else {
+    (
+      table.cell(fill: fill, align: right + horizon)[
+        #text(fill: textfill, weight: "bold", size: font-size - 1pt)[#src.ret]
+      ],
+    )
+  }
 
   let basket-row(b) = (
     table.cell(colspan: 3, fill: basket-fill, align: left + horizon)[
@@ -172,19 +193,23 @@
     table.cell(fill: basket-fill, align: right + horizon)[
       #text(fill: basket-text, weight: "bold", size: font-size - 1pt)[#b.nav]
     ],
-    table.cell(fill: basket-fill, align: right + horizon)[
-      #text(fill: basket-text, weight: "bold", size: font-size - 1pt)[#b.ret]
-    ],
+    ..ret-cells(basket-fill, basket-text, b),
   )
 
   let pcell(body) = table.cell(fill: white)[#text(size: font-size)[#body]]
+
+  let pos-ret-cells(p) = if dual {
+    (pcell(p.ret-q), pcell(p.ret-cum))
+  } else {
+    (pcell(p.ret),)
+  }
 
   let pos-row(p) = (
     pcell(p.symbol),
     pcell(p.name),
     pcell(p.isin),
     pcell(p.nav),
-    pcell(p.ret),
+    ..pos-ret-cells(p),
   )
 
   let rows = ()
@@ -197,15 +222,15 @@
 
   set par(justify: false)
   table(
-    columns: (auto, 1fr, auto, auto, auto),
+    columns: if dual { (auto, 1fr, auto, auto, auto, auto) } else { (auto, 1fr, auto, auto, auto) },
     stroke: (x, y) => (bottom: 0.5pt + stroke-color),
     inset: (x: 8pt, y: 6pt),
     align: (x, y) => if x >= 3 { right + horizon } else { left + horizon },
     hcell([Symbol]),
     hcell([Name]),
     hcell([ISIN]),
-    hcell([% NAV],       al: right + horizon),
-    hcell([Cum. Return], al: right + horizon),
+    hcell([% NAV], al: right + horizon),
+    ..(if dual { ret-headers.map(h => hcell(h, al: right + horizon)) } else { (hcell([Cum. Return], al: right + horizon),) }),
     ..rows,
   )
 }
