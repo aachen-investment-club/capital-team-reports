@@ -1,7 +1,7 @@
 Barra Portfolio Report
-Model run   : 20260921-202618-5427ae77  (Factor model, W-FRI)
+Model run   : 20260925-164956-2bf9077f  (Factor model, W-FRI)
 As of       : 2026-07-01
-Positions   : 12 covered, 54.8% of NAV
+Positions   : 14 covered, 90.2% of NAV
 
 FILES
 -----

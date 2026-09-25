@@ -1,9 +1,9 @@
 AIC Portfolio — Performance Report Export
 Generated from the dashboard's Performance page.
 
-Period                : 2026-07-01 to 2026-09-20
-Holdings/theme snapshot as-of : 2026-09-18
-Benchmarks             : MSCI World, MSCI Europe, 60/40 Balanced, S&P 500
+Period                : 2026-07-01 to 2026-09-24
+Holdings/theme snapshot as-of : 2026-09-24
+Benchmarks             : S&P 500, MSCI World, MSCI Europe, 60/40 Balanced
 
 FILES
 -----
@@ -14,7 +14,7 @@ weights_by_position.png, weights_by_class.png, weights_by_theme.png
     Portfolio weight pies, as of the snapshot date.
 
 daily_returns.csv
-    One row per trading day, portfolio inception -> 2026-09-20.
+    One row per trading day, portfolio inception -> 2026-09-24.
     portfolio_return_pct is a TIME-WEIGHTED daily return: it tracks the
     fund's unit price (nav_history.fund_nav), which moves only with
     investment performance — deposits/withdrawals buy or redeem units at
@@ -22,7 +22,7 @@ daily_returns.csv
     QTD/YTD/trailing-12M/since-inception returns over any date range.
 
 aum_and_flows.csv
-    One row per day, portfolio inception -> 2026-09-20. aum_eur is end-of-day
+    One row per day, portfolio inception -> 2026-09-24. aum_eur is end-of-day
     fund NAV; external_flow_eur is net deposits/withdrawals that day.
     Reconciliation: this fund's unit-price accounting applies a flow at
     the PRIOR day's unit price, so new capital participates in that
@@ -33,12 +33,12 @@ aum_and_flows.csv
     negligible for realistic flow sizes.
 
 theme_position_snapshot.csv
-    One row per held position as of 2026-09-18, grouped by theme.
+    One row per held position as of 2026-09-24, grouped by theme.
     period_return_pct is compounded from 2026-07-01; cumulative_return_pct
     is since the position's own inception (cost basis).
 
 theme_attribution.csv
-    Brinson-Fachler attribution by theme, 2026-07-01 -> 2026-09-20.
+    Brinson-Fachler attribution by theme, 2026-07-01 -> 2026-09-24.
     SIMPLIFICATION: the tracked benchmarks have no native breakdown by
     this portfolio's themes, so benchmark_weight_pct is assumed equal
     to portfolio_weight_pct and each theme's benchmark return is
@@ -54,18 +54,18 @@ theme_attribution.csv
     investment loss) — cross-check against theme_position_snapshot.csv.
 
 trades.csv
-    Trade log, 2026-07-01 -> 2026-09-20.
+    Trade log, 2026-07-01 -> 2026-09-24.
 
 metrics.csv
     Risk/return metrics (Sharpe, Sortino, drawdown, VaR, etc.) for the
-    portfolio over 2026-07-01 -> 2026-09-20, vs S&P 500 where applicable.
+    portfolio over 2026-07-01 -> 2026-09-24, vs S&P 500 where applicable.
     Omitted if fewer than 5 trading days fall in range.
 
 section5_returns_and_attribution.html
     Formatted "Section 5" report page: a Returns table (QTD / YTD /
     Trailing 12M / Since Inception, portfolio + each benchmark) and an
     Attribution table (selection vs. allocation by theme) per
-    benchmark, both computed as of 2026-09-20. Built standalone — not yet
+    benchmark, both computed as of 2026-09-24. Built standalone — not yet
     wired into a larger numbered report or an Executive Summary; the
     file notes which figure (QTD portfolio return) is meant to feed
     that Executive Summary's return line once it exists. Same

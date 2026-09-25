@@ -42,20 +42,20 @@
 #dark-page(logo: image("../../assets/logo-white.png", width: 3.5cm))[
   = Executive Summary
 
-  The portfolio returned -2.63% in Q3 2026 (QTD), against +2.75% for MSCI
-  World, +2.82% for the S&P 500, -0.33% for a 60/40 balanced portfolio, and
-  -0.64% for MSCI Europe.
+  The portfolio returned -2.98% in Q3 2026 (QTD), against +3.19% for MSCI
+  World, +3.54% for the S&P 500, -0.55% for a 60/40 balanced portfolio, and
+  -0.58% for MSCI Europe.
 
   #v(10pt)
-  Ending AUM stood at €6,345 (as of 18 Sep 2026, the latest available NAV),
-  up from €2,507 at the start of the quarter. Net flows over the period were
+  Ending AUM stood at €6,322 at the end of the quarter,
+  up from €2,507 at the start. Net flows over the period were
   €4,000, with €0 in withdrawals.
 
   #v(10pt)
   *Biggest portfolio moves this quarter:*
-  + Deployed part of available capital across 17 buy trades, adding
+  + Deployed part of available capital across 19 buy trades, adding
     or building out positions in AIXA, SGBSl, 012330.KS, WDEF, URNU, SAN,
-    COPAl, AMZN, NU, and HCCD; AUM ended the quarter at ~€6,500, up from
+    COPAl, AMZN, NU, HCCD, and ORCL; AUM ended the quarter at ~€6,300, up from
     ~€2,500 at the start.
   + PURR (Hyperliquid Strategies) ended the quarter as the top-returning
     position, +71.6% since entry and 7.25% of NAV.
@@ -63,7 +63,7 @@
     and Trainline (TRNl) on 2 Sep.
 
   #v(10pt)
-  *Thematic shift:* Cash rose to 35.0% of NAV as of 18 Sep. We are
+  *Thematic shift:* Cash stood at 31.1% of NAV at quarter end. We are
   deliberately holding a substantial cash position to wait for entry
   opportunities, having added cash to the portfolio amid market volatility,
   and are waiting for markets to settle to make more decisive moves.
@@ -199,15 +199,14 @@ delinquencies) emerged late in the quarter.
 #data-table(
   (1.2fr, auto, auto, auto, auto, auto),
   ("Period", "AIC Portfolio", "MSCI World", "MSCI Europe", "60/40 Bal.", "S&P 500"),
-  "QTD",              "-2.63%", "+2.75%", "-0.64%", "-0.33%", "+2.82%",
-  "YTD",              "-2.97%", "+3.06%", "-0.81%", "+0.38%", "+3.87%",
-  "Since Inception",  "-2.97%", "+3.06%", "-0.81%", "+0.38%", "+3.87%",
+  "QTD",              "-2.98%", "+3.19%", "-0.58%", "-0.55%", "+3.54%",
+  "YTD",              "-3.32%", "+3.50%", "-0.76%", "+0.16%", "+4.60%",
+  "Since Inception",  "-3.32%", "+3.50%", "-0.76%", "+0.16%", "+4.60%",
 )
 
 #v(4pt)
 #text(size: 7.5pt, fill: brand.muted, style: "italic")[
-  All figures as of 20 Sep 2026. Since Inception equals YTD because inception
-  falls within 2026.
+  Since Inception equals YTD because inception falls within 2026.
 ]
 
 #v(14pt)
@@ -217,7 +216,7 @@ delinquencies) emerged late in the quarter.
   ("Starting AUM",       "€2,507 (1 Jul 2026)"),
   ("Net Contributions",  "€4,000 (24 Aug 2026)"),
   ("Net Withdrawals",    "€0"),
-  ("Ending AUM",         "€6,345 (18 Sep 2026)"),
+  ("Ending AUM",         "€6,322 (end of Q3 2026)"),
 ))
 
 #text(size: 7.5pt, fill: brand.muted, style: "italic")[
@@ -229,42 +228,38 @@ delinquencies) emerged late in the quarter.
 == Metrics
 
 #text(size: 7.5pt, fill: brand.muted, style: "italic")[
-  2026-07-01 -> 2026-09-20. Beta-relative metrics (R#super[2], capture ratios)
-  computed vs S&P 500.
+  Q3 2026. R#super[2] computed vs S&P 500.
 ]
 
 #v(4pt)
 #data-table(
   (1fr, 1fr),
   ("Metric", "Value"),
-  "Annualised Return",              "-11.20%",
-  "Annualised Volatility",          "11.06%",
-  "Sharpe Ratio",                   "-1.01",
-  "Sortino Ratio",                  "-5.80",
-  "Calmar Ratio",                   "-1.98",
+  "Annualised Return",              "-11.89%",
+  "Annualised Volatility",          "11.00%",
+  "Sharpe Ratio",                   "-1.08",
+  "Sortino Ratio",                  "-12.40",
+  "Calmar Ratio",                   "-2.10",
   "Maximum Drawdown",               "-5.66%",
-  "Max Drawdown Duration (days)",   "53",
-  "Max Drawdown Duration (months)", "2.5",
-  "VaR (Monthly, 5%)",              "-2.05%",
+  "Max Drawdown Duration (days)",   "57",
+  "Max Drawdown Duration (months)", "2.7",
+  "VaR (Monthly, 5%)",              "-2.09%",
   "CVaR (Monthly, 5%)",             "-2.13%",
-  "Skewness",                       "1.31",
-  "Kurtosis",                       "N/A",
-  [R#super[2] (Benchmark)],         "0.67",
-  "Upside Capture %",               "-37.9%",
-  "Downside Capture %",             "299.2%",
+  "Skewness",                       "1.62",
+  [R#super[2] (Benchmark)],         "0.92",
 )
 
 #v(10pt)
 == Performance Charts
 
 #figure(
-  image("../../assets/2026-Q3/charts/returns_index.png", width: 100%),
+  block(fill: white, width: 100%, image("../../assets/2026-Q3/charts/returns_index.png", width: 100%)),
   caption: [Cumulative Portfolio Return vs Benchmark, Q3 2026],
 )
 
 #v(10pt)
 #figure(
-  image("../../assets/2026-Q3/charts/returns_bar.png", width: 100%),
+  block(fill: white, width: 100%, image("../../assets/2026-Q3/charts/returns_bar.png", width: 100%)),
   caption: [Daily Portfolio Returns vs Benchmark, Q3 2026],
 )
 
@@ -273,8 +268,10 @@ delinquencies) emerged late in the quarter.
 = Risk & Factor Analysis
 
 #text(size: 8pt, fill: brand.muted, style: "italic")[
-  As of 1 Jul 2026 (quarter start): Barra factor model, 12 positions
-  covered, 54.8% of NAV.
+  Barra factor model on current holdings: 14 positions
+  covered, 90.2% of NAV. PURR is not covered: its price history is still
+  shorter than the model's minimum rolling window, so no factor exposures
+  can be calculated for it yet.
 ]
 
 #v(8pt)
@@ -309,12 +306,9 @@ shown in @position-exposures-q3.
 ) <position-exposures-q3>
 
 #v(6pt)
-The portfolio's clearest tilts are negative Short-Term Reversal (-1.31) and
-Beta (-1.04), consistent with a book that leans toward names that have
-recently sold off rather than chasing momentum, and toward lower
-market-beta positions overall, alongside positive Profitability (+0.41)
-and Leverage (+0.40). [Add commentary on how these exposures shifted during
-the quarter, once a prior-quarter comparison is available.]
+The largest tilts are negative Short-Term Reversal (-1.12), Liquidity
+(-1.05), Value (-0.82) and Beta (-0.80), with positive Profitability
+(+0.54). The book leans toward recent sellers, growth, and low-beta names.
 
 // ---- 7. PORTFOLIO ACTIVITY (light) --
 #pagebreak()
@@ -322,7 +316,7 @@ the quarter, once a prior-quarter comparison is available.]
 = Portfolio Activity
 
 #text(size: 8.5pt, fill: brand.muted)[
-  19 executions this quarter: 17 buys and 2 sells (full exits of iShares
+  21 executions this quarter: 19 buys and 2 sells (full exits of iShares
   Europe Financials (ESIF) and Trainline (TRNl)), settled across five
   currencies (EUR, USD, GBP, KRW, SGD).
 ]
@@ -376,7 +370,7 @@ Positions closed in full this quarter.
   "TRNl", "Trainline PLC",                   "2 Sep",
 )
 
-#v(14pt)
+#pagebreak()
 == Investment Memos
 
 #text(size: 8pt, fill: brand.muted, style: "italic")[
@@ -400,13 +394,14 @@ Positions closed in full this quarter.
 
 #memo-rule("Thesis / Rationale")
 
-Gold is a defensive move to control overall portfolio volatility, our
-ballast against the more volatile parts of the book. Added to on 21 Sep.
+Gold is a defensive move to control overall portfolio volatility. After
+pulling back from recent highs, we are continuing to buy to build a strong
+position through cost averaging.
 
 #memo-rule("Catalyst / Valuation Trigger")
 
-An escalation out of the Iran conflict, or broader market volatility,
-driving safe-haven demand.
+Controlling inflation and the prospect of rate cuts will drive up the
+price of gold, as buyers move away from interest-bearing products.
 
 #v(10pt)
 #memo-header(
@@ -431,23 +426,23 @@ and completed a full buyout of SoftBank's remaining stake in 2026. As the
 Group's parts-supply arm, Hyundai Mobis is the actuator supplier for Boston
 Dynamics's Atlas robot and other humanoid platforms, positioning it as a
 core component supplier to the wider robotics industry. Actuators make up
-roughly 60% of a humanoid robot's total material cost, and Hyundai Mobis's
+up to 60% of a humanoid robot's total material cost, and Hyundai Mobis's
 decades of competitive, profitable auto-component manufacturing give it
 the industrial expertise to capture significant market share as production
 scales. Hyundai has committed to producing nearly 30,000 robot units
 annually by 2028, a target well above any competitor's disclosed plans.
-This isn't a story stock: it's a profitable company (despite Q1 net profit
-still down 14.4% y/y) with a genuine manufacturing edge. The Qualcomm
-partnership (Snapdragon Ride Flex, software-defined vehicles) adds a
-second leg of the same thesis and gives it exposure to the same robotics
-theme as AMZN.
+It is a profitable company with large-scale production capacity, giving
+it a manufacturing edge over smaller-scale, pre-profit startups. A
+Qualcomm partnership (Snapdragon Ride Flex) gives it the same exposure as
+AMZN to software-defined vehicles and automation.
 
 #memo-rule("Catalyst / Valuation Trigger")
 
 Progress on the Qualcomm SDV rollout and Boston Dynamics Atlas
-commercialisation; ramp of the new Slovakia EV-component plant.
+commercialisation; new production bolstered by the Slovakia EV-component
+plant.
 
-#v(10pt)
+#pagebreak()
 #memo-header(
   ticker:  "AMZN",
   name:    "Amazon.com, Inc.",
@@ -463,8 +458,7 @@ commercialisation; ramp of the new Slovakia EV-component plant.
 
 #memo-rule("Thesis / Rationale")
 
-A profitable company with good growth across every business segment, not
-just one story: AWS revenue grew 36.7% y/y in Q2 (its fastest pace in 18
+A profitable company with good growth across every business segment: AWS revenue grew 36.7% y/y in Q2 (its fastest pace in 18
 quarters, \$42.2bn), and Amazon raised FY26 capex guidance to ~\$220bn.
 Most notable to us is the automation angle: Amazon's push into
 high-automation, "dark" (lights-out) warehouses feeds directly into our
@@ -475,10 +469,8 @@ throughput and lowers unit costs, directly combining the AI and Robotics
 themes in one business. AWS's AI and custom-silicon businesses have each
 independently crossed a \$25bn annualised run rate, growing at
 triple-digit rates, AWS operating margin held at 39.4% in Q2, and
-advertising grew 22%. Between that scale of AI-driven margin expansion,
-deep engineering expertise, and the capex to keep outspending peers, we
-see Amazon positioned to end up on top of the AI/robotics buildout rather
-than just participating in it.
+advertising grew 22%. We see Amazon as a stronger contender in the AI and
+physical AI market.
 
 #memo-rule("Catalyst / Valuation Trigger")
 
@@ -502,24 +494,22 @@ is converting into margin.
 
 #memo-rule("Thesis / Rationale")
 
-A genuinely profitable business, not just a growth story: 53% revenue
-growth and Nu's first profitable Mexico quarter, on top of its large,
-established Brazil base, the same core LatAm market MELI is built on,
-giving the Fintech theme two ways to win on the region. Flagged risk to
-monitor rather than dismiss: customer deposits dipped sequentially and
-the 15-90-day delinquency rate ticked up in the same period.
+A genuinely profitable business: 53% revenue growth and Nu's first
+profitable Mexico quarter, on top of its large, established Brazil base.
+Despite competing in the same Latin America market as MercadoLibre, Nu
+solidified itself as a strong bet for diversification of South American
+growth.
 
 #memo-rule("Catalyst / Valuation Trigger")
 
-The interesting one: Nu secured conditional approval from the US OCC in
-January 2026 for a de novo national bank charter (Nubank, N.A.), with
-full approval and launch targeted for 2027. US entry is still awaiting
-that final regulatory sign-off, but it's a real option on a market of
-~342 million people (nearly matching Nu's combined Brazil, Mexico, and
-Colombia footprint), alongside confirmation that Mexico profitability
-holds as deposits/delinquencies are watched into Q4.
+Nu secured conditional approval from the US OCC in January 2026 for a de
+novo national bank charter (Nubank, N.A.), with full approval and launch
+targeted for 2027. US entry is still in the works, but it holds a huge
+market potential of over 300 million people (nearly matching Nu's combined
+Brazil, Mexico, and Colombia footprint). Rising delinquencies in South
+America are a risk to watch.
 
-#v(10pt)
+#pagebreak()
 #memo-header(
   ticker:  "HCCD",
   name:    "Contemporary Amperex Technology (SDR)",
@@ -535,17 +525,15 @@ holds as deposits/delinquencies are watched into Q4.
 
 #memo-rule("Thesis / Rationale")
 
-CATL simply dominates EV battery production: it commands the largest
-share of battery manufacturing in Europe as well as globally (~40%
-worldwide), which we see as central to the broader electrification
-drive our Electrification theme is built around. It's also
-technologically out in front, not just scaled: certified all 20 battery
-plants carbon-neutral in August and unveiled its TENER sodium-ion
-energy storage system in Munich.
+CATL dominates EV battery production: it commands the largest share of
+battery manufacturing in Europe as well as globally (~40% worldwide). It
+is a proven leader of the market in terms of execution and innovation. It
+unveiled its TENER sodium-ion energy storage system in Munich, and
+certified all 20 of its battery plants carbon-neutral in August.
 
 #memo-rule("Catalyst / Valuation Trigger")
 
-TENER's commercial ramp: cumulative shipments targeted at 1GWh by
+TENER's adoption and performance: cumulative shipments targeted at 1GWh by
 end-2026, with global deliveries beginning June 2027.
 
 #v(10pt)
@@ -585,7 +573,7 @@ Bond-spread stabilisation rather than continued widening toward a
 ratings downgrade (Barclays has flagged BBB- risk); Q3/Q4 earnings on
 the capex/free-cash-flow trajectory.
 
-#v(10pt)
+#pagebreak()
 #memo-header(
   ticker:  "ESIF",
   name:    "iShares Europe Financials EUR A",
@@ -639,8 +627,8 @@ full detail.
 
 #memo-rule("Catalyst / Valuation Trigger")
 
-Cumulative regulatory and state-intervention overhang, not a single
-news event.
+Consistent regulatory and state-led opposition and intervention posed too
+many short- and long-term risks for stock performance.
 
 // ---- 8. NOTABLE NEWS & EVENT ANALYSIS (light) -------------------
 #pagebreak()
@@ -740,6 +728,22 @@ guidance points to \$197-202bn in net sales.
 conviction in AWS/AI infrastructure spend feeding through to the Robotics
 theme.
 
+== ORCL -- Oracle
+
+*What happened:* On 24 Sep, reports surfaced that Oracle sent a "force
+majeure" notice on Project Jupiter, its New Mexico data centre campus. The
+notice lets Oracle delay certain payments if the campus misses its planned
+2028 operational target. The project has faced delays over power supply
+and a proposed gas pipeline, plus lawsuits over water and air-quality
+permits. Oracle said the project "remains on our planned schedule". The
+stock fell sharply on the news.
+
+*How we interpreted:* The notice adds execution risk to Oracle's AI
+buildout on top of the existing debt concern, and hit the stock days after
+our 21 Sep entry. We read it as a hedge against delay rather than a
+cancellation, and hold the position. We are watching for further
+permitting or power-supply setbacks on Project Jupiter.
+
 == PURR -- Hyperliquid Strategies
 
 *What happened:* Crypto markets rallied through Q3, with Bitcoin back
@@ -763,8 +767,8 @@ for how we're positioning into Q4.
   Gottlieb, Yahoo Finance UK, GOV.UK CMA case listing, railway-news.com,
   Business Travel News Europe (TRNl); 24/7 Wall St., TIKR, Pomerantz LLP
   investigation notice (URNU); CNBC, Investing.com,
-  Amazon Q2 2026 earnings release (AMZN); The Block, NPR, CNBC, CoinDesk
-  (PURR). Verify primary sources before external distribution.
+  Amazon Q2 2026 earnings release (AMZN); CNBC, Forbes, Yahoo Finance
+  (ORCL, 24 Sep 2026); The Block, NPR, CNBC, CoinDesk (PURR). Verify primary sources before external distribution.
 ]
 
 #set page(background: {
@@ -774,17 +778,13 @@ for how we're positioning into Q4.
 #pagebreak()
 = Current Holdings & Positioning
 
-#text(size: 8pt, fill: brand.muted, style: "italic")[
-  As of 18 September 2026.
-]
-
-#v(6pt)
 #portfolio-table(
   (
     (
-      name: "AI & SEMIS", nav: "8.75%", ret: "-12.98%",
+      name: "AI & SEMIS", nav: "12.63%", ret: "-10.99%",
       positions: (
         (symbol: "AIXA", name: "Aixtron SE",               isin: "DE000A0WMPJ6", nav: "6.31%", ret: "-18.69%"),
+        (symbol: "ORCL", name: "Oracle Corporation",       isin: "US68389X1054", nav: "3.88%", ret: "-6.50%"),
         (symbol: "SMH",  name: "VanEck Semiconductor ETF", isin: "IE00BMC38736", nav: "2.44%", ret: "+1.80%"),
       ),
     ),
@@ -836,9 +836,9 @@ for how we're positioning into Q4.
       ),
     ),
     (
-      name: "CASH", nav: "35.02%", ret: "+0.74%",
+      name: "CASH", nav: "31.14%", ret: "+0.74%",
       positions: (
-        (symbol: "CASH", name: "Cash & Equivalents", isin: "", nav: "35.02%", ret: "+0.74%"),
+        (symbol: "CASH", name: "Cash & Equivalents", isin: "", nav: "31.14%", ret: "+0.74%"),
       ),
     ),
   ),
@@ -883,7 +883,7 @@ conflict, Russian aggression on NATO's eastern flank, and the crypto rally.
 
 == Positioning
 
-- *Cash:* at 35.0% of NAV, cash is our largest single position by far. We
+- *Cash:* at 31.1% of NAV, cash is our largest single position by far. We
   are holding large amounts of cash to act on events and move quickly and
   decisively to take advantage of positioning opportunities.
 - *Rate exposure:* XLUS (US utilities) is rate-sensitive and compresses if
@@ -963,8 +963,8 @@ conflict, Russian aggression on NATO's eastern flank, and the crypto rally.
   "2026-09-01", "SAN",       "BUY",  "12.0000",  "2.41%", "9 / 1 / 0",  "-€3.00",
   "2026-09-02", "TRNI",      "SELL", "15.9574",  "0.48%", "9 / 1 / 0",  "-£4.00",
   "2026-09-08", "HCCD",      "BUY",  "100.0000", "3.24%", "5 / 4 / 0",  "-S\u{0024}2.50",
-  "2026-09-21", "SGBS",      "BUY",  "1.0000",   "5.77%", "5 / 1 / 0",  "-\u{0024}4.00",
-  "2026-09-21", "ORCL",      "BUY",  "2.0000",   "4.09%", "5 / 0 / 0",  "-\u{0024}1.00",
+  "2026-09-21", "SGBS",      "BUY",  "1.0000",   "5.77%", "6 / 1 / 0",  "-\u{0024}4.00",
+  "2026-09-21", "ORCL",      "BUY",  "2.0000",   "4.09%", "7 / 0 / 0",  "-\u{0024}1.00",
 )
 
 #v(4pt)
