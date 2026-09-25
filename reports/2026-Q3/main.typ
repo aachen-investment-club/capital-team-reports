@@ -54,16 +54,15 @@
   #v(10pt)
   *Biggest portfolio moves this quarter:*
   + Deployed part of available capital across 19 buy trades, adding
-    or building out positions in AIXA, SGBSl, 012330.KS, WDEF, URNU, SAN,
-    COPAl, AMZN, NU, HCCD, and ORCL; AUM ended the quarter at ~€6,300, up from
-    ~€2,500 at the start.
+    or building out positions in AIXA, SGBS, 012330.KS, WDEF, URNU, SAN,
+    COPAl, AMZN, NU, HCCD, and ORCL.
   + PURR (Hyperliquid Strategies) ended the quarter as the top-returning
-    position, +71.6% since entry and 7.25% of NAV.
+    position, +71.6% since entry and 7.19% of NAV.
   + Fully exited two positions: iShares Europe Financials (ESIF) on 31 Aug
     and Trainline (TRNl) on 2 Sep.
 
   #v(10pt)
-  *Thematic shift:* Cash stood at 31.1% of NAV at quarter end. We are
+  *Thematic shift:* Cash stood at 25.1% of NAV at quarter end. We are
   deliberately holding a substantial cash position to wait for entry
   opportunities, having added cash to the portfolio amid market volatility,
   and are waiting for markets to settle to make more decisive moves.
@@ -183,8 +182,7 @@ delinquencies) emerged late in the quarter.
   and Hyperliquid CFTC developments); NPR, CNBC (China GDP, 15 Jul 2026);
   Trading Economics
   (KOSPI); CKGSB investor sentiment survey (China, Q3 2026); regional
-  fintech/e-commerce earnings coverage (Latin America, Sep 2026). Verify
-  primary sources before external distribution.
+  fintech/e-commerce earnings coverage (Latin America, Sep 2026).
 ]
 
 // ---- 5. PORTFOLIO PERFORMANCE & AUM (light) -----
@@ -269,7 +267,7 @@ delinquencies) emerged late in the quarter.
 
 #text(size: 8pt, fill: brand.muted, style: "italic")[
   Barra factor model on current holdings: 14 positions
-  covered, 90.2% of NAV. PURR is not covered: its price history is still
+  covered, 90.2% of invested capital. PURR is not covered: its price history is still
   shorter than the model's minimum rolling window, so no factor exposures
   can be calculated for it yet.
 ]
@@ -334,7 +332,7 @@ Positions opened for the first time this quarter.
   "012330.KS", "Hyundai Mobis Co Ltd",           "25 Aug",
   "AMZN",      "Amazon.com, Inc.",                "27 Aug",
   "NU",        "Nu Holdings Ltd/Cayman Isl-A",    "31 Aug",
-  "HCCD",      "Contemporary Amperex Tec-SDR",    "8 Sep",
+  "HCCD",      "Contemporary Amperex Technology (SDR)", "8 Sep",
   "ORCL",      "Oracle Corporation",              "21 Sep",
 )
 
@@ -374,8 +372,7 @@ Positions closed in full this quarter.
 == Investment Memos
 
 #text(size: 8pt, fill: brand.muted, style: "italic")[
-  One memo per position bought or sold this quarter (see New Investments,
-  Reinvestments, and Exits, above).
+  One memo per new investment and exit this quarter.
 ]
 
 #v(8pt)
@@ -389,7 +386,7 @@ Positions closed in full this quarter.
   ("Asset Class",   "ETC"),
   ("Action",        "BUY"),
   ("Entry / Exit",  "\u{0024}450.50 (24 Aug 2026)"),
-  ("Size",          "5.71% of NAV"),
+  ("Size",          "6.18% of NAV (+5.77%, 21 Sep 2026)"),
 ))
 
 #memo-rule("Thesis / Rationale")
@@ -414,7 +411,7 @@ price of gold, as buyers move away from interest-bearing products.
   ("Asset Class",   "Stock"),
   ("Action",        "BUY"),
   ("Entry / Exit",  "₩484,000 (25 Aug 2026)"),
-  ("Size",          "3.75% of NAV"),
+  ("Size",          "4.80% of NAV"),
 ))
 
 #memo-rule("Thesis / Rationale")
@@ -453,7 +450,7 @@ plant.
   ("Asset Class",   "Stock"),
   ("Action",        "BUY"),
   ("Entry / Exit",  "\u{0024}257.72 (27 Aug 2026)"),
-  ("Size",          "4.74% of NAV"),
+  ("Size",          "4.81% of NAV"),
 ))
 
 #memo-rule("Thesis / Rationale")
@@ -489,7 +486,7 @@ is converting into margin.
   ("Asset Class",   "Stock"),
   ("Action",        "BUY"),
   ("Entry / Exit",  "\u{0024}14.49 (31 Aug 2026)"),
-  ("Size",          "2.06% of NAV"),
+  ("Size",          "2.19% of NAV"),
 ))
 
 #memo-rule("Thesis / Rationale")
@@ -520,7 +517,7 @@ America are a risk to watch.
   ("Asset Class",   "Stock"),
   ("Action",        "BUY"),
   ("Entry / Exit",  "S\u{0024}3.03 (8 Sep 2026)"),
-  ("Size",          "2.97% of NAV"),
+  ("Size",          "3.24% of NAV"),
 ))
 
 #memo-rule("Thesis / Rationale")
@@ -755,7 +752,7 @@ working to bring Hyperliquid into the US "in a fully compliant and legal
 fashion."
 
 *How we interpreted:* PURR ended the quarter as our
-top-returning position (+71.6% since entry, 7.25% of NAV); see Outlook
+top-returning position (+71.6% since entry, 7.19% of NAV); see Outlook
 for how we're positioning into Q4.
 
 #text(size: 7.5pt, fill: brand.muted, style: "italic")[
@@ -768,7 +765,7 @@ for how we're positioning into Q4.
   Business Travel News Europe (TRNl); 24/7 Wall St., TIKR, Pomerantz LLP
   investigation notice (URNU); CNBC, Investing.com,
   Amazon Q2 2026 earnings release (AMZN); CNBC, Forbes, Yahoo Finance
-  (ORCL, 24 Sep 2026); The Block, NPR, CNBC, CoinDesk (PURR). Verify primary sources before external distribution.
+  (ORCL, 24 Sep 2026); The Block, NPR, CNBC, CoinDesk (PURR).
 ]
 
 #set page(background: {
@@ -781,64 +778,64 @@ for how we're positioning into Q4.
 #portfolio-table(
   (
     (
-      name: "AI & SEMIS", nav: "12.63%", ret: "-10.99%",
+      name: "AI & SEMIS", nav: "13.06%", ret: "-7.16%",
       positions: (
-        (symbol: "AIXA", name: "Aixtron SE",               isin: "DE000A0WMPJ6", nav: "6.31%", ret: "-18.69%"),
-        (symbol: "ORCL", name: "Oracle Corporation",       isin: "US68389X1054", nav: "3.88%", ret: "-6.50%"),
-        (symbol: "SMH",  name: "VanEck Semiconductor ETF", isin: "IE00BMC38736", nav: "2.44%", ret: "+1.80%"),
+        (symbol: "AIXA", name: "Aixtron SE",               isin: "DE000A0WMPJ6", nav: "6.49%", ret: "-15.99%"),
+        (symbol: "ORCL", name: "Oracle Corporation",       isin: "US68389X1054", nav: "3.98%", ret: "-3.14%"),
+        (symbol: "SMH",  name: "VanEck Semiconductor ETF", isin: "IE00BMC38736", nav: "2.59%", ret: "+8.74%"),
       ),
     ),
     (
-      name: "COMMODITIES", nav: "10.38%", ret: "-4.30%",
+      name: "COMMODITIES", nav: "16.03%", ret: "-3.85%",
       positions: (
-        (symbol: "SGBS",  name: "WisdomTree Physical Swiss Gold", isin: "JE00B588CD74", nav: "5.71%", ret: "-7.61%"),
-        (symbol: "COPAl", name: "WisdomTree Copper",               isin: "GB00B15KXQ89", nav: "4.67%", ret: "-0.25%"),
+        (symbol: "SGBS",  name: "WisdomTree Physical Swiss Gold", isin: "JE00B588CD74", nav: "11.27%", ret: "-6.02%"),
+        (symbol: "COPAl", name: "WisdomTree Copper",               isin: "GB00B15KXQ89", nav: "4.76%",  ret: "+1.29%"),
       ),
     ),
     (
-      name: "EU SOVEREIGNTY", nav: "5.89%", ret: "-4.65%",
+      name: "EU SOVEREIGNTY", nav: "5.95%", ret: "-3.21%",
       positions: (
-        (symbol: "WDEF", name: "WisdomTree Europe Defence UCITS ETF", isin: "IE0002Y8CX98", nav: "5.89%", ret: "-4.65%"),
+        (symbol: "WDEF", name: "WisdomTree Europe Defence UCITS ETF", isin: "IE0002Y8CX98", nav: "5.95%", ret: "-3.21%"),
       ),
     ),
     (
-      name: "ELECTRIFICATION", nav: "9.03%", ret: "-12.63%",
+      name: "ELECTRIFICATION", nav: "9.04%", ret: "-12.88%",
       positions: (
-        (symbol: "URNU", name: "Global X Uranium UCITS USD-A",         isin: "IE000NDWFGA5", nav: "3.09%", ret: "-18.87%"),
-        (symbol: "XLUS", name: "Invesco US Utilities S&P",              isin: "IE00B3VPKB53", nav: "2.98%", ret: "-10.03%"),
-        (symbol: "HCCD", name: "Contemporary Amperex Technology (SDR)", isin: "SGXE51956733", nav: "2.97%", ret: "-8.76%"),
+        (symbol: "URNU", name: "Global X Uranium UCITS USD-A",         isin: "IE000NDWFGA5", nav: "3.13%", ret: "-17.87%"),
+        (symbol: "HCCD", name: "Contemporary Amperex Technology (SDR)", isin: "SGXE51956733", nav: "2.99%", ret: "-8.10%"),
+        (symbol: "XLUS", name: "Invesco US Utilities S&P",              isin: "IE00B3VPKB53", nav: "2.91%", ret: "-12.40%"),
       ),
     ),
     (
-      name: "FINANCIALS", nav: "8.47%", ret: "+1.48%",
+      name: "FINANCIALS", nav: "8.48%", ret: "+2.17%",
       positions: (
-        (symbol: "SAN", name: "Banco Santander SA", isin: "ES0113900J37", nav: "8.47%", ret: "+1.48%"),
+        (symbol: "SAN", name: "Banco Santander SA", isin: "ES0113900J37", nav: "8.48%", ret: "+2.17%"),
       ),
     ),
     (
-      name: "FINTECH", nav: "6.71%", ret: "-6.37%",
+      name: "FINTECH", nav: "6.76%", ret: "-6.00%",
       positions: (
-        (symbol: "MELI", name: "MercadoLibre, Inc.",             isin: "US58733R1023", nav: "4.65%", ret: "-6.62%"),
-        (symbol: "NU",   name: "Nu Holdings Ltd/Cayman Isl-A",   isin: "KYG6683N1034", nav: "2.06%", ret: "-5.80%"),
+        (symbol: "MELI", name: "MercadoLibre, Inc.",             isin: "US58733R1023", nav: "4.69%", ret: "-6.00%"),
+        (symbol: "NU",   name: "Nu Holdings Ltd/Cayman Isl-A",   isin: "KYG6683N1034", nav: "2.06%", ret: "-6.01%"),
       ),
     ),
     (
-      name: "OPTIONALITY", nav: "7.25%", ret: "+17.35%",
+      name: "OPTIONALITY", nav: "7.19%", ret: "+16.10%",
       positions: (
-        (symbol: "PURR", name: "Hyperliquid Strategies", isin: "US44916Y1064", nav: "7.25%", ret: "+17.35%"),
+        (symbol: "PURR", name: "Hyperliquid Strategies", isin: "US44916Y1064", nav: "7.19%", ret: "+16.10%"),
       ),
     ),
     (
-      name: "ROBOTICS", nav: "8.49%", ret: "-10.45%",
+      name: "ROBOTICS", nav: "8.38%", ret: "-12.47%",
       positions: (
-        (symbol: "AMZN",      name: "Amazon.com, Inc.",     isin: "US0231351067", nav: "4.74%", ret: "-1.56%"),
-        (symbol: "012330.KS", name: "Hyundai Mobis Co Ltd", isin: "KR7012330007", nav: "3.75%", ret: "-21.69%"),
+        (symbol: "AMZN",      name: "Amazon.com, Inc.",     isin: "US0231351067", nav: "4.67%", ret: "-3.28%"),
+        (symbol: "012330.KS", name: "Hyundai Mobis Co Ltd", isin: "KR7012330007", nav: "3.70%", ret: "-24.07%"),
       ),
     ),
     (
-      name: "CASH", nav: "31.14%", ret: "+0.74%",
+      name: "CASH", nav: "25.12%", ret: "+1.01%",
       positions: (
-        (symbol: "CASH", name: "Cash & Equivalents", isin: "", nav: "31.14%", ret: "+0.74%"),
+        (symbol: "CASH", name: "Cash & Equivalents", isin: "", nav: "25.12%", ret: "+1.01%"),
       ),
     ),
   ),
@@ -883,7 +880,7 @@ conflict, Russian aggression on NATO's eastern flank, and the crypto rally.
 
 == Positioning
 
-- *Cash:* at 31.1% of NAV, cash is our largest single position by far. We
+- *Cash:* at 25.1% of NAV, cash is our largest single position by far. We
   are holding large amounts of cash to act on events and move quickly and
   decisively to take advantage of positioning opportunities.
 - *Rate exposure:* XLUS (US utilities) is rate-sensitive and compresses if
@@ -929,7 +926,7 @@ conflict, Russian aggression on NATO's eastern flank, and the crypto rally.
   Jazeera, ABC News (NATO incursions, Sep 2026); European Defence Agency
   Defence Data 2025-2026 report (Jul 2026); Bloomberg, CNBC (AI slowdown,
   Sep 2026); Oracle SEC filings and investor relations, FinanceFeeds (Oracle
-  debt/capex, 2026). Verify primary sources before external distribution.
+  debt/capex, 2026).
 ]
 
 // ---- 11. APPENDIX (light + dark final page) -----------------------
@@ -961,7 +958,7 @@ conflict, Russian aggression on NATO's eastern flank, and the crypto rally.
   "2026-08-31", "NU",        "BUY",  "11.0000",  "2.19%", "7 / 0 / 1",  "-\u{0024}1.00",
   "2026-08-31", "ESIF",      "SELL", "6.2475",   "1.66%", "9 / 1 / 0",  "-€3.00",
   "2026-09-01", "SAN",       "BUY",  "12.0000",  "2.41%", "9 / 1 / 0",  "-€3.00",
-  "2026-09-02", "TRNI",      "SELL", "15.9574",  "0.48%", "9 / 1 / 0",  "-£4.00",
+  "2026-09-02", "TRNl",     "SELL", "15.9574",  "0.48%", "9 / 1 / 0",  "-£4.00",
   "2026-09-08", "HCCD",      "BUY",  "100.0000", "3.24%", "5 / 4 / 0",  "-S\u{0024}2.50",
   "2026-09-21", "SGBS",      "BUY",  "1.0000",   "5.77%", "6 / 1 / 0",  "-\u{0024}4.00",
   "2026-09-21", "ORCL",      "BUY",  "2.0000",   "4.09%", "7 / 0 / 0",  "-\u{0024}1.00",
